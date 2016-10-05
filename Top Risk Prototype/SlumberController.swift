@@ -23,6 +23,7 @@ class SlumberController: UIViewController {
         
         SlumberVideo.allowsInlineMediaPlayback = true;
         SlumberVideo.loadHTMLString("<iframe width=\"\(SlumberVideo.frame.width)\" height=\"\(SlumberVideo.frame.height)\" src=\"\(ytURL)?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe>", baseURL: nil)
+        SlumberVideo.reload()
     }
     
     override func didReceiveMemoryWarning() {
