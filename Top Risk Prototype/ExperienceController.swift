@@ -24,4 +24,10 @@ class ExperienceController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        ExperienceVideo.reload()
+        super.viewWillDisappear(animated)
+    }
 }
+
+//i will upload this to git

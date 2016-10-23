@@ -33,6 +33,11 @@ class SlumberController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        SlumberVideo.reload()
+        super.viewWillDisappear(animated)
+    }
+    
     
     
 }

@@ -25,4 +25,10 @@ class Chapter3Controller: UIViewController{
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        Chapter3Video.reload()
+        super.viewWillDisappear(animated)
+        
+    }
 }
