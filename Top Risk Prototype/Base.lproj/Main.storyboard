@@ -22,54 +22,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ki-tp-Czj">
-                                <frame key="frameInset" minY="192" width="375" height="54"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ki-tp-Czj">
+                                <frame key="frameInset" minX="1" minY="128" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Welcome">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-nP-Een">
-                                <frame key="frameInset" minY="246" width="375" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Go Grrrls Activities">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Uz-gh-HKn">
-                                <frame key="frameInset" minY="304" width="375" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Go Grrrls Activities">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gaK-2U-neJ">
-                                <frame key="frameInset" minY="623" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <barButtonItem title="MENU" width="327" id="lPC-Pi-BRR">
-                                        <connections>
-                                            <segue destination="yFD-uo-W9m" kind="popoverPresentation" popoverAnchorBarButtonItem="lPC-Pi-BRR" id="mHN-x1-f84">
-                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                            </segue>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXw-XR-hFl">
-                                <frame key="frameInset" minX="127.5" minY="568" width="121" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Bill Of Rights">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="w00-7s-FrW" kind="presentation" id="089-zB-tIn"/>
-                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Go Grrrls" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KmY-oY-dF6">
                                 <frame key="frameInset" minX="117" minY="28" width="140" height="30"/>
@@ -78,6 +37,30 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-nP-Een">
+                                <frame key="frameInset" minY="284" width="375" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Go Grrrls Activities">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yFD-uo-W9m" kind="show" id="arR-fY-8Ed"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXw-XR-hFl">
+                                <frame key="frameInset" minX="1" minY="346" width="374" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Bill Of Rights">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="w00-7s-FrW" kind="presentation" id="089-zB-tIn"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                 </viewController>
@@ -154,10 +137,10 @@ prepare for interesting work and economic independence.
             </objects>
             <point key="canvasLocation" x="-1194" y="985"/>
         </scene>
-        <!--View Controller-->
+        <!--Menu Controller-->
         <scene sceneID="MRL-Uh-YrK">
             <objects>
-                <viewController id="yFD-uo-W9m" sceneMemberID="viewController">
+                <viewController id="yFD-uo-W9m" customClass="MenuController" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zgf-l3-bZo"/>
                         <viewControllerLayoutGuide type="bottom" id="Z54-uh-7Hd"/>
@@ -191,98 +174,118 @@ prepare for interesting work and economic independence.
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9D-l3-ium">
-                                <frame key="frameInset" minY="65" width="375" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
-                                <state key="normal" title="What is Go Grrrls">
-                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="gUY-jC-PPB" kind="show" id="37W-ri-aLh"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go6-YV-cru">
                                 <frame key="frameInset" minY="135" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Unit #1: Girls Issues in Today's Society">
+                                <state key="normal" title="Unit #2: Girls Issues in Today's Society">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="notTouched2:" destination="yFD-uo-W9m" eventType="touchDown" id="sfQ-Lt-hsY"/>
                                     <segue destination="ovI-ga-Or3" kind="show" id="Jqt-ly-BLS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob1-RL-zSh">
                                 <frame key="frameInset" minY="205" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #2: Our Experiences and Our Bodies">
+                                <state key="normal" title="Unit #3: Our Experiences and Our Bodies">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="notTouched3:" destination="yFD-uo-W9m" eventType="touchDown" id="nsx-HA-nns"/>
                                     <segue destination="xyR-8n-11L" kind="show" id="SkQ-IQ-dZz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ov-7g-hlP">
                                 <frame key="frameInset" minY="275" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #3: Keeping a Positive Self Image">
+                                <state key="normal" title="Unit #4: Keeping a Positive Self Image">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="notTouched4:" destination="yFD-uo-W9m" eventType="touchDown" id="8AO-LM-Vnf"/>
                                     <segue destination="IVx-ZG-yvi" kind="show" id="yox-dl-jLe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHU-Cu-2gL">
                                 <frame key="frameInset" minY="345" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #4: Importance of Being Assetive">
+                                <state key="normal" title="Unit #5: Importance of Being Assetive">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="notTouched5:" destination="yFD-uo-W9m" eventType="touchDown" id="1OO-e0-ruT"/>
                                     <segue destination="RFa-N5-sIa" kind="show" id="cUL-y3-cqs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybj-lJ-oP9">
                                 <frame key="frameInset" minY="415" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #5: Making Tough Choices">
+                                <state key="normal" title="Unit #6: Making Tough Choices">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="notTouched6:" destination="yFD-uo-W9m" eventType="touchDown" id="3KR-ny-KJl"/>
                                     <segue destination="fy3-EP-WU8" kind="show" id="tvG-Gq-k3p"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvN-gB-6bA">
                                 <frame key="frameInset" minY="485" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #6: How to be Happy, Healthy &amp; Safe">
+                                <state key="normal" title="Unit #7: How to be Happy, Healthy &amp; Safe">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="notTouched7:" destination="yFD-uo-W9m" eventType="touchDown" id="7hE-JF-zmg"/>
                                     <segue destination="eAn-iy-OoV" kind="show" id="VcC-25-Lph"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTi-R2-qIT">
                                 <frame key="frameInset" minY="555" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #7: Our Goals, Our Dreams, Our Future">
+                                <state key="normal" title="Unit #8: Our Goals, Our Dreams, Our Future">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
+                                    <action selector="notTouched8:" destination="yFD-uo-W9m" eventType="touchDown" id="dqg-Ji-qhU"/>
                                     <segue destination="nlU-hp-R3A" kind="show" id="heT-WG-zQi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6Q-je-x0M">
+                                <frame key="frameInset" minY="64" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Unit #1: What is Go Grrrls">
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="notTouched1:" destination="yFD-uo-W9m" eventType="touchDown" id="UBa-Ps-ZND"/>
+                                    <action selector="touched1:" destination="yFD-uo-W9m" eventType="touchUpInside" id="EqZ-ot-1Yh"/>
+                                    <segue destination="gUY-jC-PPB" kind="show" id="pTG-B5-beA"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Unit1" destination="a6Q-je-x0M" id="p8C-Vg-1Bp"/>
+                        <outlet property="Unit2" destination="Go6-YV-cru" id="86N-W4-vaq"/>
+                        <outlet property="Unit3" destination="Ob1-RL-zSh" id="qTe-gA-PKJ"/>
+                        <outlet property="Unit4" destination="5ov-7g-hlP" id="6K3-1h-458"/>
+                        <outlet property="Unit5" destination="jHU-Cu-2gL" id="ESs-N8-K2f"/>
+                        <outlet property="Unit6" destination="Ybj-lJ-oP9" id="NlH-Lr-Wr5"/>
+                        <outlet property="Unit7" destination="nvN-gB-6bA" id="nrk-rs-l2E"/>
+                        <outlet property="Unit8" destination="CTi-R2-qIT" id="hJ2-Zb-YTA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hF2-QS-uCC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -707,7 +710,7 @@ prepare for interesting work and economic independence.
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Dear Suzie,
+                                        <string key="content">Dear Suzie,
 
 I just started middle school this year and I am having kind of a hard time.  In my grade school I knew all the kids and the teachers, too.  I’m excited about being in middle school, but sometimes I get really nervous cuz I don’t know anybody in my classes and we change from one teacher to another every hour.  I run from one class to the next and look down at my feet so I don’t have to worry about who to say hello to, or about how many kids there are who I don’t know at all.  It just feels like nobody knows me here!  It makes me feel really self-conscious about what I say and what I look like.  Do you have any suggestions for me?
 -Nervous in Nogales
@@ -726,7 +729,7 @@ So hook up with some friends, think about your interests, and remind yourself th
 Good Luck
 
 Suzie
-</mutableString>
+</string>
                                         <attributes>
                                             <font key="NSFont" size="14" name="SFUIText-Regular"/>
                                         </attributes>
@@ -883,11 +886,11 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bhc-bY-utL"/>
+        <segue reference="SkQ-IQ-dZz"/>
+        <segue reference="arR-fY-8Ed"/>
         <segue reference="9Su-3F-PUn"/>
-        <segue reference="SLb-d9-rug"/>
-        <segue reference="Lo8-pq-55s"/>
+        <segue reference="yox-dl-jLe"/>
+        <segue reference="Jqt-ly-BLS"/>
         <segue reference="vDu-SJ-vrE"/>
-        <segue reference="NHb-Qa-NNO"/>
     </inferredMetricsTieBreakers>
 </document>
