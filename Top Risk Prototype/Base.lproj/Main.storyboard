@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,33 +17,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qWI-al-whc">
-                                <items>
-                                    <navigationItem title="Go Grrls" id="nBu-d2-TUz"/>
-                                </items>
-                            </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ki-tp-Czj">
-                                <frame key="frameInset" minY="191" width="375" height="54"/>
-                                <color key="backgroundColor" red="0.89411764705882357" green="0.96470588235294119" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="jXi-T7-2tp"/>
-                                </constraints>
-                                <state key="normal" title="Welcome"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="htD-kE-yur">
+                                <frame key="frameInset" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ki-tp-Czj">
+                                <frame key="frameInset" minY="192" width="375" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Welcome">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-nP-Een">
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-nP-Een">
                                 <frame key="frameInset" minY="246" width="375" height="54"/>
-                                <color key="backgroundColor" red="0.89411764705882357" green="0.96470588235294119" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Go Grrrls Activities"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Go Grrrls Activities">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Uz-gh-HKn">
-                                <frame key="frameInset" minY="297" width="375" height="54"/>
-                                <color key="backgroundColor" red="0.89411764705882357" green="0.96470588235294119" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="54" id="XXl-Aa-yK3"/>
-                                </constraints>
-                                <state key="normal" title="Go Grrrls Activities"/>
+                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Uz-gh-HKn">
+                                <frame key="frameInset" minY="304" width="375" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Go Grrrls Activities">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                             </button>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gaK-2U-neJ">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gaK-2U-neJ">
+                                <frame key="frameInset" minY="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <barButtonItem title="MENU" width="327" id="lPC-Pi-BRR">
                                         <connections>
@@ -55,39 +60,30 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXw-XR-hFl">
-                                <state key="normal" title="Bill Of Rights"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXw-XR-hFl">
+                                <frame key="frameInset" minX="127.5" minY="568" width="121" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Bill Of Rights">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="w00-7s-FrW" kind="presentation" id="089-zB-tIn"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Go Grrrls" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KmY-oY-dF6">
+                                <frame key="frameInset" minX="117" minY="28" width="140" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="gaK-2U-neJ" firstAttribute="top" secondItem="SXw-XR-hFl" secondAttribute="bottom" constant="17" id="1Fc-Es-9Fp"/>
-                            <constraint firstItem="sZg-nP-Een" firstAttribute="top" secondItem="5ki-tp-Czj" secondAttribute="bottom" constant="1" id="1WH-gh-Qi3"/>
-                            <constraint firstItem="5ki-tp-Czj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="2pc-kv-hss"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6Uz-gh-HKn" secondAttribute="bottom" constant="316" id="66f-mt-VFB"/>
-                            <constraint firstItem="6Uz-gh-HKn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="53" id="7O3-3B-dJ2"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sZg-nP-Een" secondAttribute="bottom" constant="367" id="7Vw-Q3-Fgo"/>
-                            <constraint firstItem="qWI-al-whc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dyn-dc-sbw"/>
-                            <constraint firstItem="gaK-2U-neJ" firstAttribute="trailing" secondItem="qWI-al-whc" secondAttribute="trailing" id="Slx-2m-HRo"/>
-                            <constraint firstItem="gaK-2U-neJ" firstAttribute="leading" secondItem="qWI-al-whc" secondAttribute="leading" id="ZV8-p6-bOH"/>
-                            <constraint firstItem="gaK-2U-neJ" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="cZS-2n-gkn"/>
-                            <constraint firstItem="5ki-tp-Czj" firstAttribute="centerX" secondItem="qWI-al-whc" secondAttribute="centerX" id="g0B-Ya-M94"/>
-                            <constraint firstItem="6Uz-gh-HKn" firstAttribute="trailing" secondItem="sZg-nP-Een" secondAttribute="trailing" id="hNb-DO-Kvy"/>
-                            <constraint firstItem="qWI-al-whc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hhn-P4-9aj"/>
-                            <constraint firstItem="SXw-XR-hFl" firstAttribute="centerX" secondItem="gaK-2U-neJ" secondAttribute="centerX" id="kpm-hO-KwL"/>
-                            <constraint firstItem="6Uz-gh-HKn" firstAttribute="top" secondItem="5ki-tp-Czj" secondAttribute="bottom" constant="52" id="lE4-zj-6mU"/>
-                            <constraint firstItem="6Uz-gh-HKn" firstAttribute="centerX" secondItem="qWI-al-whc" secondAttribute="centerX" id="og4-uO-mmZ"/>
-                            <constraint firstItem="6Uz-gh-HKn" firstAttribute="leading" secondItem="sZg-nP-Een" secondAttribute="leading" id="qtz-1B-aQo"/>
-                            <constraint firstAttribute="trailing" secondItem="qWI-al-whc" secondAttribute="trailing" id="zbs-aY-B1W"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1193" y="135"/>
+            <point key="canvasLocation" x="-1194.4000000000001" y="134.48275862068968"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oRW-La-F5J">
@@ -170,15 +166,20 @@ prepare for interesting work and economic independence.
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YuZ-aD-IfW">
+                                <frame key="frameInset" width="375" height="669"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t2a-ux-AJL">
                                 <frame key="frameInset" minY="20" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Menu" id="Bb9-Dc-IhM"/>
+                                    <navigationItem title="Go Grrrls" id="Bb9-Dc-IhM"/>
                                 </items>
                             </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2iB-SI-Cau">
-                                <frame key="frameInset" height="44"/>
+                                <frame key="frameInset" height="44" maxY="-2"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Home" width="327" id="GyD-qN-Vtm">
@@ -191,18 +192,22 @@ prepare for interesting work and economic independence.
                                 </items>
                             </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9D-l3-ium">
-                                <frame key="frameInset" minY="64" width="375" height="67"/>
+                                <frame key="frameInset" minY="65" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.89376748728303435" green="0.96510225302682406" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="SFUIText-Regular" family="SF UI Text" pointSize="17"/>
                                 <state key="normal" title="What is Go Grrrls">
-                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="gUY-jC-PPB" kind="show" id="37W-ri-aLh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go6-YV-cru">
-                                <frame key="frameInset" minY="132" width="375" height="67"/>
+                                <frame key="frameInset" minY="135" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.8937674873" green="0.96510225299999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Unit #1: Girls Issues in Today's Society">
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -210,10 +215,10 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob1-RL-zSh">
-                                <frame key="frameInset" minY="200" width="375" height="67"/>
+                                <frame key="frameInset" minY="205" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.8937674873" green="0.96510225299999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Unit #2: Our Experiences and Our Bodies">
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
@@ -221,14 +226,58 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ov-7g-hlP">
-                                <frame key="frameInset" minY="268" width="375" height="67"/>
+                                <frame key="frameInset" minY="275" width="375" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.8937674873" green="0.96510225299999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Unit #3: Keeping a Positive Self Image">
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <segue destination="IVx-ZG-yvi" kind="show" id="yox-dl-jLe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHU-Cu-2gL">
+                                <frame key="frameInset" minY="345" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Unit #4: Importance of Being Assetive">
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="RFa-N5-sIa" kind="show" id="cUL-y3-cqs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybj-lJ-oP9">
+                                <frame key="frameInset" minY="415" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Unit #5: Making Tough Choices">
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fy3-EP-WU8" kind="show" id="tvG-Gq-k3p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvN-gB-6bA">
+                                <frame key="frameInset" minY="485" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Unit #6: How to be Happy, Healthy &amp; Safe">
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eAn-iy-OoV" kind="show" id="VcC-25-Lph"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTi-R2-qIT">
+                                <frame key="frameInset" minY="555" width="375" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Unit #7: Our Goals, Our Dreams, Our Future">
+                                    <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nlU-hp-R3A" kind="show" id="heT-WG-zQi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -237,7 +286,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hF2-QS-uCC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-132" y="-243"/>
+            <point key="canvasLocation" x="-132" y="-243.32833583208398"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="XMq-QR-Whj">
@@ -268,12 +317,12 @@ prepare for interesting work and economic independence.
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L3M-ag-T4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="206"/>
+            <point key="canvasLocation" x="710" y="-411"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5He-X9-VLF">
@@ -304,12 +353,140 @@ prepare for interesting work and economic independence.
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.32156862745098042" green="0.098039215686274508" blue="0.53725490196078429" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xfe-Hc-LUe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="958"/>
+            <point key="canvasLocation" x="710" y="295"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Gyy-n3-PcI">
+            <objects>
+                <viewController id="RFa-N5-sIa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bHK-VL-dES"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yua-5W-lc5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V8D-DV-x2b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RX8-sI-XmP">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back to Menu" id="Aah-j8-gkk">
+                                        <connections>
+                                            <segue destination="yFD-uo-W9m" kind="show" id="aSu-UF-Q9v"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Watch More" width="358" id="glL-4V-61p"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4bc-Ey-WDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="985"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FT8-do-bMp">
+            <objects>
+                <viewController id="fy3-EP-WU8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2rz-jL-XVV"/>
+                        <viewControllerLayoutGuide type="bottom" id="2xM-Gk-0nL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="p1m-8r-xax">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Icb-Gf-phs">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back to Menu" id="XTZ-XV-8mJ">
+                                        <connections>
+                                            <segue destination="yFD-uo-W9m" kind="show" id="ZcU-cD-Sen"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Watch More" width="358" id="srs-22-nk6"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.16078431372549021" green="0.82352941176470584" blue="0.6588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tlv-OM-Usv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="1645"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DYJ-jx-faF">
+            <objects>
+                <viewController id="eAn-iy-OoV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HSS-6n-byB"/>
+                        <viewControllerLayoutGuide type="bottom" id="fBi-ug-pSV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4SR-Oc-uwZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2N6-4V-FDM">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back to Menu" id="n7c-16-VCm">
+                                        <connections>
+                                            <segue destination="yFD-uo-W9m" kind="presentation" id="6Cv-kx-fTJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Watch More" width="358" id="yQw-e1-2FJ"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53333333333333333" green="0.0" blue="0.65098039215686276" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eda-Se-sNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="2357"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="A6L-Qo-BGP">
+            <objects>
+                <viewController id="nlU-hp-R3A" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m3K-S7-59f"/>
+                        <viewControllerLayoutGuide type="bottom" id="gQI-L1-lIL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YwD-oi-hMF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hZZ-Xx-45M">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back to Menu" id="LTX-yQ-fok">
+                                        <connections>
+                                            <segue destination="yFD-uo-W9m" kind="presentation" id="SLb-d9-rug"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Watch More" width="358" id="zDz-ey-qRR"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.32156862745098042" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8y6-YJ-lgx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="710" y="3030"/>
         </scene>
         <!--Chapter3 Controller-->
         <scene sceneID="861-hZ-2RD">
@@ -348,19 +525,19 @@ prepare for interesting work and economic independence.
                                     <navigationItem title="Chapter3video" id="PEH-lh-0oe"/>
                                 </items>
                             </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-gr-za3">
+                                <frame key="frameInset" minX="8" minY="76" width="359" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="5" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LSs-Oj-2TO">
-                                <frame key="frameInset" minX="16" minY="270" width="359" height="353"/>
+                                <frame key="frameInset" minX="8" minY="270" width="359" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-gr-za3">
-                                <frame key="frameInset" minX="8" minY="72" width="359" height="190"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
                         </subviews>
                         <color key="backgroundColor" red="0.81602728599999996" green="1" blue="0.99943846449999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -370,7 +547,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lcx-Zr-Y4C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1533.5999999999999" y="957.57121439280365"/>
+            <point key="canvasLocation" x="1409" y="295"/>
         </scene>
         <!--Experience Controller-->
         <scene sceneID="jBE-ZO-gpX">
@@ -403,7 +580,7 @@ prepare for interesting work and economic independence.
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NSh-1m-M9s">
-                                <frame key="frameInset" minX="8" minY="64" width="359" height="190"/>
+                                <frame key="frameInset" minX="8" minY="67" width="359" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -415,15 +592,14 @@ prepare for interesting work and economic independence.
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eON-fn-R5Y">
-                                <frame key="frameInset" minX="16" minY="269" width="351" height="354"/>
+                                <frame key="frameInset" minX="12" minY="262" width="351" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="ExperienceVideo" destination="NSh-1m-M9s" id="5By-HW-Osj"/>
@@ -431,7 +607,39 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJf-lN-plM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1533.5999999999999" y="201.94902548725639"/>
+            <point key="canvasLocation" x="1409" y="-412"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eTC-Ls-8fG">
+            <objects>
+                <viewController id="gUY-jC-PPB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d2b-wf-DD7"/>
+                        <viewControllerLayoutGuide type="bottom" id="2X5-Cj-bQT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d83-PV-ePN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P2Y-xu-0wo">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back to Menu" id="cbs-NG-Tw0">
+                                        <connections>
+                                            <segue destination="yFD-uo-W9m" kind="show" id="5vP-1E-kuA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Watch More" width="358" id="K6w-LD-611"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aw1-yW-t8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-887" y="-1024"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="v8H-B1-xCZ">
@@ -452,10 +660,9 @@ prepare for interesting work and economic independence.
                                     <navigationItem title="Girls Issues in Today's Society" id="i1g-Ic-glF"/>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Introduction" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-Zq-L62">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Introduction" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-Zq-L62">
                                 <frame key="frameInset" minY="81" width="375" height="423"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -476,12 +683,12 @@ prepare for interesting work and economic independence.
                                 </items>
                             </toolbar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.058823529411764705" green="0.63529411764705879" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cxB-mk-kmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="700" y="-520.38980509745136"/>
+            <point key="canvasLocation" x="710" y="-1146"/>
         </scene>
         <!--Slumber Controller-->
         <scene sceneID="y82-Hx-NEv">
@@ -495,11 +702,12 @@ prepare for interesting work and economic independence.
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-8e-QC4">
-                                <frame key="frameInset" minX="15" minY="285" width="343" height="338"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="15" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-8e-QC4">
+                                <frame key="frameInset" minX="15" minY="262" width="343" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Dear Suzie,
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <mutableString key="content">Dear Suzie,
 
 I just started middle school this year and I am having kind of a hard time.  In my grade school I knew all the kids and the teachers, too.  I’m excited about being in middle school, but sometimes I get really nervous cuz I don’t know anybody in my classes and we change from one teacher to another every hour.  I run from one class to the next and look down at my feet so I don’t have to worry about who to say hello to, or about how many kids there are who I don’t know at all.  It just feels like nobody knows me here!  It makes me feel really self-conscious about what I say and what I look like.  Do you have any suggestions for me?
 -Nervous in Nogales
@@ -518,8 +726,12 @@ So hook up with some friends, think about your interests, and remind yourself th
 Good Luck
 
 Suzie
-</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="SFUIText-Regular"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XOF-YB-uoU">
@@ -551,12 +763,13 @@ Suzie
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffo-6P-jHP">
-                                <frame key="frameInset" minX="8" minY="64" width="359" height="190"/>
+                                <frame key="frameInset" minX="8" minY="68" width="359" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.8937674873" green="0.96510225299999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.058823529411764705" green="0.63529411764705879" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="SlumberVideo" destination="Ffo-6P-jHP" id="vLV-Ph-Y6X"/>
@@ -564,7 +777,7 @@ Suzie
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zvl-9S-adJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1545" y="-520"/>
+            <point key="canvasLocation" x="1408.8" y="-1146.4767616191905"/>
         </scene>
         <!--Quiz1-->
         <scene sceneID="zfj-uW-c3X">
@@ -649,7 +862,7 @@ Suzie
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="LabelEnd" destination="trf-K0-5sq" id="jEA-Xh-MIR"/>
@@ -662,15 +875,19 @@ Suzie
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H5w-1g-B9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2212" y="-520"/>
+            <point key="canvasLocation" x="2089" y="-1146"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg" width="2298" height="4742"/>
+        <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Lo8-pq-55s"/>
-        <segue reference="fAh-AA-D2s"/>
-        <segue reference="9Su-3F-PUn"/>
-        <segue reference="Jqt-ly-BLS"/>
-        <segue reference="l8y-2t-hpb"/>
         <segue reference="bhc-bY-utL"/>
+        <segue reference="9Su-3F-PUn"/>
+        <segue reference="SLb-d9-rug"/>
+        <segue reference="Lo8-pq-55s"/>
+        <segue reference="vDu-SJ-vrE"/>
+        <segue reference="NHb-Qa-NNO"/>
     </inferredMetricsTieBreakers>
 </document>
