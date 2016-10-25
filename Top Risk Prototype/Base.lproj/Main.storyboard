@@ -581,11 +581,6 @@ prepare for interesting work and economic independence.
                                     <navigationItem title="Chapter3video" id="PEH-lh-0oe"/>
                                 </items>
                             </navigationBar>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-gr-za3">
-                                <frame key="frameInset" minX="8" minY="76" width="359" height="190"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="5" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LSs-Oj-2TO">
                                 <frame key="frameInset" minX="8" minY="270" width="359" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -594,6 +589,11 @@ prepare for interesting work and economic independence.
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-gr-za3">
+                                <frame key="frameInset" minX="19" minY="88" width="336" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" red="0.81602728599999996" green="1" blue="0.99943846449999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -939,9 +939,9 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yox-dl-jLe"/>
-        <segue reference="cPo-wg-ymk"/>
+        <segue reference="Lo8-pq-55s"/>
         <segue reference="tTr-qJ-JOD"/>
+        <segue reference="cPo-wg-ymk"/>
         <segue reference="bhc-bY-utL"/>
         <segue reference="NHb-Qa-NNO"/>
         <segue reference="vDu-SJ-vrE"/>
