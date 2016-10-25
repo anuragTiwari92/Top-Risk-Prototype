@@ -783,7 +783,7 @@ Good Luck
 Suzie
 </string>
                                         <attributes>
-                                            <font key="NSFont" size="14" name="SFUIText-Regular"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -938,11 +938,11 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SkQ-IQ-dZz"/>
-        <segue reference="arR-fY-8Ed"/>
-        <segue reference="9Su-3F-PUn"/>
-        <segue reference="yox-dl-jLe"/>
+        <segue reference="eQR-tY-bud"/>
         <segue reference="Jqt-ly-BLS"/>
         <segue reference="vDu-SJ-vrE"/>
+        <segue reference="SkQ-IQ-dZz"/>
+        <segue reference="9Su-3F-PUn"/>
+        <segue reference="Lo8-pq-55s"/>
     </inferredMetricsTieBreakers>
 </document>
