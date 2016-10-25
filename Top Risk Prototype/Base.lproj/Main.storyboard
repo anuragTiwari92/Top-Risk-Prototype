@@ -407,6 +407,27 @@ prepare for interesting work and economic independence.
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L9c-ig-wxD">
+                                <frame key="frameInset" minX="8" minY="100" width="359" height="420"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Overview
+
+Bodies are amazing.  They come in so many different shapes, colors, and sizes.  Establishing a positive body image is one important task to accomplish to feel good about who we are.  
+
+Another important skill to learn is how to develop a positive mental self-image.  Even though we may not walk down the street speaking out loud to ourselves, we do have an “inner voice” that influences our emotions and actions.  
+
+By learning how to give ourselves encouraging messages, we can gain confidence and accomplish our goals more easily. When we encourage ourselves, we can take ourselves on an “upward spiral,” and when we put ourselves down we can take a “downward spiral.”   In this unit we will learn several ways to develop a positive mental self-image and take ourselves on an upward spiral.  We will also learn some actions we can take to keep ourselves from becoming too critical of ourselves</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aLE-yu-v3M">
+                                <frame key="frameInset" minY="28" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Keeping a Positive Self-Image" id="1k3-2n-jm9"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.32156862745098042" green="0.098039215686274508" blue="0.53725490196078429" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -436,7 +457,11 @@ prepare for interesting work and economic independence.
                                             <segue destination="yFD-uo-W9m" kind="show" id="aSu-UF-Q9v"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Watch More" width="358" id="glL-4V-61p"/>
+                                    <barButtonItem title="Watch More" width="358" id="glL-4V-61p">
+                                        <connections>
+                                            <segue destination="S6t-uH-Imb" kind="show" id="ToB-XK-bXl"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
@@ -445,7 +470,38 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bc-Ey-WDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="985"/>
+            <point key="canvasLocation" x="709.60000000000002" y="984.55772113943033"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kLL-7T-Is1">
+            <objects>
+                <viewController id="S6t-uH-Imb" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rYo-X6-nNb"/>
+                        <viewControllerLayoutGuide type="bottom" id="ggO-Wz-wZY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fgH-cM-FPb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pBS-dS-jL7">
+                                <frame key="frameInset" minX="4" height="44" maxX="-4"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back" id="Qeh-C9-2nS">
+                                        <connections>
+                                            <segue destination="RFa-N5-sIa" kind="show" id="MII-dK-ygs"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.47252682049813732" blue="0.46225807526666718" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bmc-K8-d7D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1414" y="1001"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FT8-do-bMp">
@@ -543,10 +599,10 @@ prepare for interesting work and economic independence.
             </objects>
             <point key="canvasLocation" x="710" y="3030"/>
         </scene>
-        <!--Chapter3 Controller-->
+        <!--Chapter4 Controller-->
         <scene sceneID="861-hZ-2RD">
             <objects>
-                <viewController id="fdy-6X-bFQ" customClass="Chapter3Controller" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="fdy-6X-bFQ" customClass="Chapter4Controller" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dCG-oa-ax1"/>
                         <viewControllerLayoutGuide type="bottom" id="63j-ut-ZRn"/>
@@ -556,7 +612,7 @@ prepare for interesting work and economic independence.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mj6-Ce-c52">
-                                <frame key="frameInset" height="44"/>
+                                <frame key="frameInset" minX="4" height="44" maxX="-4"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Back" id="Dse-5o-yvg">
@@ -577,19 +633,20 @@ prepare for interesting work and economic independence.
                                 <frame key="frameInset" minY="28" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Chapter3video" id="PEH-lh-0oe"/>
+                                    <navigationItem title="Keeping a Positive Self-Image" id="PEH-lh-0oe"/>
                                 </items>
                             </navigationBar>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-gr-za3">
-                                <frame key="frameInset" minX="8" minY="76" width="359" height="190"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r8L-I9-Hjc">
+                                <frame key="frameInset" minX="8" minY="67" width="359" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="5" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LSs-Oj-2TO">
-                                <frame key="frameInset" minX="8" minY="270" width="359" height="353"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fAc-Sc-igv">
+                                <frame key="frameInset" minX="8" minY="275" width="359" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <mutableString key="text">Dear Suzie,I am usually the kind of person who can make everybody, even myself, laugh. But I missed a block in the soccer game a couple of weeks ago, and it seems like ever since I’ve been having a really hard time. I feel like I can’t concentrateon my homework, I’m tired after school, and when I try to sleep at night I just end up worrying about how I should be doing better. I’m starting to feel like I mess up at everything I do. I’m embarrassed to tell my friends how I feel. What should I do?Bluein Bisbee________________________________
+
+Dear Blue,It sounds like you’ve been feeling depressed lately. Sometimes people feel depressed because of something that happens – like losing a good friend, or not doing very well atsomething we’re usually good at—like blocking a goal in soccer, for example, or lots of other things. Sometimes people feel depressed because they think they have to be absolutely PERFECT at everything they do...and that just isn’t possible.So when we make a normal, human mistake, we can be pretty hard on ourselves. It sounds like you’re being pretty hard on yourself right now.We all have times when we feel kind of blue. It’s important to remind ourselves that we can’t be perfect, but that we all have special talents and unique abilities. We need to encourage ourselves. And if you do that and still feel badly, it’s good to talk to somebody you trust about how you’re feeling. We all get the blues sometimes, but there are ways to pick ourselves up.Good Luck!!!</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -597,7 +654,7 @@ prepare for interesting work and economic independence.
                         <color key="backgroundColor" red="0.81602728599999996" green="1" blue="0.99943846449999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
-                        <outlet property="Chapter3Video" destination="0lY-gr-za3" id="W5Q-fd-0GM"/>
+                        <outlet property="Chapter4Video" destination="r8L-I9-Hjc" id="WRA-E3-zQ9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lcx-Zr-Y4C" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -938,11 +995,12 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="eQR-tY-bud"/>
-        <segue reference="Jqt-ly-BLS"/>
-        <segue reference="vDu-SJ-vrE"/>
-        <segue reference="SkQ-IQ-dZz"/>
         <segue reference="9Su-3F-PUn"/>
+        <segue reference="fAh-AA-D2s"/>
         <segue reference="Lo8-pq-55s"/>
+        <segue reference="NHb-Qa-NNO"/>
+        <segue reference="l8y-2t-hpb"/>
+        <segue reference="MII-dK-ygs"/>
+        <segue reference="bhc-bY-utL"/>
     </inferredMetricsTieBreakers>
 </document>
