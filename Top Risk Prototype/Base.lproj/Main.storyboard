@@ -410,14 +410,13 @@ prepare for interesting work and economic independence.
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="L9c-ig-wxD">
                                 <frame key="frameInset" minX="8" minY="100" width="359" height="420"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Overview
+                                <string key="text">Overview
 
 Bodies are amazing.  They come in so many different shapes, colors, and sizes.  Establishing a positive body image is one important task to accomplish to feel good about who we are.  
 
 Another important skill to learn is how to develop a positive mental self-image.  Even though we may not walk down the street speaking out loud to ourselves, we do have an “inner voice” that influences our emotions and actions.  
 
-By learning how to give ourselves encouraging messages, we can gain confidence and accomplish our goals more easily. When we encourage ourselves, we can take ourselves on an “upward spiral,” and when we put ourselves down we can take a “downward spiral.”   In this unit we will learn several ways to develop a positive mental self-image and take ourselves on an upward spiral.  We will also learn some actions we can take to keep ourselves from becoming too critical of ourselves</mutableString>
+By learning how to give ourselves encouraging messages, we can gain confidence and accomplish our goals more easily. When we encourage ourselves, we can take ourselves on an “upward spiral,” and when we put ourselves down we can take a “downward spiral.”   In this unit we will learn several ways to develop a positive mental self-image and take ourselves on an upward spiral.  We will also learn some actions we can take to keep ourselves from becoming too critical of ourselves</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -644,9 +643,20 @@ By learning how to give ourselves encouraging messages, we can gain confidence a
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fAc-Sc-igv">
                                 <frame key="frameInset" minX="8" minY="275" width="359" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Dear Suzie,I am usually the kind of person who can make everybody, even myself, laugh. But I missed a block in the soccer game a couple of weeks ago, and it seems like ever since I’ve been having a really hard time. I feel like I can’t concentrateon my homework, I’m tired after school, and when I try to sleep at night I just end up worrying about how I should be doing better. I’m starting to feel like I mess up at everything I do. I’m embarrassed to tell my friends how I feel. What should I do?Bluein Bisbee________________________________
+                                <string key="text">Dear Suzie,
 
-Dear Blue,It sounds like you’ve been feeling depressed lately. Sometimes people feel depressed because of something that happens – like losing a good friend, or not doing very well atsomething we’re usually good at—like blocking a goal in soccer, for example, or lots of other things. Sometimes people feel depressed because they think they have to be absolutely PERFECT at everything they do...and that just isn’t possible.So when we make a normal, human mistake, we can be pretty hard on ourselves. It sounds like you’re being pretty hard on yourself right now.We all have times when we feel kind of blue. It’s important to remind ourselves that we can’t be perfect, but that we all have special talents and unique abilities. We need to encourage ourselves. And if you do that and still feel badly, it’s good to talk to somebody you trust about how you’re feeling. We all get the blues sometimes, but there are ways to pick ourselves up.Good Luck!!!</mutableString>
+I am usually the kind of person who can make everybody, even myself, laugh. But I missed a block in the soccer game a couple of weeks ago, and it seems like ever since I’ve been having a really hard time. I feel like I can’t concentrateon my homework, I’m tired after school, and when I try to sleep at night I just end up worrying about how I should be doing better. I’m starting to feel like I mess up at everything I do. I’m embarrassed to tell my friends how I feel. What should I do?
+
+Bluein Bisbee
+________________________________
+
+Dear Blue,
+
+It sounds like you’ve been feeling depressed lately. Sometimes people feel depressed because of something that happens – like losing a good friend, or not doing very well atsomething we’re usually good at—like blocking a goal in soccer, for example, or lots of other things. Sometimes people feel depressed because they think they have to be absolutely PERFECT at everything they do...and that just isn’t possible.So when we make a normal, human mistake, we can be pretty hard on ourselves. It sounds like you’re being pretty hard on yourself right now.
+
+We all have times when we feel kind of blue. It’s important to remind ourselves that we can’t be perfect, but that we all have special talents and unique abilities. We need to encourage ourselves. And if you do that and still feel badly, it’s good to talk to somebody you trust about how you’re feeling. We all get the blues sometimes, but there are ways to pick ourselves up.
+
+Good Luck!!!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
