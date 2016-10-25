@@ -222,11 +222,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = AnuragTiwari;
+				ORGANIZATIONNAME = SkylerLecroy;
 				TargetAttributes = {
 					A7BD9C251D9C43BF00C7E449 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 5NQ5RY87TE;
+						DevelopmentTeam = AT5U454285;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -463,11 +463,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 5NQ5RY87TE;
+				DEVELOPMENT_TEAM = AT5U454285;
 				INFOPLIST_FILE = "Top Risk Prototype/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AnuragTiwari.Top-Risk-Prototype";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SkylerLecroy.Top-Risk-Prototype";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Top Risk Prototype-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -480,11 +480,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 5NQ5RY87TE;
+				DEVELOPMENT_TEAM = AT5U454285;
 				INFOPLIST_FILE = "Top Risk Prototype/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.AnuragTiwari.Top-Risk-Prototype";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SkylerLecroy.Top-Risk-Prototype";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Top Risk Prototype-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

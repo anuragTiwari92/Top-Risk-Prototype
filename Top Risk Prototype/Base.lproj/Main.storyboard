@@ -689,13 +689,20 @@ prepare for interesting work and economic independence.
                                     <barButtonItem title="Watch More" width="358" id="K6w-LD-611"/>
                                 </items>
                             </toolbar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vZv-F5-sBx">
+                                <frame key="frameInset" minY="20" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="What is Go Grrrls" id="mcn-fy-Ahl"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aw1-yW-t8I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-887" y="-1024"/>
+            <point key="canvasLocation" x="710" y="-1842"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="v8H-B1-xCZ">
@@ -941,7 +948,7 @@ Suzie
     <inferredMetricsTieBreakers>
         <segue reference="Lo8-pq-55s"/>
         <segue reference="tTr-qJ-JOD"/>
-        <segue reference="cPo-wg-ymk"/>
+        <segue reference="5vP-1E-kuA"/>
         <segue reference="bhc-bY-utL"/>
         <segue reference="NHb-Qa-NNO"/>
         <segue reference="vDu-SJ-vrE"/>
