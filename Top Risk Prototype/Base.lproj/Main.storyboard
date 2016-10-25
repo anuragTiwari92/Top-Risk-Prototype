@@ -378,10 +378,10 @@ prepare for interesting work and economic independence.
                                     <navigationItem title="Our Experiences and Our Bodies" id="32D-EQ-Ehi"/>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lih-3j-e77">
-                                <frame key="frameInset" minX="8" minY="100" width="359" height="420"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Lih-3j-e77">
+                                <frame key="frameInset" minX="8" minY="100" width="359" height="500"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Do you watch TV?  Do you read magazines?  Do you listen to music?  Television, magazines, music, the internet, and movies are all different kinds of media.  And they definitely have some “media messages.”  In this section, you will learn to think about what these media messages are, and what the media is telling you about what it means to be a girl in today’s society.The media can send some confusing messages, especially about sex.  You might be confused about some things and be curious about sex and our bodies.  It’s natural to have questions, and it’s healthy to be curious!  This section will talk about sex and sexuality, and try to answer some of your questions.  And when we talk about sex, we aren’t just talking about sexual intercourse.  There is so much information to learn.  We need to understand how our bodies work, of course. We also need to think about our attitudes, beliefs, feelings, and behaviors when it comes to sexuality.  Remember, though, that this is a big subject so you will probably need to get more information from adults that you trust.  The very first thing to remember is that everybody’s body changes at its own pace.  Don’t worry if you seem to be “ahead” or “behind” other girls’ development.  Your body already knows what it needs to do.</mutableString>
+                                <mutableString key="text">Do you watch TV?  Do you read magazines?  Do you listen to music?  Television, magazines, music, the internet, and movies are all different kinds of media.  And they definitely have some “media messages.”  In this section, you will learn to think about what these media messages are, and what the media is telling you about what it means to be a girl in today’s society.The media can send some confusing messages, especially about sex.  You might be confused about some things and be curious about sex and our bodies.  It’s natural to have questions, and it’s healthy to be curious!  This section will talk about sex and sexuality, and try to answer some of your questions.  And when we talk about sex, we aren’t just talking about sexual intercourse.  There is so much information to learn.  We need to understand how our bodies work, of course. We also need to think about our attitudes, beliefs, feelings, and behaviors when it comes to sexuality.  Remember, though, that this is a big subject so you will probably need to get more information from adults that you trust.  The very first thing to remember is that everybody’s body changes at its own pace.  Don’t worry if you seem to be “ahead” or “behind” other girls’ development.  Your body already knows what it needs to do.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1037,12 +1037,12 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fAh-AA-D2s"/>
-        <segue reference="Lo8-pq-55s"/>
+        <segue reference="HKE-aw-7b1"/>
+        <segue reference="bhc-bY-utL"/>
         <segue reference="9Su-3F-PUn"/>
         <segue reference="MII-dK-ygs"/>
+        <segue reference="Lo8-pq-55s"/>
         <segue reference="NHb-Qa-NNO"/>
         <segue reference="l8y-2t-hpb"/>
-        <segue reference="bhc-bY-utL"/>
     </inferredMetricsTieBreakers>
 </document>
