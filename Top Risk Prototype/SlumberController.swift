@@ -20,12 +20,10 @@ class SlumberController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         //the variable below is where the youtube videos can be changed/updated - Anurag
        let ytURL = "https://www.youtube.com/embed/VPA8y06o0EQ"
-        
         SlumberVideo.allowsInlineMediaPlayback = true;
-        SlumberVideo.loadHTMLString("<iframe width=\"\(SlumberVideo.frame.width)\" height=\"\(SlumberVideo.frame.height)\" src=\"\(ytURL)?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe>", baseURL: nil)
-        //SlumberVideo.reload()
-       // SlumberVideo.stopLoading()
-       // SlumberVideo.loadHTMLString(nil, baseURL: nil)
+        SlumberVideo.loadHTMLString("<html><head><title>.</title><style>body,html,iframe{margin:0;padding:0;}</style></head><body><iframe width=\"\(SlumberVideo.frame.width)\" height=\"\(SlumberVideo.frame.height)\" src=\"\(ytURL)?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe></body></html>", baseURL: nil)
+        SlumberVideo.scrollView.isScrollEnabled = false
+        SlumberVideo.scrollView.bounces = false
     }
     
     

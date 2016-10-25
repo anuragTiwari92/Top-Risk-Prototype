@@ -18,7 +18,7 @@ class ExperienceController: UIViewController {
         let youtbelink2 = "https://www.youtube.com/embed/SCGopFuIzLI"
         
         ExperienceVideo.allowsInlineMediaPlayback = true;
-        ExperienceVideo.loadHTMLString("<iframe width=\"\(ExperienceVideo.frame.width)\" height=\"\(ExperienceVideo.frame.height)\" src=\"\(youtbelink2)?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe>", baseURL: nil);
+        ExperienceVideo.loadHTMLString("<html><head><title>.</title><style>body,html,iframe{margin:0;padding:0;}</style></head><body><iframe width=\"\(ExperienceVideo.frame.width)\" height=\"\(ExperienceVideo.frame.height)\" src=\"\(youtbelink2)?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe></body></html>", baseURL: nil);
     }
     
     override func didReceiveMemoryWarning() {
