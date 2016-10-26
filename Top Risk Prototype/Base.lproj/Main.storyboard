@@ -454,7 +454,7 @@ prepare for interesting work and economic independence.
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="01Y-R9-McB">
                                 <frame key="frameInset" minX="8" minY="72" width="359" height="423"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Friends are so important. Good friends can laugh and cry together, share their secrets, and just hang out together. Friends can teach each other about new cultures and interests. They can also spend hours just talking about life’s troubles and triumphs. Think about some of your friends. What qualities do they have that make them a good friend to you? In this unit we will talk about what kind of friends to choose and what makes friends special. We will also learn some ways to be assertive, and how that helps us become more independent. Being assertive means that you respect your rights and feelings  and you respect other people’s rights and feelings, too. Sometimes it can be hard to be assertive with friends, and especially with boys. In this unit, you’ll learn new skills to make sure you can speak up for yourself.</mutableString>
+                                <string key="text">Friends are so important. Good friends can laugh and cry together, share their secrets, and just hang out together. Friends can teach each other about new cultures and interests. They can also spend hours just talking about life’s troubles and triumphs. Think about some of your friends. What qualities do they have that make them a good friend to you? In this unit we will talk about what kind of friends to choose and what makes friends special. We will also learn some ways to be assertive, and how that helps us become more independent. Being assertive means that you respect your rights and feelings  and you respect other people’s rights and feelings, too. Sometimes it can be hard to be assertive with friends, and especially with boys. In this unit, you’ll learn new skills to make sure you can speak up for yourself.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -466,10 +466,10 @@ prepare for interesting work and economic independence.
             </objects>
             <point key="canvasLocation" x="709.60000000000002" y="984.55772113943033"/>
         </scene>
-        <!--View Controller-->
+        <!--Chapter5 Controller-->
         <scene sceneID="AZZ-RA-nST">
             <objects>
-                <viewController id="Lvi-OL-XXj" sceneMemberID="viewController">
+                <viewController id="Lvi-OL-XXj" customClass="Chapter5Controller" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PBe-R6-ZpS"/>
                         <viewControllerLayoutGuide type="bottom" id="oS8-np-aiQ"/>
@@ -503,21 +503,32 @@ prepare for interesting work and economic independence.
                                     <navigationItem title="Chapter5 Video" id="PkA-qo-67g"/>
                                 </items>
                             </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hAL-sc-gij">
+                                <frame key="frameInset" minX="8" minY="72" width="358" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                            </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="5" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Rye-Bk-n0y">
-                                <frame key="frameInset" minX="8" minY="270" width="359" height="353"/>
+                                <frame key="frameInset" minX="7" minY="270" width="359" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <string key="text">Dear Suzie,I am in the 7th grade and I keep having trouble with an 8th grader named Wendy. She is really mean and she likes to tease kids. She keeps bothering me lately. Last week she tripped me in the hall and I dropped my books everywhere. I didn’t get hurt, but it really made me mad. I already talked to one of my teachers about Wendy and he said that she is a problem and I should avoid her... but I can’t because my locker is right by hers! What can I do?Tromped on in Tempe</string>
+                                <string key="text">Dear Suzie,
+I am in the 7th grade and I keep having trouble with an 8th grader named Wendy. She is really mean and she likes to tease kids. She keeps bothering me lately. Last week she tripped me in the hall and I dropped my books everywhere. I didn’t get hurt, but it really made me mad. I already talked to one of my teachers about Wendy and he said that she is a problem and I should avoid her... but I can’t because my locker is right by hers! What can I do?
+Tromped on in Tempe</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="Chapter5Video" destination="hAL-sc-gij" id="Qsc-Dy-aV1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAE-yM-vDS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1409" y="985"/>
+            <point key="canvasLocation" x="1408.8" y="984.55772113943033"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FT8-do-bMp">
@@ -557,7 +568,7 @@ prepare for interesting work and economic independence.
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Q6U-lY-q5Z">
                                 <frame key="frameInset" minX="8" minY="72" width="359" height="423"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Being independent means making more choices for yourself, which takes some practice. If we want more freedom to make choices, we have to accept more responsibility for ourselves and our actions, too. One way to begin to be more independent is to learn how to solve simple problems in a responsible way. Once we practice solving not-so-big problems, we can tackle some bigger problems, too, like deciding when to have sex. Everyone has problems- and once you learn how to go about solving them, they can get a little easier. And if they don’t get easier, it’s important to know that you can ask for help. We’ll talk about who you can ask for help from, and how it is a sign of strength and maturity to ask for help. Just stick with it, and you go girl!</mutableString>
+                                <string key="text">Being independent means making more choices for yourself, which takes some practice. If we want more freedom to make choices, we have to accept more responsibility for ourselves and our actions, too. One way to begin to be more independent is to learn how to solve simple problems in a responsible way. Once we practice solving not-so-big problems, we can tackle some bigger problems, too, like deciding when to have sex. Everyone has problems- and once you learn how to go about solving them, they can get a little easier. And if they don’t get easier, it’s important to know that you can ask for help. We’ll talk about who you can ask for help from, and how it is a sign of strength and maturity to ask for help. Just stick with it, and you go girl!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -569,10 +580,10 @@ prepare for interesting work and economic independence.
             </objects>
             <point key="canvasLocation" x="709.60000000000002" y="1644.8275862068967"/>
         </scene>
-        <!--View Controller-->
+        <!--Chapter6 Controller-->
         <scene sceneID="Vhq-Df-eOD">
             <objects>
-                <viewController id="mpW-4h-QIv" sceneMemberID="viewController">
+                <viewController id="mpW-4h-QIv" customClass="Chapter6Controller" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kSg-DP-ro5"/>
                         <viewControllerLayoutGuide type="bottom" id="IFw-pQ-wJv"/>
@@ -603,7 +614,9 @@ prepare for interesting work and economic independence.
                                 <frame key="frameInset" minX="8" minY="270" width="359" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <mutableString key="text">Dear Suzie,I’m really having a hard time these days. First, I’m still upset about my parents’ divorce. I miss my Dad and don’t get to see him much. But also, there are some girls at school that have been making fun of me. I feel like I don’t have any friends. My mom is busy and coming home very late so she is not around to talk with. So after school I’ve started to invite this older boy home and we have been drinking. He is starting to make some moves on me and I’m feeling scared. I just don’t know what to do!Lonely in Lakeside</mutableString>
+                                <string key="text">Dear Suzie,
+I’m really having a hard time these days. First, I’m still upset about my parents’ divorce. I miss my Dad and don’t get to see him much. But also, there are some girls at school that have been making fun of me. I feel like I don’t have any friends. My mom is busy and coming home very late so she is not around to talk with. So after school I’ve started to invite this older boy home and we have been drinking. He is starting to make some moves on me and I’m feeling scared. I just don’t know what to do!
+Lonely in Lakeside</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -614,13 +627,21 @@ prepare for interesting work and economic independence.
                                     <navigationItem title="Chapter6 Video" id="CWj-eO-Apj"/>
                                 </items>
                             </navigationBar>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNN-Oi-lXf">
+                                <frame key="frameInset" minX="8" minY="72" width="358" height="190"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" red="0.16078431369999999" green="0.82352941180000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="Chapter6Video" destination="fNN-Oi-lXf" id="XGt-6K-tyH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Og-d0-j2e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1409" y="1645"/>
+            <point key="canvasLocation" x="1408.8" y="1644.8275862068967"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DYJ-jx-faF">
@@ -727,7 +748,7 @@ prepare for interesting work and economic independence.
                                 <frame key="frameInset" minX="8" minY="270" width="359" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
