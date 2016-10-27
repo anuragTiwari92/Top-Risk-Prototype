@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A72731DA1DC1542100DCD8D8 /* Chapter1ControllerP1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72731D91DC1542100DCD8D8 /* Chapter1ControllerP1.swift */; };
+		A72B04341DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png in Resources */ = {isa = PBXBuildFile; fileRef = A72B04331DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png */; };
 		A744A31A1DBEB2DB00A9CF02 /* Unit1.png in Resources */ = {isa = PBXBuildFile; fileRef = A744A3191DBEB2DB00A9CF02 /* Unit1.png */; };
 		A744A31C1DBEBD6500A9CF02 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744A31B1DBEBD6500A9CF02 /* WelcomeController.swift */; };
 		A76F50FB1DA5750D00438111 /* Quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F50FA1DA5750D00438111 /* Quiz1.swift */; };
@@ -51,6 +52,7 @@
 
 /* Begin PBXFileReference section */
 		A72731D91DC1542100DCD8D8 /* Chapter1ControllerP1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1ControllerP1.swift; sourceTree = "<group>"; };
+		A72B04331DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f1c9a300-5a12-431c-8c59-e9ddd7191eea.png"; sourceTree = "<group>"; };
 		A744A3191DBEB2DB00A9CF02 /* Unit1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unit1.png; sourceTree = "<group>"; };
 		A744A31B1DBEBD6500A9CF02 /* WelcomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		A74BFFA31D9C695D007D9FEA /* Top Risk Prototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Top Risk Prototype-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */,
 				A7BD9C2B1D9C43BF00C7E449 /* ViewController.swift */,
 				A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */,
+				A72B04331DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png */,
 				A7F045201DC18A1F00176BAC /* 0eb8242f-8054-434a-858f-06de074f1d73.jpg */,
 				A744A31B1DBEBD6500A9CF02 /* WelcomeController.swift */,
 				A776A64A1DC15CD400B929E9 /* 120ab900-a725-423d-b1e2-170275f1e7d6.jpg */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A776A64B1DC15CD400B929E9 /* 120ab900-a725-423d-b1e2-170275f1e7d6.jpg in Resources */,
+				A72B04341DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png in Resources */,
 				A7CA81451DBE649200B12F70 /* c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg in Resources */,
 				A744A31A1DBEB2DB00A9CF02 /* Unit1.png in Resources */,
 				A7CA81471DBE696B00B12F70 /* f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg in Resources */,

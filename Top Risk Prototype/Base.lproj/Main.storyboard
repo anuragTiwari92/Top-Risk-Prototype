@@ -134,13 +134,17 @@ prepare for interesting work and economic independence.
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="f1c9a300-5a12-431c-8c59-e9ddd7191eea.png" translatesAutoresizingMaskIntoConstraints="NO" id="p8I-TK-neC">
+                                <frame key="frameInset" minX="210" minY="493" width="164" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAr-QF-Kbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1194" y="985"/>
+            <point key="canvasLocation" x="-1194.4000000000001" y="984.55772113943033"/>
         </scene>
         <!--Menu Controller-->
         <scene sceneID="MRL-Uh-YrK">
@@ -595,7 +599,7 @@ prepare for interesting work and economic independence.
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
-                        <color key="backgroundColor" red="0.81602728599999996" green="1" blue="0.99943846449999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.32156862749999998" green="0.098039215690000001" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="Chapter3Video" destination="0lY-gr-za3" id="W5Q-fd-0GM"/>
@@ -631,6 +635,9 @@ prepare for interesting work and economic independence.
                                             <rect key="frame" x="64" y="7" width="537" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Quiz &gt;&gt;&gt;"/>
+                                            <connections>
+                                                <segue destination="aAL-bL-rBN" kind="show" id="fNf-MS-jyL"/>
+                                            </connections>
                                         </button>
                                     </barButtonItem>
                                 </items>
@@ -663,7 +670,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJf-lN-plM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1409" y="-412"/>
+            <point key="canvasLocation" x="1408.8" y="-412.44377811094455"/>
         </scene>
         <!--Chapter1 ControllerP1-->
         <scene sceneID="wjz-wd-FDN">
@@ -977,9 +984,6 @@ Suzie
                                             <rect key="frame" x="131" y="7" width="344" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Think About This&gt;&gt;"/>
-                                            <connections>
-                                                <segue destination="aAL-bL-rBN" kind="presentation" id="xR7-cB-gSB"/>
-                                            </connections>
                                         </button>
                                     </barButtonItem>
                                 </items>
@@ -1026,9 +1030,7 @@ Suzie
                                 <items>
                                     <barButtonItem title="Back" id="BVG-Hs-VeT">
                                         <connections>
-                                            <segue destination="6pg-Bp-UB3" kind="popoverPresentation" popoverAnchorBarButtonItem="BVG-Hs-VeT" id="l8y-2t-hpb">
-                                                <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                            </segue>
+                                            <segue destination="2tE-dC-rrT" kind="show" id="VPK-T3-CoJ"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -1084,7 +1086,7 @@ Suzie
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
                         <outlet property="LabelEnd" destination="trf-K0-5sq" id="jEA-Xh-MIR"/>
@@ -1097,21 +1099,22 @@ Suzie
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H5w-1g-B9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2089" y="-1146"/>
+            <point key="canvasLocation" x="2302" y="-412"/>
         </scene>
     </scenes>
     <resources>
         <image name="0eb8242f-8054-434a-858f-06de074f1d73.jpg" width="1223" height="715"/>
         <image name="120ab900-a725-423d-b1e2-170275f1e7d6.jpg" width="473" height="975"/>
         <image name="c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg" width="2298" height="4742"/>
+        <image name="f1c9a300-5a12-431c-8c59-e9ddd7191eea.png" width="1725" height="1575"/>
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="olk-od-CMn"/>
-        <segue reference="AdP-43-8w6"/>
         <segue reference="XF5-Ar-9fp"/>
-        <segue reference="9Su-3F-PUn"/>
-        <segue reference="yox-dl-jLe"/>
-        <segue reference="SkQ-IQ-dZz"/>
+        <segue reference="cPo-wg-ymk"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="Lo8-pq-55s"/>
+        <segue reference="VPK-T3-CoJ"/>
+        <segue reference="bhc-bY-utL"/>
     </inferredMetricsTieBreakers>
 </document>
