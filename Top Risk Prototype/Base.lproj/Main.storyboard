@@ -189,7 +189,7 @@ prepare for interesting work and economic independence.
                                 </state>
                                 <connections>
                                     <action selector="notTouched2:" destination="yFD-uo-W9m" eventType="touchDown" id="sfQ-Lt-hsY"/>
-                                    <segue destination="ovI-ga-Or3" kind="show" id="Jqt-ly-BLS"/>
+                                    <segue destination="6pg-Bp-UB3" kind="show" id="olk-od-CMn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob1-RL-zSh">
@@ -732,7 +732,7 @@ prepare for interesting work and economic independence.
                                     <segue destination="7Rm-wr-7z5" kind="show" id="5EL-uC-DzK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ov2-qc-oEJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ov2-qc-oEJ">
                                 <frame key="frameInset" minX="16" minY="323" width="343" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -823,7 +823,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKb-4t-vPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="669.60000000000002" y="-2451.7241379310349"/>
+            <point key="canvasLocation" x="1409" y="-1794"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vcN-bY-XAo">
@@ -910,56 +910,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Rq-4p-WUZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1316" y="-2451.7241379310349"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="v8H-B1-xCZ">
-            <objects>
-                <viewController id="ovI-ga-Or3" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sLJ-No-lEt"/>
-                        <viewControllerLayoutGuide type="bottom" id="emN-U2-wuL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FtL-eP-cRo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v5p-wW-Pvi">
-                                <frame key="frameInset" minY="20" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Girls Issues in Today's Society" id="i1g-Ic-glF"/>
-                                </items>
-                            </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Introduction" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wx7-Zq-L62">
-                                <frame key="frameInset" minY="81" width="375" height="423"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HeV-7I-4co">
-                                <frame key="frameInset" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <items>
-                                    <barButtonItem title="Back to Menu" id="zPI-FE-1Bf">
-                                        <connections>
-                                            <segue destination="yFD-uo-W9m" kind="show" id="eQR-tY-bud"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem title="Watch More" width="358" id="7kj-Ep-NDl">
-                                        <connections>
-                                            <segue destination="6pg-Bp-UB3" kind="show" id="vDu-SJ-vrE"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                        </subviews>
-                        <color key="backgroundColor" red="0.058823529411764705" green="0.63529411764705879" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cxB-mk-kmO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="710" y="-1146"/>
+            <point key="canvasLocation" x="2089" y="-1794"/>
         </scene>
         <!--Slumber Controller-->
         <scene sceneID="y82-Hx-NEv">
@@ -1016,16 +967,16 @@ Suzie
                                 <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Back" id="Vll-iI-mgt">
+                                    <barButtonItem title="Back to Menu" id="Vll-iI-mgt">
                                         <connections>
-                                            <segue destination="ovI-ga-Or3" kind="presentation" id="NHb-Qa-NNO"/>
+                                            <segue destination="yFD-uo-W9m" kind="show" id="IUj-w5-AH5"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" id="LBv-UH-FRP">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="tzG-rT-QVs">
-                                            <rect key="frame" x="64" y="7" width="537" height="30"/>
+                                            <rect key="frame" x="131" y="7" width="344" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Quiz &gt;&gt;&gt;"/>
+                                            <state key="normal" title="Think About This&gt;&gt;"/>
                                             <connections>
                                                 <segue destination="aAL-bL-rBN" kind="presentation" id="xR7-cB-gSB"/>
                                             </connections>
@@ -1156,12 +1107,11 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vDu-SJ-vrE"/>
-        <segue reference="Jqt-ly-BLS"/>
+        <segue reference="olk-od-CMn"/>
         <segue reference="AdP-43-8w6"/>
-        <segue reference="dOK-7a-kYB"/>
+        <segue reference="XF5-Ar-9fp"/>
         <segue reference="9Su-3F-PUn"/>
-        <segue reference="SkQ-IQ-dZz"/>
         <segue reference="yox-dl-jLe"/>
+        <segue reference="SkQ-IQ-dZz"/>
     </inferredMetricsTieBreakers>
 </document>
