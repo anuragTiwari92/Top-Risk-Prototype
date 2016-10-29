@@ -519,8 +519,8 @@ prepare for interesting work and economic independence.
                                 <frame key="frameInset" minY="83" width="375" height="540"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Sex is about more than just sexual intercourse, it’s also about what happens after the sexual act is over.  Remember learning about how actions have consequences?  Sex has consequences too.  This section will talk about some of those consequences, like getting pregnant or contracting an STD (sexually transmitted disease).  These are big consequences, and because they’re so important, this section will talk about them a lot so you can understand why they matter.  
-Remember, even though this is serious information, it’s not meant to be scary.  Part of making decisions is taking responsibility for the consequences of your actions, and knowing more will help you do that.  Even if you’re not having sex now, this information can help when it comes time to make decisions about sex.</mutableString>
+                                <string key="text">Sex is about more than just sexual intercourse, it’s also about what happens after the sexual act is over.  Remember learning about how actions have consequences?  Sex has consequences too.  This section will talk about some of those consequences, like getting pregnant or contracting an STD (sexually transmitted disease).  These are big consequences, and because they’re so important, this section will talk about them a lot so you can understand why they matter.  
+Remember, even though this is serious information, it’s not meant to be scary.  Part of making decisions is taking responsibility for the consequences of your actions, and knowing more will help you do that.  Even if you’re not having sex now, this information can help when it comes time to make decisions about sex.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -573,7 +573,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 <frame key="frameInset" minY="270" width="375" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Dear Suzie,
+                                <string key="text">Dear Suzie,
 
 
 I am 15 years old and I have had a boyfriend for the last 6 months and we really love each other.  I have been thinking about having sex with him but I’m scared.  I don’t know if I’m ready or not.  How does a girl decide whether to have sex?  
@@ -582,13 +582,13 @@ I am 15 years old and I have had a boyfriend for the last 6 months and we really
 							         Deciding in Douglas 
 
 
-</mutableString>
+</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vcG-Qw-Klf">
-                                <frame key="frameInset" minX="8" minY="80" width="359" height="190"/>
+                                <frame key="frameInset" minX="19" minY="81" width="336" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -624,16 +624,98 @@ I am 15 years old and I have had a boyfriend for the last 6 months and we really
                                             <segue destination="yFD-uo-W9m" kind="presentation" id="SLb-d9-rug"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Watch More" width="358" id="zDz-ey-qRR"/>
+                                    <barButtonItem title="Watch More" width="358" id="zDz-ey-qRR">
+                                        <connections>
+                                            <segue destination="d0X-t8-Wib" kind="show" id="ajt-v1-Xwf"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oCY-ff-NCB">
+                                <frame key="frameInset" minY="72" width="375" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">Overview: Have you ever thought about what you might want to do when you get older?   How to be successful at what you decide to do?  Developing some “career sense” now can be helpful as you consider what options are available and what your talents and abilities are.  It’s fun to think about the subjects you are passionate about.  One thing to remember while you begin planning for your future is this: All careers are open to you, even those where few women have gone before.  </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ThE-41-Uef">
+                                <frame key="frameInset" minY="28" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Unit 8: our goals, our dreams, our future" id="wUt-AQ-ZBo"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.97254901960784312" green="0.32156862745098042" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8y6-YJ-lgx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="3030"/>
+            <point key="canvasLocation" x="709.60000000000002" y="3028.3358320839584"/>
+        </scene>
+        <!--Chapter8 Controller-->
+        <scene sceneID="KG0-me-rIP">
+            <objects>
+                <viewController id="d0X-t8-Wib" customClass="Chapter8Controller" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d2L-L6-R6D"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dcc-LQ-0Qb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Oep-IN-Z2H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dxX-6L-B4u">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back" id="ghg-eX-UQt">
+                                        <connections>
+                                            <segue destination="nlU-hp-R3A" kind="show" id="MwY-BG-caq"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" id="WHy-I0-AEH">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qiO-gb-3aL">
+                                            <rect key="frame" x="64" y="7" width="537" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Quiz &gt;&gt;&gt;"/>
+                                        </button>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Kh-uw-OtC">
+                                <frame key="frameInset" minY="28" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Unit 8: our goals, our dreams, our future" id="1oB-xb-6ou"/>
+                                </items>
+                            </navigationBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Pto-Ji-oqQ">
+                                <frame key="frameInset" minY="270" width="375" height="353"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Dear Suzie,
+I don’t know what I want to do in my life.  It seems like I’m not that good at anything.  What kind of future can I make for myself when I’m feeling this way?
+						      Confused in Casa Grande </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v3J-kB-DNY">
+                                <frame key="frameInset" minX="19" minY="80" width="336" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99018710851669312" green="0.41050690412521362" blue="0.0053482409566640854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="Chapter8Video" destination="v3J-kB-DNY" id="9XI-V2-QC8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8x9-jh-xN4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1478" y="3029"/>
         </scene>
         <!--Chapter3 Controller-->
         <scene sceneID="861-hZ-2RD">
@@ -1037,12 +1119,13 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Lo8-pq-55s"/>
-        <segue reference="NHb-Qa-NNO"/>
-        <segue reference="vDu-SJ-vrE"/>
-        <segue reference="6Cv-kx-fTJ"/>
         <segue reference="Egb-W0-3PO"/>
-        <segue reference="tTr-qJ-JOD"/>
         <segue reference="bhc-bY-utL"/>
+        <segue reference="SLb-d9-rug"/>
+        <segue reference="MwY-BG-caq"/>
+        <segue reference="Lo8-pq-55s"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="vDu-SJ-vrE"/>
+        <segue reference="NHb-Qa-NNO"/>
     </inferredMetricsTieBreakers>
 </document>

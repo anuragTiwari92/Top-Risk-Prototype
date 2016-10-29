@@ -17,7 +17,7 @@ class Chapter7Controller: UIViewController{
     
         let youtbelink7 = "https://www.youtube.com/embed/Oi2dWM9tgSs"
         Chapter7Video.allowsInlineMediaPlayback = true;
-        Chapter7Video.loadHTMLString("<iframe width=\"\(Chapter7Video.frame.width)\" height=\"\(Chapter7Video.frame.height)\" src=\"\(youtbelink7)?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe>",baseURL: nil)
+        Chapter7Video.loadHTMLString("<iframe width=\"\(Chapter7Video.frame.width)\" height=\"\(Chapter7Video.frame.height)\" src=\"\(youtbelink7)?&playsinline=1\" frameborder=\"0\" allowfullscreen></iframe>",baseURL: nil);
     }
     
     
