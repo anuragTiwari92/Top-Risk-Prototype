@@ -26,7 +26,7 @@ class Quiz1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        Questions = [Question(Question: "Who is the Project Manager", Answers: ["Pooja","David","Jeevan","Josh"], Answer: 0 ),
+        Questions = [Question(Question: "Who is the Project Manager", Answers: ["Pooja","David","Jeevan", "Josh"], Answer: 0 ),
                      Question(Question: "LifeCycle planner", Answers: ["Pooja","David","Jeevan","Josh"], Answer: 2 ),
                      Question(Question: "QA Tester", Answers: ["Pooja","David","Jeevan","Josh"], Answer: 1 ),
                      Question(Question: "Implementer", Answers: ["Pooja","David","Jeevan","Josh"], Answer: 3 )]

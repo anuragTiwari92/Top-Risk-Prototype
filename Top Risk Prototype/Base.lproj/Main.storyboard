@@ -71,7 +71,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1194.4000000000001" y="134.48275862068968"/>
+            <point key="canvasLocation" x="-1350" y="-243"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oRW-La-F5J">
@@ -144,7 +144,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAr-QF-Kbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1194.4000000000001" y="984.55772113943033"/>
+            <point key="canvasLocation" x="-1351" y="-1504"/>
         </scene>
         <!--Menu Controller-->
         <scene sceneID="MRL-Uh-YrK">
@@ -376,13 +376,42 @@ prepare for interesting work and economic independence.
                                     </barButtonItem>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Experiences &amp; our Bodies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sN9-LR-Gaw">
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Overview" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtI-1D-irw">
+                                <frame key="frameInset" minX="16" minY="82" width="92" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999999999999996" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CSg-KP-PKH">
+                                <frame key="frameInset" minX="16" minY="111" width="343" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Do you watch TV?  Do you read magazines?  Do you listen to music?  Television, magazines, music, the internet, and movies are all different kinds of media.  And they definitely have some “media messages.”  In this section, you will learn to think about what these media messages are, and what the media is telling you about what it means to be a girl in today’s society.
+
+The media can send some confusing messages, especially about sex.  You might be confused about some things and be curious about sex and our bodies.  It’s natural to have questions, and it’s healthy to be curious!  This section will talk about sex and sexuality, and try to answer some of your questions.  And when we talk about sex, we aren’t just talking about sexual intercourse.  There is so much information to learn.  We need to understand how our bodies work, of course. We also need to think about our attitudes, beliefs, feelings, and behaviors when it comes to sexuality.  Remember, though, that this is a big subject so you will probably need to get more information from adults that you trust.  
+
+
+The very first thing to remember is that everybody’s body changes at its own pace.  Don’t worry if you seem to be “ahead” or “behind” other girls’ development.  Your body already knows what it needs to do.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.76470588235294112" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L3M-ag-T4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="-411"/>
+            <point key="canvasLocation" x="709.60000000000002" y="-411.544227886057"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5He-X9-VLF">
@@ -450,7 +479,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4bc-Ey-WDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="985"/>
+            <point key="canvasLocation" x="-2878" y="-1794"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="FT8-do-bMp">
@@ -482,7 +511,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tlv-OM-Usv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="1645"/>
+            <point key="canvasLocation" x="-2879" y="-1004"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DYJ-jx-faF">
@@ -514,7 +543,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eda-Se-sNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="2357"/>
+            <point key="canvasLocation" x="-2879" y="-206"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="A6L-Qo-BGP">
@@ -546,7 +575,7 @@ prepare for interesting work and economic independence.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8y6-YJ-lgx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="710" y="3030"/>
+            <point key="canvasLocation" x="-2879" y="580"/>
         </scene>
         <!--Chapter3 Controller-->
         <scene sceneID="861-hZ-2RD">
@@ -632,11 +661,11 @@ prepare for interesting work and economic independence.
                                     </barButtonItem>
                                     <barButtonItem style="plain" id="6Vg-51-lZW">
                                         <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hTM-Wo-EPI">
-                                            <rect key="frame" x="64" y="7" width="537" height="30"/>
+                                            <rect key="frame" x="64" y="7" width="513" height="30"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Quiz &gt;&gt;&gt;"/>
+                                            <state key="normal" title="Did you know?"/>
                                             <connections>
-                                                <segue destination="aAL-bL-rBN" kind="show" id="fNf-MS-jyL"/>
+                                                <segue destination="vzt-Vg-cyd" kind="show" id="vL7-is-UdI"/>
                                             </connections>
                                         </button>
                                     </barButtonItem>
@@ -646,21 +675,44 @@ prepare for interesting work and economic independence.
                                 <frame key="frameInset" minY="20" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Chapter2 video" id="bU6-zZ-te0"/>
+                                    <navigationItem title="Our Experiences &amp; our Bodies" id="bU6-zZ-te0"/>
                                 </items>
                             </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eON-fn-R5Y">
-                                <frame key="frameInset" minX="12" minY="262" width="351" height="354"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NSh-1m-M9s">
                                 <frame key="frameInset" minX="19" minY="77" width="336" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amanda wrote a story about her period.           Here it is:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9X-9k-LDt">
+                                <frame key="frameInset" minX="19" minY="276" width="336" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Scroll Down" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jd3-5u-Zf8">
+                                <frame key="frameInset" minX="266" minY="589" width="97" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eON-fn-R5Y">
+                                <frame key="frameInset" minX="12" minY="325" width="351" height="285"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">In 5th grade my mom gave me some information and talked to me a little bit about how my body was developing, like getting breasts, growing hair on my pubic area and we talked about when I could start shaving my legs. Honestly, I felt uncomfortable talking about all of it.  I am glad I listened though because I learned some new stuff. Like, before I thought the period came all at once, I didn’t realize it came out a little bit at a time over several days. The whole thing seemed a little weird and scary. 
+
+
+My period started the first week of school my 6th grade year in gym class.  At first I thought I peed my pants so I rant to the bathroom, super embarrassed.  But when I looked, my underwear had dark, almost black blood in it. Some of it had soaked through onto my gym shorts! I freaked out. I started to think about how embarrassing it would be to go out to tell my gym teacher (a man!) what had happened and I didn’t want to leave the locker room because what if everyone saw it on my shorts! I poked my head out and signaled my best friend over.  She came into the bathroom and I told her what happened.  She laughed, which made me laugh and it actually made me feel better.  She said not to worry about it,  she would tell the gym teacher that she had to go to the nurse’s office. She came back from the office with an extra pair of shorts and pad.  What a life saver! I went back to gym class a little embarrassed but so happy my best friend had my back. 
+
+
+When I got home I told my mom the whole story. She told me I could wear pads until I felt comfortable enough to wear a tampon. She made me a little kit with pads, tampons, and an extra pair of underwear that I could put in my locker just in case. 
+
+
+All that happened about a year ago and since then I’ve gotten better about planning and being prepared so it’s not too bad. It has just become a routine I’m used to now. I used to think it was going to hurt, but for me it hasn’t. Some girls in my class get cramps which seem really painful, but they say hot pads really help. My advice for girls is that we got to stick together! As girls, starting our periods can be a little scary and put us in some embarrassing situations—we can really help and support each other! </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -671,6 +723,97 @@ prepare for interesting work and economic independence.
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OJf-lN-plM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1408.8" y="-412.44377811094455"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Bgf-pK-9fK">
+            <objects>
+                <viewController id="vzt-Vg-cyd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FhP-qa-7JJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="yHE-gw-coc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ujk-hv-v1S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vj1-TI-Yci">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="Back" id="o0U-f9-uxO">
+                                        <connections>
+                                            <segue destination="2tE-dC-rrT" kind="show" id="fir-y8-AqH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Test Your Knowledge" width="450" id="0ik-3O-q7l">
+                                        <connections>
+                                            <segue destination="aAL-bL-rBN" kind="show" id="wNj-DT-tRy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1SZ-gj-ahr">
+                                <frame key="frameInset" minY="20" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Our Experiences &amp; our Bodies" id="k1l-nZ-YhY"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you know??" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSh-1s-Bfc">
+                                <frame key="frameInset" minY="83" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpB-4S-l0I">
+                                <frame key="frameInset" minX="16" minY="112" width="343" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">There’s a lot of information out there about sex and sexual intercourse.  Learning about sex is an important part of becoming an informed and strong woman.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YaJ-xB-4Z0">
+                                <frame key="frameInset" minX="16" minY="213" width="343" height="399"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">&gt;&gt; In 9th Grade, about 68% of all young people have NOT had sex.
+
+
+&gt;&gt; More than half (50%) of teens 9th-12th grade report NEVER having had sex.
+
+
+&gt;&gt; Kids who drink alcohol are more likely to have sex.
+
+
+&gt;&gt; At least two American teenagers or young adults (ages 13-29) become infected with HIV every hour of every day.
+
+
+&gt;&gt; Nationwide, 7.4% of students had ever been physically forced to have sexual intercourse when they did not want to
+
+
+&gt;&gt; Each year about 750,000 girls (15-19) become pregnant.
+
+
+&gt;&gt; Nearly two-thirds of births to women younger than age 18 and more than half of those among 18-19 year olds are unintended. 
+
+
+&gt;&gt; Only about 50% of teen mothers receive a high school diploma by age 22, versus 90% of women who had not given birth during adolescence. 
+
+
+&gt;&gt; One third of sexually active teens 15-17 reported “being in a relationship where they felt things were moving too fast sexually.”
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5yG-Nb-3KH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2148" y="-412.44377811094455"/>
         </scene>
         <!--Chapter1 ControllerP1-->
         <scene sceneID="wjz-wd-FDN">
@@ -1030,7 +1173,7 @@ Suzie
                                 <items>
                                     <barButtonItem title="Back" id="BVG-Hs-VeT">
                                         <connections>
-                                            <segue destination="2tE-dC-rrT" kind="show" id="VPK-T3-CoJ"/>
+                                            <segue destination="vzt-Vg-cyd" kind="show" id="63d-xj-qU6"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
@@ -1099,7 +1242,7 @@ Suzie
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H5w-1g-B9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2302" y="-412"/>
+            <point key="canvasLocation" x="2890" y="-412"/>
         </scene>
     </scenes>
     <resources>
@@ -1110,11 +1253,12 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XF5-Ar-9fp"/>
-        <segue reference="cPo-wg-ymk"/>
-        <segue reference="tTr-qJ-JOD"/>
-        <segue reference="Lo8-pq-55s"/>
-        <segue reference="VPK-T3-CoJ"/>
+        <segue reference="fir-y8-AqH"/>
+        <segue reference="63d-xj-qU6"/>
         <segue reference="bhc-bY-utL"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="cPo-wg-ymk"/>
+        <segue reference="XF5-Ar-9fp"/>
+        <segue reference="Lo8-pq-55s"/>
     </inferredMetricsTieBreakers>
 </document>
