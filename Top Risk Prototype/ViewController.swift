@@ -27,3 +27,4 @@ class ViewController: UIViewController {
 
 }
 
+//think about this  - count the number of females picked by user
