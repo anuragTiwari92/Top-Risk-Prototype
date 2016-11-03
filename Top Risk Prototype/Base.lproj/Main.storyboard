@@ -186,10 +186,11 @@ prepare for interesting work and economic independence.
                                 </items>
                             </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go6-YV-cru">
-                                <rect key="frame" x="0.0" y="135" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="134" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Unit #2: Girls Issues in Today's Society">
+                                <state key="normal" title="Girls Issues in Today's Society">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -199,9 +200,10 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob1-RL-zSh">
-                                <rect key="frame" x="0.0" y="205" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="204" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #3: Our Experiences and Our Bodies">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Our Experiences and Our Bodies">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -211,9 +213,10 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ov-7g-hlP">
-                                <rect key="frame" x="0.0" y="275" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="274" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #4: Keeping a Positive Self Image">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Keeping a Positive Self Image">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -223,9 +226,10 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHU-Cu-2gL">
-                                <rect key="frame" x="0.0" y="345" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="344" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #5: Importance of Being Assetive">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Importance of Being Assetive">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -235,9 +239,10 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybj-lJ-oP9">
-                                <rect key="frame" x="0.0" y="415" width="375" height="69"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #6: Making Tough Choices">
+                                <rect key="frame" x="0.0" y="414" width="375" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Making Tough Choices">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -247,9 +252,10 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvN-gB-6bA">
-                                <rect key="frame" x="0.0" y="485" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="484" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #7: How to be Happy, Healthy &amp; Safe">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="How to be Happy, Healthy &amp; Safe">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -259,9 +265,10 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTi-R2-qIT">
-                                <rect key="frame" x="0.0" y="555" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="554" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Unit #8: Our Goals, Our Dreams, Our Future">
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Our Goals, Our Dreams, Our Future">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
@@ -271,8 +278,9 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6Q-je-x0M">
-                                <rect key="frame" x="0.0" y="64" width="375" height="69"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="What is Go Grrrls">
                                     <color key="titleColor" red="0.070588235289999995" green="0.086274509799999996" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
@@ -284,38 +292,33 @@ prepare for interesting work and economic independence.
                                     <segue destination="Y6b-Hk-GG7" kind="show" id="XF5-Ar-9fp"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ppm-fq-zjm">
-                                <rect key="frame" x="30" y="89" width="20" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYK-Xk-faW">
-                                <rect key="frame" x="30" y="159" width="20" height="20"/>
+                                <rect key="frame" x="16" y="159" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbD-sU-Rjy">
-                                <rect key="frame" x="23" y="229" width="20" height="20"/>
+                                <rect key="frame" x="16" y="229" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfz-AA-9Jy">
-                                <rect key="frame" x="33" y="299" width="20" height="20"/>
+                                <rect key="frame" x="16" y="299" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.32156862749999998" green="0.098039215690000001" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-ZF-cwy">
-                                <rect key="frame" x="35" y="369" width="20" height="20"/>
+                                <rect key="frame" x="16" y="369" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fza-Hh-KQq">
-                                <rect key="frame" x="56" y="439" width="20" height="20"/>
+                                <rect key="frame" x="16" y="439" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.82352941180000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IF-31-4S7">
-                                <rect key="frame" x="23" y="509" width="20" height="20"/>
+                                <rect key="frame" x="16" y="509" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
@@ -323,6 +326,11 @@ prepare for interesting work and economic independence.
                                 <rect key="frame" x="16" y="579" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ppm-fq-zjm">
+                                <rect key="frame" x="16" y="89" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -703,7 +711,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eON-fn-R5Y">
                                 <rect key="frame" x="12" y="325" width="351" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">In 5th grade my mom gave me some information and talked to me a little bit about how my body was developing, like getting breasts, growing hair on my pubic area and we talked about when I could start shaving my legs. Honestly, I felt uncomfortable talking about all of it.  I am glad I listened though because I learned some new stuff. Like, before I thought the period came all at once, I didn’t realize it came out a little bit at a time over several days. The whole thing seemed a little weird and scary. 
+                                <string key="text">In 5th grade my mom gave me some information and talked to me a little bit about how my body was developing, like getting breasts, growing hair on my pubic area and we talked about when I could start shaving my legs. Honestly, I felt uncomfortable talking about all of it.  I am glad I listened though because I learned some new stuff. Like, before I thought the period came all at once, I didn’t realize it came out a little bit at a time over several days. The whole thing seemed a little weird and scary. 
 
 
 My period started the first week of school my 6th grade year in gym class.  At first I thought I peed my pants so I rant to the bathroom, super embarrassed.  But when I looked, my underwear had dark, almost black blood in it. Some of it had soaked through onto my gym shorts! I freaked out. I started to think about how embarrassing it would be to go out to tell my gym teacher (a man!) what had happened and I didn’t want to leave the locker room because what if everyone saw it on my shorts! I poked my head out and signaled my best friend over.  She came into the bathroom and I told her what happened.  She laughed, which made me laugh and it actually made me feel better.  She said not to worry about it,  she would tell the gym teacher that she had to go to the nurse’s office. She came back from the office with an extra pair of shorts and pad.  What a life saver! I went back to gym class a little embarrassed but so happy my best friend had my back. 
@@ -712,7 +720,7 @@ My period started the first week of school my 6th grade year in gym class.  At f
 When I got home I told my mom the whole story. She told me I could wear pads until I felt comfortable enough to wear a tampon. She made me a little kit with pads, tampons, and an extra pair of underwear that I could put in my locker just in case. 
 
 
-All that happened about a year ago and since then I’ve gotten better about planning and being prepared so it’s not too bad. It has just become a routine I’m used to now. I used to think it was going to hurt, but for me it hasn’t. Some girls in my class get cramps which seem really painful, but they say hot pads really help. My advice for girls is that we got to stick together! As girls, starting our periods can be a little scary and put us in some embarrassing situations—we can really help and support each other! </mutableString>
+All that happened about a year ago and since then I’ve gotten better about planning and being prepared so it’s not too bad. It has just become a routine I’m used to now. I used to think it was going to hurt, but for me it hasn’t. Some girls in my class get cramps which seem really painful, but they say hot pads really help. My advice for girls is that we got to stick together! As girls, starting our periods can be a little scary and put us in some embarrassing situations—we can really help and support each other! </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -775,7 +783,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <rect key="frame" x="16" y="213" width="343" height="403"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Have a color bullet here In 9th Grade, about 68% of all young people have NOT had sex.
+                                <string key="text">Have a color bullet here In 9th Grade, about 68% of all young people have NOT had sex.
 
 
 &gt;&gt; More than half (50%) of teens 9th-12th grade report NEVER having had sex.
@@ -800,7 +808,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
 
 
 &gt;&gt; One third of sexually active teens 15-17 reported “being in a relationship where they felt things were moving too fast sexually.”
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1257,11 +1265,11 @@ Suzie
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="9Su-3F-PUn"/>
-        <segue reference="HKE-aw-7b1"/>
-        <segue reference="bhc-bY-utL"/>
         <segue reference="fir-y8-AqH"/>
         <segue reference="63d-xj-qU6"/>
+        <segue reference="HKE-aw-7b1"/>
+        <segue reference="SkQ-IQ-dZz"/>
+        <segue reference="9Su-3F-PUn"/>
         <segue reference="yox-dl-jLe"/>
         <segue reference="XF5-Ar-9fp"/>
     </inferredMetricsTieBreakers>
