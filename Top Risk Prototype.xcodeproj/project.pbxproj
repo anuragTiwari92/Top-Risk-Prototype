@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		060FE11A1DBFD2F600034A5E /* Chapter4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060FE1191DBFD2F600034A5E /* Chapter4Controller.swift */; };
+		061ABA5F1DCC427F00C81B45 /* Quiz3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061ABA5E1DCC427F00C81B45 /* Quiz3Controller.swift */; };
 		A744A31A1DBEB2DB00A9CF02 /* Unit1.png in Resources */ = {isa = PBXBuildFile; fileRef = A744A3191DBEB2DB00A9CF02 /* Unit1.png */; };
 		A744A31C1DBEBD6500A9CF02 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744A31B1DBEBD6500A9CF02 /* WelcomeController.swift */; };
 		A76F50FB1DA5750D00438111 /* Quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F50FA1DA5750D00438111 /* Quiz1.swift */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		060FE1191DBFD2F600034A5E /* Chapter4Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter4Controller.swift; sourceTree = "<group>"; };
+		061ABA5E1DCC427F00C81B45 /* Quiz3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz3Controller.swift; sourceTree = "<group>"; };
 		A744A3191DBEB2DB00A9CF02 /* Unit1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unit1.png; sourceTree = "<group>"; };
 		A744A31B1DBEBD6500A9CF02 /* WelcomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		A74BFFA31D9C695D007D9FEA /* Top Risk Prototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Top Risk Prototype-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				A7A26D081DBC3C5F00071C45 /* ExperienceController.swift */,
 				A7BDB4B11D9D6AD300C332B9 /* SlumberController.swift */,
 				A76F50FA1DA5750D00438111 /* Quiz1.swift */,
+				061ABA5E1DCC427F00C81B45 /* Quiz3Controller.swift */,
 				A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */,
 				A7BD9C321D9C43BF00C7E449 /* LaunchScreen.storyboard */,
 				A7BD9C351D9C43BF00C7E449 /* Info.plist */,
@@ -308,6 +311,7 @@
 				060FE11A1DBFD2F600034A5E /* Chapter4Controller.swift in Sources */,
 				A7C0222B1DBE84FC002A0503 /* MenuController.swift in Sources */,
 				A744A31C1DBEBD6500A9CF02 /* WelcomeController.swift in Sources */,
+				061ABA5F1DCC427F00C81B45 /* Quiz3Controller.swift in Sources */,
 				A7BD9C2C1D9C43BF00C7E449 /* ViewController.swift in Sources */,
 				A7BDB4B21D9D6AD300C332B9 /* SlumberController.swift in Sources */,
 				A7BD9C2A1D9C43BF00C7E449 /* AppDelegate.swift in Sources */,
