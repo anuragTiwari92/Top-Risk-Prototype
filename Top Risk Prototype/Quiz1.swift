@@ -21,6 +21,8 @@ class Quiz1: UIViewController {
     @IBOutlet var QLabel: UILabel!
     @IBOutlet var LabelEnd: UILabel!
     
+    @IBOutlet var QuizEndLabel: UILabel!
+    
     
     var Questions = [Question]()
     var QNumber = Int()
@@ -28,11 +30,11 @@ class Quiz1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        Questions = [Question(Question: "Who is the Project Manager", Answers: ["Pooja","David","Jeevan", "Josh"], Answer: 0 ),
-                     Question(Question: "LifeCycle planner", Answers: ["Pooja","David","Jeevan","Josh"], Answer: 2 ),
-                     Question(Question: "QA Tester", Answers: ["Pooja","David","Jeevan","Josh"], Answer: 1 ),
-                     Question(Question: "Implementer", Answers: ["Pooja","David","Jeevan","Josh"], Answer: 3 )]
+        Questions = [Question(Question: "How many sexually active high school students used a condom the last time they had sex?", Answers: ["1 out of every 4 (or 25%)","1 out of every 3 (or 33%)","1 out of every 2 (or 50%)", "More that 1 out of every 2 (above 50%)"], Answer: 3 ),
+                     Question(Question: "Each year, ________ sexually active teens contracts an STD every year.", Answers: ["1 in 2","1 in 3","1 in 4","1 in 5"], Answer: 2 ),
+                     Question(Question: "Using drugs and/or alcohol ________ the chances of having sex.", Answers: ["increases","decreases","does not effect","i dont know about drugs and alcohol"], Answer: 0 )]
         Hide()
+        QuizEndLabel.isHidden = true
         PickQuestion()
     }
     
@@ -53,7 +55,8 @@ class Quiz1: UIViewController {
         }
         else{
             NSLog("Done with quiz!")
-            LabelEnd.text?.append("Quiz done! head back to the chapter!")
+            QuizEndLabel.isHidden = false
+            QuizEndLabel.text?.append("Quiz done! head back to the chapter!") 
         }
     }
     
@@ -67,12 +70,12 @@ class Quiz1: UIViewController {
     @IBAction func Btn1(_ sender: AnyObject) {
         UnHide()
         if AnswerNumber == 0{
-            LabelEnd.text = "Correct! GoodJob!"
+            LabelEnd.text = "Correct! Using drugs or alcohol increases the chances of having sex.  They make it more difficult to make good decisions, so it’s easier to be pressured into having sex.  And if you’re pressured into having sex, you might be pressured into other things, like not using a condom.  You might think you’re ok, but chances are that you’re not completely in control.  That gives you a lot to think about.  If the time comes when someone offers you a drink or drugs, ask yourself if you’re ready to risk making bad decisions."
             PickQuestion()
         }
         else{
             NSLog("Wrong!")
-            LabelEnd.text = "You are mistaken! think again!"
+            LabelEnd.text = "Oops. Try to find out about this a little more"
         }
     }
     @IBAction func Btn2(_ sender: AnyObject) {
@@ -83,30 +86,30 @@ class Quiz1: UIViewController {
         }
         else{
             NSLog("Wrong!")
-            LabelEnd.text = "You are mistaken! think again!"
+            LabelEnd.text = "Oops. Try to find out about this a little more"
         }
     }
     @IBAction func Btn3(_ sender: AnyObject) {
         UnHide()
         if AnswerNumber == 2{
-            LabelEnd.text = "Correct! GoodJob!"
+            LabelEnd.text = "Correct! one in four new STD infections occur among youth each year.  This is really something to think about.  You probably know someone who thinks nothing bad will happen to them if they have sex.  Just because they are confident, doesn’t mean they are protected.  Most of the millions young people probably didn’t think they would get an STD either.  It’s better to know about STDs, and be safe, then get infected and have to live with the consequences."
             PickQuestion()
         }
         else{
             NSLog("Wrong!")
-            LabelEnd.text = "You are mistaken! think again!"
+            LabelEnd.text = "Oops. Try to find out about this a little more"
         }
     }
     @IBAction func Btn4(_ sender: AnyObject)
     {
         UnHide()
         if AnswerNumber == 3{
-            LabelEnd.text = "Correct! GoodJob!"
+            LabelEnd.text = "Correct! Approximately 61% of sexually active high school students use a condom the last time they had sexual intercourse. This still leaves a lot of kids not protected! This means 37% or one third of students do NOT use a condom.  These students could be your friends or people you’re interested in dating.  Try to convince them to use a condom, and even if they don’t listen, make sure you always use one.  Keep your body healthy, and always use protection!"
             PickQuestion()
         }
         else{
             NSLog("Wrong!")
-            LabelEnd.text = "You are mistaken! think again!"
+            LabelEnd.text = "Oops. Try to find out about this a little more"
         }
     }
     
