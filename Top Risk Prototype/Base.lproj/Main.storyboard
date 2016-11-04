@@ -465,7 +465,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <rect key="frame" x="16" y="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Bodies are amazing.  They come in so many different shapes, colors, and sizes.  Establishing a positive body image is one important task to accomplish to feel good about who we are.  Another important skill to learn is how to develop a positive mental self-image.  Even though we may not walk down the street speaking out loud to ourselves, we do have an “inner voice” that influences our emotions and actions.  By learning how to give ourselves encouraging messages, we can gain confidence and accomplish our goals more easily. When we encourage ourselves, we can take ourselves on an “upward spiral,” and when we put ourselves down we can take a “downward spiral.”   In this unit we will learn several ways to develop a positive mental self-image and take ourselves on an upward spiral.  We will also learn some actions we can take to keep ourselves from becoming too critical of ourselves.</mutableString>
+                                <string key="text">Bodies are amazing.  They come in so many different shapes, colors, and sizes.  Establishing a positive body image is one important task to accomplish to feel good about who we are.  Another important skill to learn is how to develop a positive mental self-image.  Even though we may not walk down the street speaking out loud to ourselves, we do have an “inner voice” that influences our emotions and actions.  By learning how to give ourselves encouraging messages, we can gain confidence and accomplish our goals more easily. When we encourage ourselves, we can take ourselves on an “upward spiral,” and when we put ourselves down we can take a “downward spiral.”   In this unit we will learn several ways to develop a positive mental self-image and take ourselves on an upward spiral.  We will also learn some actions we can take to keep ourselves from becoming too critical of ourselves.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -518,7 +518,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <rect key="frame" x="16" y="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Friends are so important.  Good friends can laugh and cry together, share their secrets, and just hang out together.  Friends can teach each other about new cultures and interests. They can also spend hours just talking about life’s troubles and triumphs.  Think about some of your friends.  What qualities do they have that make them a good friend to you? In this unit we will talk about what kind of friends to choose and what makes friends special.  We will also learn some ways to be assertive, and how that helps us become more independent.  Being assertive means that you respect your rights and feelings and you respect other people’s rights and feelings, too.  Sometimes it can be hard to be assertive with friends, and especially with boys.  In this unit, you’ll learn new skills to make sure you can speak up for yourself.</mutableString>
+                                <string key="text">Friends are so important.  Good friends can laugh and cry together, share their secrets, and just hang out together.  Friends can teach each other about new cultures and interests. They can also spend hours just talking about life’s troubles and triumphs.  Think about some of your friends.  What qualities do they have that make them a good friend to you? In this unit we will talk about what kind of friends to choose and what makes friends special.  We will also learn some ways to be assertive, and how that helps us become more independent.  Being assertive means that you respect your rights and feelings and you respect other people’s rights and feelings, too.  Sometimes it can be hard to be assertive with friends, and especially with boys.  In this unit, you’ll learn new skills to make sure you can speak up for yourself.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -571,7 +571,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <rect key="frame" x="16" y="269" width="339" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Dear Suzie,
+                                <string key="text">Dear Suzie,
 
 
 I am in the 7th grade and I keep having trouble with an 8th grader named Wendy.  She is really mean and she likes to tease kids.  She keeps bothering me lately.  Last week she tripped me in the hall and I dropped my books everywhere. I didn’t get hurt, but it really made me mad.  I already talked to one of my teachers about Wendy and he said that she is a problem and I should avoid her… but I can’t because my locker is right by hers!  What can I do?
@@ -597,7 +597,7 @@ Try to be with other people whenever the bully is near.
 You already know that there is no magic solution, because you have tried talking to an adult.  Here is a hint: you will probably have to keep trying all of these strategies.  Talk to another teacher or the school counselor or vice principle.  Ask if you can have your locker moved so that you can avoid Wendy more easily.  Tell her, using your best assertive style, to leave you alone, but do this when you are in a safe place with other friends around.  The most important thing is for you to stay safe and still stick up for yourself.  Good luck.
 
 
--Suzie</mutableString>
+-Suzie</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -645,7 +645,7 @@ You already know that there is no magic solution, because you have tried talking
                                 <rect key="frame" x="16" y="80" width="343" height="543"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Being independent means making more choices for yourself, which takes some practice.  If we want more freedom to make choices, we have to accept more responsibility for ourselves and our actions, too.  One way to begin to be more independent is to learn how to solve simple problems in a responsible way.  Once we practice solving not-so-big problems, we can tackle some bigger problems, too, like deciding when to have sex.  Everyone has problems- and once you learn how to go about solving them, they can get a little easier.  And if they don’t get easier, it’s important to know that you can ask for help.  We’ll talk about who you can ask for help from, and how it is a sign of strength and maturity to ask for help.  Just stick with it, and you go girl! </mutableString>
+                                <string key="text">Being independent means making more choices for yourself, which takes some practice.  If we want more freedom to make choices, we have to accept more responsibility for ourselves and our actions, too.  One way to begin to be more independent is to learn how to solve simple problems in a responsible way.  Once we practice solving not-so-big problems, we can tackle some bigger problems, too, like deciding when to have sex.  Everyone has problems- and once you learn how to go about solving them, they can get a little easier.  And if they don’t get easier, it’s important to know that you can ask for help.  We’ll talk about who you can ask for help from, and how it is a sign of strength and maturity to ask for help.  Just stick with it, and you go girl! </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -701,7 +701,7 @@ You already know that there is no magic solution, because you have tried talking
                                 <rect key="frame" x="16" y="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Dear Suzie,
+                                <string key="text">Dear Suzie,
 There’s this guy at school who keeps making me uncomfortable.  At first, he’d whistle when I walked by.  It was really annoying, but I just ignored him.  Then he started following me to my locker after class.  It bothered me, so I told him to “stop”.  He stopped for a while, but last week he was waiting for me at my locker after class got out.  I told him to go away, and then he said he liked me and wanted me to be his girlfriend.  I said I didn’t like him, and that he needs to stop following me around.  The next day when I was walking home from school, he followed me and tried to ask me out.  He put his arm around my waist and leaned in for a kiss.  I walked faster and got away, and then I took a different route home.  He’s starting to scare me.  What should I do?
                                                                            -Scared in Sahuarita
 
@@ -717,7 +717,7 @@ Serious expression: Your best “I mean it” face.
 Gestures: Hand and arm movements that emphasize your point.
 Fight back: At times, if everything else fails, you might have to use your strength to push away and protect yourself.
 You’ve told him “no” several times, and using this body language might help.  You can also say that you’re going to report him to the principle if he doesn’t stop.  If it doesn’t work, then you need to tell someone. Talk to a school counselor, teacher, or even the vice principle.  This guy’s actions are becoming intimidating, like showing up at your locker and following you home.  These behaviors are similar to stalking, and can become very serious.  If he doesn’t listen to you the next time you say “no”, talk to someone in charge at school to make him stop.  You have a right to be heard and to feel safe!  Exercise your rights and talk to a trusted adult at school.
-          -Suzie</mutableString>
+          -Suzie</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -770,8 +770,8 @@ You’ve told him “no” several times, and using this body language might hel
                                 <rect key="frame" x="16" y="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Sex is about more than just sexual intercourse, it’s also about what happens after the sexual act is over.  Remember learning about how actions have consequences?  Sex has consequences too.  This section will talk about some of those consequences, like getting pregnant or contracting an STD (sexually transmitted disease).  These are big consequences, and because they’re so important, this section will talk about them a lot so you can understand why they matter.  
-Remember, even though this is serious information, it’s not meant to be scary.  Part of making decisions is taking responsibility for the consequences of your actions, and knowing more will help you do that.  Even if you’re not having sex now, this information can help when it comes time to make decisions about sex. </mutableString>
+                                <string key="text">Sex is about more than just sexual intercourse, it’s also about what happens after the sexual act is over.  Remember learning about how actions have consequences?  Sex has consequences too.  This section will talk about some of those consequences, like getting pregnant or contracting an STD (sexually transmitted disease).  These are big consequences, and because they’re so important, this section will talk about them a lot so you can understand why they matter.  
+Remember, even though this is serious information, it’s not meant to be scary.  Part of making decisions is taking responsibility for the consequences of your actions, and knowing more will help you do that.  Even if you’re not having sex now, this information can help when it comes time to make decisions about sex. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -883,7 +883,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 <rect key="frame" x="16" y="269" width="339" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Dear Suzie,
+                                <string key="text">Dear Suzie,
 I don’t know what I want to do in my life.  It seems like I’m not that good at anything.  What kind of future can I make for myself when I’m feeling this way?
                                 Confused in Casa Grande
 
@@ -893,7 +893,7 @@ I don’t know what I want to do in my life.  It seems like I’m not that good 
 Dear Confused,
 First, relax a bit.  You are young and you have plenty of time to figure things out.  Second, you need to know that there are lots of possibilities.  Today, women are pursuing all sorts of jobs.  It sounds like it’s time for you to start to find out about them! 
 Begin by thinking about your interests and talents or by checking out different careers.  Set a goal for yourself to explore your interests or find out about different jobs. Find a book that describes different careers in your school library, interview your friends’ parents about their interests or what they do, talk to your friends about their interests, or search the net.  Finding your place in life doesn’t just happen–you’ve got to make it happen.  You’re off to a great start because you are smart enough to start thinking about the future, now.  Go girl!
-                                    Suzie</mutableString>
+                                    Suzie</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -952,7 +952,7 @@ Begin by thinking about your interests and talents or by checking out different 
                                 <rect key="frame" x="16" y="106" width="343" height="517"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">CAREER FOCUS
+                                <string key="text">CAREER FOCUS
 Which type of career do you think best fits you?  
 Check the careers you think you might like best.  
 
@@ -996,7 +996,7 @@ FOCUS ON BUSINESS
 -administrator            -lawyer
 -advertiser                 -manager
 -banker                      -sales person
--economist                -stock broker</mutableString>
+-economist                -stock broker</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1043,7 +1043,7 @@ FOCUS ON BUSINESS
                                 <rect key="frame" x="16" y="285" width="343" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
-                                <mutableString key="text">Dear Suzie,
+                                <string key="text">Dear Suzie,
 
 I am usually the kind of person who can make everybody, even myself, laugh.  But I missed a block in the soccer game a couple of weeks ago, and it seems like ever since I’ve been having a really hard time.  I feel like I can’t concentrate on my homework, I’m tired after school, and when I try to sleep at night I just end up worrying about how I should be doing better.  I’m starting to feel like I mess up at everything I do.  I’m embarrassed to tell my friends how I feel.  What should I do?
                       -Blue in Bisbee
@@ -1070,7 +1070,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
 
 
                             Suzie
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1610,14 +1610,6 @@ Suzie
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cnV-WL-vqs">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <navigationItem title="Quiz" id="aex-0d-Ysa"/>
-                                </items>
-                            </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i7P-F3-qz7">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -1630,7 +1622,7 @@ Suzie
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hr-h7-iOX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hr-h7-iOX">
                                 <rect key="frame" x="16" y="64" width="343" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1692,6 +1684,14 @@ Suzie
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeJ-H8-qHy">
                                 <rect key="frame" x="16" y="582" width="343" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to be Happy, Healthy &amp; Safe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwU-cw-oOW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1760,7 +1760,7 @@ Suzie
                                 <rect key="frame" x="16" y="269" width="343" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Dear Suzie,
+                                <string key="text">Dear Suzie,
 
 
 I am 15 years old and I have had a boyfriend for the last 6 months and we really love each other.  I have been thinking about having sex with him but I’m scared.  I don’t know if I’m ready or not.  How does a girl decide whether to have sex?  
@@ -1778,7 +1778,7 @@ You have to be able to handle the feelings and responsibility that come along wi
 
 
 One last thing.  Take your time deciding whether it is right for you to become sexually active. Because people have such different beliefs about this, I really want to encourage you to talk to your family or with someone at your community of worship, or with some other adult you love and trust about it as well. Remember: Respect and protect yourself!
-                                    Suzie</mutableString>
+                                    Suzie</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1850,7 +1850,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <rect key="frame" x="16" y="144" width="343" height="479"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Abstinence is the only 100% effective method for prevention of pregnancy and STDs. There are lots of methods people can use to prevent pregnancy or getting an STD if choosing to have sex, but some are better than others. Have a look at the table below                                                                                                                                                                                                                                                                                               </mutableString>
+                                <string key="text">Abstinence is the only 100% effective method for prevention of pregnancy and STDs. There are lots of methods people can use to prevent pregnancy or getting an STD if choosing to have sex, but some are better than others. Have a look at the table below                                                                                                                                                                                                                                                                                               </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1862,7 +1862,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <rect key="frame" x="16" y="467" width="343" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Everything in Column A is UNSAFE.  These methods do NOT offer protection from pregnancy or STDs.
+                                <string key="text">Everything in Column A is UNSAFE.  These methods do NOT offer protection from pregnancy or STDs.
 
 
 Everything in Column B is SAFER.  These methods offer protection from pregnancy, but do not protect against STDs.
@@ -1871,7 +1871,7 @@ Everything in Column B is SAFER.  These methods offer protection from pregnancy,
 The option in Column C is SAFEST.  This method offers best protection from pregnancy and STDs, if choosing to have sex.
 
 
-Treat your body with respect.  If choosing to have sex, use the safest method in Column C.   If you have ever engaged in sexual activity, you should be tested for STDs because some do not have obvious signs or symptoms. Make sure you ask if your partner has been tested since their last partner, too. You can talk to your parent or trusted adult about getting tested.</mutableString>
+Treat your body with respect.  If choosing to have sex, use the safest method in Column C.   If you have ever engaged in sexual activity, you should be tested for STDs because some do not have obvious signs or symptoms. Make sure you ask if your partner has been tested since their last partner, too. You can talk to your parent or trusted adult about getting tested.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
