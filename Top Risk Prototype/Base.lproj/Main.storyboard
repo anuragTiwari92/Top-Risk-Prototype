@@ -653,9 +653,9 @@ By learning how to give ourselves encouraging messages, we can gain confidence a
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fAc-Sc-igv">
-                                <rect key="frame" x="8" y="275" width="359" height="340"/>
+                                <rect key="frame" x="8" y="275" width="359" height="300"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Dear Suzie,
+                                <string key="text">Dear Suzie,
 
 I am usually the kind of person who can make everybody, even myself, laugh. But I missed a block in the soccer game a couple of weeks ago, and it seems like ever since I’ve been having a really hard time. I feel like I can’t concentrateon my homework, I’m tired after school, and when I try to sleep at night I just end up worrying about how I should be doing better. I’m starting to feel like I mess up at everything I do. I’m embarrassed to tell my friends how I feel. What should I do?
 
@@ -668,7 +668,7 @@ It sounds like you’ve been feeling depressed lately. Sometimes people feel dep
 
 We all have times when we feel kind of blue. It’s important to remind ourselves that we can’t be perfect, but that we all have special talents and unique abilities. We need to encourage ourselves. And if you do that and still feel badly, it’s good to talk to somebody you trust about how you’re feeling. We all get the blues sometimes, but there are ways to pick ourselves up.
 
-Good Luck!!!</mutableString>
+Good Luck!!!</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -744,7 +744,7 @@ Good Luck!!!</mutableString>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7hB-8X-B2c">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7hB-8X-B2c">
                                 <rect key="frame" x="16" y="200" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92739276079999999" green="0.91810996659999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -756,7 +756,7 @@ Good Luck!!!</mutableString>
                                     <action selector="Btn1:" destination="8og-oR-LXW" eventType="touchUpInside" id="arh-Z4-NcI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qx5-fX-VoK">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Qx5-fX-VoK">
                                 <rect key="frame" x="16" y="290" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92739276079999999" green="0.91810996659999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -768,7 +768,7 @@ Good Luck!!!</mutableString>
                                     <action selector="Btn2:" destination="8og-oR-LXW" eventType="touchUpInside" id="DtT-Dn-Vtt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjJ-fS-8Sq">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="xjJ-fS-8Sq">
                                 <rect key="frame" x="16" y="380" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92739276079999999" green="0.91810996659999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -780,7 +780,7 @@ Good Luck!!!</mutableString>
                                     <action selector="Btn3:" destination="8og-oR-LXW" eventType="touchUpInside" id="EVF-3O-vdr"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0m-hX-g9b">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="O0m-hX-g9b">
                                 <rect key="frame" x="16" y="470" width="343" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.9273927607699447" green="0.91810996660361388" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -856,7 +856,7 @@ Good Luck!!!</mutableString>
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eON-fn-R5Y">
-                                <rect key="frame" x="8" y="305" width="359" height="300"/>
+                                <rect key="frame" x="8" y="305" width="359" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Stats About Sex
     
@@ -945,7 +945,7 @@ There’s a lot of information out there about sex and sexual intercourse. Learn
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zv9-0p-Zya">
                                 <rect key="frame" x="16" y="241" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.92941176470588238" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -955,7 +955,7 @@ There’s a lot of information out there about sex and sexual intercourse. Learn
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nu-OG-LJa">
                                 <rect key="frame" x="16" y="311" width="343" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.97254901960784312" green="0.92941176470588238" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
