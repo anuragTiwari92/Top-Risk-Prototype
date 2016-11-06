@@ -461,7 +461,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hCP-yN-MPT">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCP-yN-MPT">
                                 <rect key="frame" x="16" y="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -567,7 +567,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="48K-Nq-Nog">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="48K-Nq-Nog">
                                 <rect key="frame" x="16" y="269" width="339" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -697,7 +697,7 @@ You already know that there is no magic solution, because you have tried talking
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-YN-GBa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-YN-GBa">
                                 <rect key="frame" x="16" y="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -781,7 +781,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eda-Se-sNZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4503" y="-206"/>
+            <point key="canvasLocation" x="-4503" y="-187"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="A6L-Qo-BGP">
@@ -879,7 +879,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="53L-3P-Vcm">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="53L-3P-Vcm">
                                 <rect key="frame" x="16" y="269" width="339" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1846,7 +1846,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hfn-hz-LVp">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hfn-hz-LVp">
                                 <rect key="frame" x="16" y="144" width="343" height="479"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1892,18 +1892,18 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="LGb-BU-I4P"/>
-        <segue reference="dmd-2g-HdI"/>
-        <segue reference="ZcU-cD-Sen"/>
-        <segue reference="tTr-qJ-JOD"/>
-        <segue reference="Lo8-pq-55s"/>
         <segue reference="dOK-7a-kYB"/>
-        <segue reference="12a-tU-TM9"/>
-        <segue reference="ncN-x4-2ur"/>
         <segue reference="bhc-bY-utL"/>
         <segue reference="fir-y8-AqH"/>
-        <segue reference="Tz3-EL-01E"/>
+        <segue reference="dmd-2g-HdI"/>
+        <segue reference="fAh-AA-D2s"/>
+        <segue reference="Lo8-pq-55s"/>
+        <segue reference="9wS-YO-HzP"/>
         <segue reference="qfT-by-FdN"/>
-        <segue reference="kIZ-ex-l5H"/>
+        <segue reference="Tz3-EL-01E"/>
+        <segue reference="12a-tU-TM9"/>
+        <segue reference="ncN-x4-2ur"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="LGb-BU-I4P"/>
     </inferredMetricsTieBreakers>
 </document>
