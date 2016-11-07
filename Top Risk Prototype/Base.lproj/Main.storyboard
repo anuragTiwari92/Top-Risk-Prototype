@@ -563,7 +563,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iRA-Tn-LRS">
-                                <rect key="frame" x="19" y="72" width="336" height="189"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -665,10 +665,10 @@ You already know that there is no magic solution, because you have tried talking
             </objects>
             <point key="canvasLocation" x="-3831" y="-1004"/>
         </scene>
-        <!--View Controller-->
+        <!--Chapter6 Video Controller-->
         <scene sceneID="bhX-5p-iIt">
             <objects>
-                <viewController id="e4f-hc-nGU" sceneMemberID="viewController">
+                <viewController id="e4f-hc-nGU" customClass="Chapter6VideoController" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vyJ-Sa-qcD"/>
                         <viewControllerLayoutGuide type="bottom" id="khD-xU-dE5"/>
@@ -698,7 +698,7 @@ You already know that there is no magic solution, because you have tried talking
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-YN-GBa">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <rect key="frame" x="16" y="299" width="343" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Dear Suzie,
@@ -721,9 +721,17 @@ You’ve told him “no” several times, and using this body language might hel
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V40-bZ-fXI">
+                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="Chapter6Video" destination="V40-bZ-fXI" id="OnS-ek-dUq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cSX-9c-GtU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -875,7 +883,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-xK-4bn">
-                                <rect key="frame" x="19" y="72" width="336" height="189"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -906,7 +914,7 @@ Begin by thinking about your interests and talents or by checking out different 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Rf-p8-vgX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3154" y="580"/>
+            <point key="canvasLocation" x="-3154.4000000000001" y="579.76011994002999"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="V4K-Gb-2C7">
@@ -1083,7 +1091,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-gr-za3">
-                                <rect key="frame" x="19" y="72" width="336" height="189"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -1164,7 +1172,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NSh-1m-M9s">
-                                <rect key="frame" x="19" y="72" width="336" height="189"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -1582,7 +1590,7 @@ Suzie
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffo-6P-jHP">
-                                <rect key="frame" x="19" y="64" width="336" height="189"/>
+                                <rect key="frame" x="-1" y="64" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1752,7 +1760,7 @@ Suzie
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsX-O1-b35">
-                                <rect key="frame" x="19" y="72" width="336" height="189"/>
+                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -1791,7 +1799,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="803-hq-LCN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3831" y="-185"/>
+            <point key="canvasLocation" x="-3831.1999999999998" y="-185.75712143928038"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hQb-x3-DXg">
@@ -1892,18 +1900,18 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dOK-7a-kYB"/>
-        <segue reference="bhc-bY-utL"/>
-        <segue reference="fir-y8-AqH"/>
-        <segue reference="dmd-2g-HdI"/>
-        <segue reference="fAh-AA-D2s"/>
         <segue reference="Lo8-pq-55s"/>
+        <segue reference="LGb-BU-I4P"/>
+        <segue reference="dOK-7a-kYB"/>
         <segue reference="9wS-YO-HzP"/>
         <segue reference="qfT-by-FdN"/>
         <segue reference="Tz3-EL-01E"/>
-        <segue reference="12a-tU-TM9"/>
         <segue reference="ncN-x4-2ur"/>
+        <segue reference="12a-tU-TM9"/>
+        <segue reference="fir-y8-AqH"/>
+        <segue reference="bhc-bY-utL"/>
+        <segue reference="dmd-2g-HdI"/>
+        <segue reference="IUj-w5-AH5"/>
         <segue reference="tTr-qJ-JOD"/>
-        <segue reference="LGb-BU-I4P"/>
     </inferredMetricsTieBreakers>
 </document>
