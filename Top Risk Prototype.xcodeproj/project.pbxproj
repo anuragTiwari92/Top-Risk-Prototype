@@ -78,7 +78,7 @@
 		A7A26D0A1DBC414000071C45 /* Chapter3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter3Controller.swift; sourceTree = "<group>"; };
 		A7BD9C261D9C43BF00C7E449 /* Top Risk Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Risk Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7BD9C2B1D9C43BF00C7E449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/anuragtiwari/Desktop/usc/SE/Top Risk Prototype/Top Risk Prototype/ViewController.swift"; sourceTree = "<absolute>"; };
+		A7BD9C2B1D9C43BF00C7E449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/user122182/Desktop/Top Risk Prototype/Top Risk Prototype/ViewController.swift"; sourceTree = "<absolute>"; };
 		A7BD9C2E1D9C43BF00C7E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BD9C331D9C43BF00C7E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
