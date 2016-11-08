@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,12 +18,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="htD-kE-yur">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ki-tp-Czj">
-                                <rect key="frame" x="1" y="128" width="375" height="54"/>
+                                <frame key="frameInset" minX="1" minY="128" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Welcome">
@@ -34,14 +31,14 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Go Grrrls" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KmY-oY-dF6">
-                                <rect key="frame" x="117" y="28" width="140" height="30"/>
+                                <frame key="frameInset" minX="117" minY="28" width="140" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-nP-Een">
-                                <rect key="frame" x="0.0" y="284" width="375" height="54"/>
+                                <frame key="frameInset" minY="284" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8937674873" green="0.96510225299999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -53,7 +50,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXw-XR-hFl">
-                                <rect key="frame" x="0.0" y="346" width="375" height="54"/>
+                                <frame key="frameInset" minY="346" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8937674873" green="0.96510225299999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
@@ -88,7 +85,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VMV-6g-R1z">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Home" id="24I-NW-BNQ">
@@ -105,14 +102,14 @@
                                 </items>
                             </toolbar>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q0w-pT-Mp2">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Go Grrrls Bill of rights" id="NJe-Ud-lE2"/>
                                 </items>
                             </navigationBar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1L2-k4-nuC">
-                                <rect key="frame" x="0.0" y="64" width="375" height="409"/>
+                                <frame key="frameInset" minY="64" width="375" height="409"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Girls have a right to 
@@ -137,7 +134,7 @@ prepare for interesting work and economic independence.
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="f1c9a300-5a12-431c-8c59-e9ddd7191eea.png" translatesAutoresizingMaskIntoConstraints="NO" id="p8I-TK-neC">
-                                <rect key="frame" x="210" y="493" width="164" height="128"/>
+                                <frame key="frameInset" minX="210" minY="493" width="164" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -161,19 +158,19 @@ prepare for interesting work and economic independence.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView opaque="NO" userInteractionEnabled="NO" alpha="0.14999999999999999" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YuZ-aD-IfW">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="669"/>
+                                <frame key="frameInset" width="375" height="669"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t2a-ux-AJL">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Go Grrrls" id="Bb9-Dc-IhM"/>
                                 </items>
                             </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2iB-SI-Cau">
-                                <rect key="frame" x="0.0" y="625" width="375" height="44"/>
+                                <frame key="frameInset" height="44" maxY="-2"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem title="Home" width="327" id="GyD-qN-Vtm">
@@ -186,7 +183,7 @@ prepare for interesting work and economic independence.
                                 </items>
                             </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Go6-YV-cru">
-                                <rect key="frame" x="0.0" y="134" width="375" height="70"/>
+                                <frame key="frameInset" minY="134" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -200,7 +197,7 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ob1-RL-zSh">
-                                <rect key="frame" x="0.0" y="204" width="375" height="70"/>
+                                <frame key="frameInset" minY="204" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Our Experiences and Our Bodies">
@@ -213,7 +210,7 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ov-7g-hlP">
-                                <rect key="frame" x="0.0" y="274" width="375" height="70"/>
+                                <frame key="frameInset" minY="274" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Keeping a Positive Self Image">
@@ -226,7 +223,7 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jHU-Cu-2gL">
-                                <rect key="frame" x="0.0" y="344" width="375" height="70"/>
+                                <frame key="frameInset" minY="344" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Importance of Being Assetive">
@@ -239,7 +236,7 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ybj-lJ-oP9">
-                                <rect key="frame" x="0.0" y="414" width="375" height="70"/>
+                                <frame key="frameInset" minY="414" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Making Tough Choices">
@@ -252,7 +249,7 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nvN-gB-6bA">
-                                <rect key="frame" x="0.0" y="484" width="375" height="70"/>
+                                <frame key="frameInset" minY="484" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="How to be Happy, Healthy &amp; Safe">
@@ -265,7 +262,7 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTi-R2-qIT">
-                                <rect key="frame" x="0.0" y="554" width="375" height="70"/>
+                                <frame key="frameInset" minY="554" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <state key="normal" title="Our Goals, Our Dreams, Our Future">
@@ -278,7 +275,7 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6Q-je-x0M">
-                                <rect key="frame" x="0.0" y="64" width="375" height="70"/>
+                                <frame key="frameInset" minY="64" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -293,42 +290,42 @@ prepare for interesting work and economic independence.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pYK-Xk-faW">
-                                <rect key="frame" x="16" y="159" width="20" height="20"/>
+                                <frame key="frameInset" minX="16" minY="159" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbD-sU-Rjy">
-                                <rect key="frame" x="16" y="229" width="20" height="20"/>
+                                <frame key="frameInset" minX="16" minY="229" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfz-AA-9Jy">
-                                <rect key="frame" x="16" y="299" width="20" height="20"/>
+                                <frame key="frameInset" minX="16" minY="299" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.32156862749999998" green="0.098039215690000001" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCc-ZF-cwy">
-                                <rect key="frame" x="16" y="369" width="20" height="20"/>
+                                <frame key="frameInset" minX="16" minY="369" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fza-Hh-KQq">
-                                <rect key="frame" x="16" y="439" width="20" height="20"/>
+                                <frame key="frameInset" minX="16" minY="439" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.82352941180000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IF-31-4S7">
-                                <rect key="frame" x="16" y="509" width="20" height="20"/>
+                                <frame key="frameInset" minX="16" minY="509" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZD-PZ-RBL">
-                                <rect key="frame" x="16" y="579" width="20" height="20"/>
+                                <frame key="frameInset" minX="16" minY="579" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ppm-fq-zjm">
-                                <rect key="frame" x="16" y="89" width="20" height="20"/>
+                                <frame key="frameInset" minX="16" minY="89" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                             </button>
@@ -371,7 +368,7 @@ prepare for interesting work and economic independence.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wGt-qm-quy">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -390,7 +387,7 @@ prepare for interesting work and economic independence.
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Experiences &amp; Our Bodies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sN9-LR-Gaw">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -398,14 +395,14 @@ prepare for interesting work and economic independence.
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtI-1D-irw">
-                                <rect key="frame" x="16" y="82" width="92" height="21"/>
+                                <frame key="frameInset" minX="16" minY="82" width="92" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.94999999999999996" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CSg-KP-PKH">
-                                <rect key="frame" x="16" y="82" width="343" height="533"/>
+                                <frame key="frameInset" minX="16" minY="82" width="343" height="533"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Do you watch TV?  Do you read magazines?  Do you listen to music?  Television, magazines, music, the internet, and movies are all different kinds of media.  And they definitely have some “media messages.”  In this section, you will learn to think about what these media messages are, and what the media is telling you about what it means to be a girl in today’s society.
@@ -439,7 +436,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cMp-gR-Yta">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.32156862749999998" green="0.098039215690000001" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -458,7 +455,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keeping a Positive Self Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Tk-Fx-QwB">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.73725490199999999" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -466,7 +463,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCP-yN-MPT">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Bodies are amazing.  They come in so many different shapes, colors, and sizes.  Establishing a positive body image is one important task to accomplish to feel good about who we are.  Another important skill to learn is how to develop a positive mental self-image.  Even though we may not walk down the street speaking out loud to ourselves, we do have an “inner voice” that influences our emotions and actions.  By learning how to give ourselves encouraging messages, we can gain confidence and accomplish our goals more easily. When we encourage ourselves, we can take ourselves on an “upward spiral,” and when we put ourselves down we can take a “downward spiral.”   In this unit we will learn several ways to develop a positive mental self-image and take ourselves on an upward spiral.  We will also learn some actions we can take to keep ourselves from becoming too critical of ourselves.</string>
@@ -494,7 +491,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RX8-sI-XmP">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -511,7 +508,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Importance of Being Assertive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxL-Bs-DT1">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -519,7 +516,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="of7-Xp-zap">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Friends are so important.  Good friends can laugh and cry together, share their secrets, and just hang out together.  Friends can teach each other about new cultures and interests. They can also spend hours just talking about life’s troubles and triumphs.  Think about some of your friends.  What qualities do they have that make them a good friend to you? In this unit we will talk about what kind of friends to choose and what makes friends special.  We will also learn some ways to be assertive, and how that helps us become more independent.  Being assertive means that you respect your rights and feelings and you respect other people’s rights and feelings, too.  Sometimes it can be hard to be assertive with friends, and especially with boys.  In this unit, you’ll learn new skills to make sure you can speak up for yourself.</string>
@@ -547,7 +544,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Importance of Being Assertive" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1O-fs-7sF">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -555,7 +552,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5vF-Ha-vxZ">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -567,12 +564,12 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iRA-Tn-LRS">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <frame key="frameInset" minY="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="48K-Nq-Nog">
-                                <rect key="frame" x="16" y="269" width="339" height="354"/>
+                                <frame key="frameInset" minX="16" minY="269" width="339" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Dear Suzie,
@@ -629,7 +626,7 @@ You already know that there is no magic solution, because you have tried talking
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Icb-Gf-phs">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.82352941180000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -638,7 +635,7 @@ You already know that there is no magic solution, because you have tried talking
                                             <segue destination="yFD-uo-W9m" kind="show" id="ZcU-cD-Sen"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Read More" width="358" id="srs-22-nk6">
+                                    <barButtonItem title="Watch More" width="358" id="srs-22-nk6">
                                         <connections>
                                             <segue destination="e4f-hc-nGU" kind="show" id="B1P-eo-2Au"/>
                                         </connections>
@@ -646,7 +643,7 @@ You already know that there is no magic solution, because you have tried talking
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQX-a9-OzQ">
-                                <rect key="frame" x="16" y="80" width="343" height="543"/>
+                                <frame key="frameInset" minX="16" minY="80" width="343" height="543"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Being independent means making more choices for yourself, which takes some practice.  If we want more freedom to make choices, we have to accept more responsibility for ourselves and our actions, too.  One way to begin to be more independent is to learn how to solve simple problems in a responsible way.  Once we practice solving not-so-big problems, we can tackle some bigger problems, too, like deciding when to have sex.  Everyone has problems- and once you learn how to go about solving them, they can get a little easier.  And if they don’t get easier, it’s important to know that you can ask for help.  We’ll talk about who you can ask for help from, and how it is a sign of strength and maturity to ask for help.  Just stick with it, and you go girl! </string>
@@ -654,7 +651,7 @@ You already know that there is no magic solution, because you have tried talking
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Making Tough Choices" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rQ-B4-1Ke">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.82352941180000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -682,27 +679,15 @@ You already know that there is no magic solution, because you have tried talking
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Making Tough Choices" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HG7-qh-SdZ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.82352941180000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NUf-8H-vta">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="0.16078431369999999" green="0.82352941180000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <barButtonItem title="Back" id="DZc-wM-57k">
-                                        <connections>
-                                            <segue destination="fy3-EP-WU8" kind="show" id="dmd-2g-HdI"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-YN-GBa">
-                                <rect key="frame" x="16" y="299" width="343" height="324"/>
+                                <frame key="frameInset" minX="16" minY="299" width="343" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Dear Suzie,
@@ -726,10 +711,30 @@ You’ve told him “no” several times, and using this body language might hel
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V40-bZ-fXI">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <frame key="frameInset" minY="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Wh-oZ-zgc">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.1497423947" green="0.84764647479999999" blue="0.71785062550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Back" id="9Bg-Kl-g1V">
+                                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="fy3-EP-WU8" kind="show" id="vlN-pv-GPB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Rpn-ML-bNK"/>
+                                    <barButtonItem title="Quiz" id="7y3-JN-yKd">
+                                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="uvZ-Tq-P9x" kind="show" id="RgD-oc-VPl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -740,6 +745,125 @@ You’ve told him “no” several times, and using this body language might hel
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cSX-9c-GtU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3154.4000000000001" y="-1004.3478260869566"/>
+        </scene>
+        <!--Quiz6 Controller-->
+        <scene sceneID="3da-kv-bWv">
+            <objects>
+                <viewController id="uvZ-Tq-P9x" customClass="Quiz6Controller" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AR3-mf-93N"/>
+                        <viewControllerLayoutGuide type="bottom" id="pSv-nQ-sTG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZM6-Vm-PrX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oai-nY-wER">
+                                <frame key="frameInset" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.1497423947" green="0.84764647479999999" blue="0.71785062550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <barButtonItem title="Back" id="pfv-ek-7Ah">
+                                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="e4f-hc-nGU" kind="show" id="M7C-pl-sVl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Pnf-Hh-6Ee"/>
+                                    <barButtonItem id="uGb-uJ-0Tr">
+                                        <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Making Tough Choices" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eXV-nu-TPF">
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.16078431369999999" green="0.82352941180000006" blue="0.6588235294" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GX-20-6t0">
+                                <frame key="frameInset" minX="16" minY="71" width="343" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="gxw-Qy-FaF">
+                                <frame key="frameInset" minX="19" minY="199" width="343" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1497423947" green="0.84764647479999999" blue="0.71785062550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn1:" destination="cJz-ec-YQ5" eventType="touchUpInside" id="CpA-MX-tMK"/>
+                                    <action selector="Btn1:" destination="uvZ-Tq-P9x" eventType="touchUpInside" id="SN9-3j-kbx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hWZ-wf-xgP">
+                                <frame key="frameInset" minX="19" minY="297" width="343" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1497423947" green="0.84764647479999999" blue="0.71785062550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn2:" destination="uvZ-Tq-P9x" eventType="touchUpInside" id="dhC-sp-IqB"/>
+                                    <action selector="Btn2:" destination="cJz-ec-YQ5" eventType="touchUpInside" id="g2e-f6-ikB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="GxF-Wj-Qme">
+                                <frame key="frameInset" minX="19" minY="395" width="343" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1497423947" green="0.84764647479999999" blue="0.71785062550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn3:" destination="cJz-ec-YQ5" eventType="touchUpInside" id="2Kl-yW-FpF"/>
+                                    <action selector="Btn3:" destination="uvZ-Tq-P9x" eventType="touchUpInside" id="R4o-vC-w9z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vNS-EE-ylg">
+                                <frame key="frameInset" minX="19" minY="493" width="343" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1497423947" green="0.84764647479999999" blue="0.71785062550000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn4:" destination="cJz-ec-YQ5" eventType="touchUpInside" id="DRG-us-rmt"/>
+                                    <action selector="Btn4:" destination="uvZ-Tq-P9x" eventType="touchUpInside" id="rrY-0E-yPb"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="9rT-Yq-7Yw">
+                                <frame key="frameInset" minX="16" minY="71" width="343" height="535"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="FinalResLabel" destination="9rT-Yq-7Yw" id="xqx-uU-vjf"/>
+                        <outlet property="QLabel" destination="4GX-20-6t0" id="nJc-ZF-vQA"/>
+                        <outletCollection property="Buttons" destination="gxw-Qy-FaF" collectionClass="NSMutableArray" id="QTq-Mb-fX6"/>
+                        <outletCollection property="Buttons" destination="hWZ-wf-xgP" collectionClass="NSMutableArray" id="SSc-g8-voP"/>
+                        <outletCollection property="Buttons" destination="GxF-Wj-Qme" collectionClass="NSMutableArray" id="Eqv-Wd-NNq"/>
+                        <outletCollection property="Buttons" destination="vNS-EE-ylg" collectionClass="NSMutableArray" id="aTx-31-NCo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mUu-JR-ejZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2434.4000000000001" y="-1005.2473763118442"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DYJ-jx-faF">
@@ -754,7 +878,7 @@ You’ve told him “no” several times, and using this body language might hel
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2N6-4V-FDM">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -771,7 +895,7 @@ You’ve told him “no” several times, and using this body language might hel
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to be Happy, Healthy &amp; Safe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9UF-ei-FT6">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -779,7 +903,7 @@ You’ve told him “no” several times, and using this body language might hel
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sY6-Ac-XVV">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Sex is about more than just sexual intercourse, it’s also about what happens after the sexual act is over.  Remember learning about how actions have consequences?  Sex has consequences too.  This section will talk about some of those consequences, like getting pregnant or contracting an STD (sexually transmitted disease).  These are big consequences, and because they’re so important, this section will talk about them a lot so you can understand why they matter.  
@@ -808,7 +932,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hZZ-Xx-45M">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -825,7 +949,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LEU-Rn-uG9">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Have you ever thought about what you might want to do when you get older?   How to be successful at what you decide to do?  Developing some “career sense” now can be helpful as you consider what options are available and what your talents and abilities are.  It’s fun to think about the subjects you are passionate about.  One thing to remember while you begin planning for your future is this: All careers are open to you, even those where few women have gone before.  </string>
@@ -833,7 +957,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Goals, Our Dreams, Our Future" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3Z-DQ-6a1">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -861,7 +985,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Goals, Our Dreams, Our Future" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJT-kz-gnd">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -869,7 +993,7 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bUn-9c-4Vt">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -887,12 +1011,12 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-xK-4bn">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <frame key="frameInset" minY="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="53L-3P-Vcm">
-                                <rect key="frame" x="16" y="269" width="339" height="354"/>
+                                <frame key="frameInset" minX="16" minY="269" width="339" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Dear Suzie,
@@ -933,7 +1057,7 @@ Begin by thinking about your interests and talents or by checking out different 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Goals, Our Dreams, Our Future" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Js5-fs-dU7">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -941,7 +1065,7 @@ Begin by thinking about your interests and talents or by checking out different 
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Ew-9C-PFw">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -953,7 +1077,7 @@ Begin by thinking about your interests and talents or by checking out different 
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Check it Out!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="g4l-SW-c34">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.97254901959999995" green="0.32156862749999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -961,7 +1085,7 @@ Begin by thinking about your interests and talents or by checking out different 
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YIP-DT-lyQ">
-                                <rect key="frame" x="16" y="106" width="343" height="517"/>
+                                <frame key="frameInset" minX="16" minY="106" width="343" height="517"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">CAREER FOCUS
@@ -1033,7 +1157,7 @@ FOCUS ON BUSINESS
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mj6-Ce-c52">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.32156862749999998" green="0.098039215690000001" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1059,7 +1183,7 @@ FOCUS ON BUSINESS
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="5" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LSs-Oj-2TO">
-                                <rect key="frame" x="16" y="285" width="343" height="338"/>
+                                <frame key="frameInset" minX="16" minY="285" width="343" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <string key="text">Dear Suzie,
@@ -1094,7 +1218,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keeping a Positive Self Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckl-7f-2iu">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.73725490199999999" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1102,7 +1226,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-gr-za3">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <frame key="frameInset" minY="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -1130,7 +1254,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keeping a Positive Self Image" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5s-vA-4wP">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.73725490199999999" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1138,14 +1262,14 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="c5c-8s-0c6">
-                                <rect key="frame" x="16" y="64" width="343" height="559"/>
+                                <frame key="frameInset" minX="16" minY="64" width="343" height="559"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B8l-m9-80n">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.32156862749999998" green="0.098039215690000001" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1158,14 +1282,14 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVd-0Q-3ml">
-                                <rect key="frame" x="16" y="72" width="343" height="120"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Uky-GM-ThJ">
-                                <rect key="frame" x="16" y="200" width="343" height="90"/>
+                                <frame key="frameInset" minX="16" minY="200" width="343" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490196079" green="0.73725490196078436" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1176,7 +1300,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Jq6-O8-4dG">
-                                <rect key="frame" x="16" y="298" width="343" height="90"/>
+                                <frame key="frameInset" minX="16" minY="298" width="343" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.73725490199999999" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1187,7 +1311,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="W9W-Hz-XzJ">
-                                <rect key="frame" x="16" y="396" width="343" height="90"/>
+                                <frame key="frameInset" minX="16" minY="396" width="343" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.73725490199999999" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1198,7 +1322,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RTm-qn-fpS">
-                                <rect key="frame" x="16" y="494" width="343" height="90"/>
+                                <frame key="frameInset" minX="16" minY="494" width="343" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.84313725490000002" green="0.73725490199999999" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1237,7 +1361,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBr-mi-tGm">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1262,14 +1386,14 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amanda wrote a story about her period.           Here it is:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9X-9k-LDt">
-                                <rect key="frame" x="19" y="276" width="336" height="52"/>
+                                <frame key="frameInset" minX="19" minY="276" width="336" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="eON-fn-R5Y">
-                                <rect key="frame" x="12" y="325" width="351" height="285"/>
+                                <frame key="frameInset" minX="12" minY="325" width="351" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">In 5th grade my mom gave me some information and talked to me a little bit about how my body was developing, like getting breasts, growing hair on my pubic area and we talked about when I could start shaving my legs. Honestly, I felt uncomfortable talking about all of it.  I am glad I listened though because I learned some new stuff. Like, before I thought the period came all at once, I didn’t realize it came out a little bit at a time over several days. The whole thing seemed a little weird and scary. 
 
@@ -1285,7 +1409,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Experiences &amp; Our Bodies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7NK-xz-dMQ">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901960784312" green="0.92941176470588238" blue="0.72941176470588232" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1293,7 +1417,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NSh-1m-M9s">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <frame key="frameInset" minY="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -1321,7 +1445,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vj1-TI-Yci">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1341,7 +1465,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpB-4S-l0I">
-                                <rect key="frame" x="16" y="83" width="343" height="93"/>
+                                <frame key="frameInset" minX="16" minY="83" width="343" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">There’s a lot of information out there about sex and sexual intercourse.  Learning about sex is an important part of becoming an informed and strong woman.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1349,7 +1473,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YaJ-xB-4Z0">
-                                <rect key="frame" x="16" y="213" width="343" height="403"/>
+                                <frame key="frameInset" minX="16" minY="213" width="343" height="403"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Have a color bullet here In 9th Grade, about 68% of all young people have NOT had sex.
@@ -1382,14 +1506,14 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you know?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSh-1s-Bfc">
-                                <rect key="frame" x="0.0" y="184" width="375" height="21"/>
+                                <frame key="frameInset" minY="184" width="375" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Experiences &amp; Our Bodies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bmy-a9-BAF">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1417,7 +1541,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Experiences &amp; Our Bodies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32Q-yr-7e4">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1425,14 +1549,14 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-V1-xGb">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4X3-RV-pex">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1452,7 +1576,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </items>
                             </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-hq-8TL">
-                                <rect key="frame" x="16" y="227" width="343" height="73"/>
+                                <frame key="frameInset" minX="16" minY="227" width="343" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1463,7 +1587,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHY-8Q-Bgn">
-                                <rect key="frame" x="16" y="310" width="343" height="73"/>
+                                <frame key="frameInset" minX="16" minY="310" width="343" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.97254901959999995" green="0.92941176469999998" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1474,21 +1598,21 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gz0-MP-Iao">
-                                <rect key="frame" x="16" y="72" width="343" height="147"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6PK-Kc-Sk0">
-                                <rect key="frame" x="16" y="421" width="343" height="50"/>
+                                <frame key="frameInset" minX="16" minY="421" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXi-MN-7Al">
-                                <rect key="frame" x="16" y="471" width="343" height="100"/>
+                                <frame key="frameInset" minX="16" minY="471" width="343" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
                                 <nil key="textColor"/>
@@ -1524,7 +1648,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TQC-27-p9U">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1536,7 +1660,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </items>
                             </toolbar>
                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsO-z9-uJG">
-                                <rect key="frame" x="0.0" y="77" width="375" height="54"/>
+                                <frame key="frameInset" minY="77" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1549,7 +1673,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsC-CL-aeT">
-                                <rect key="frame" x="0.0" y="132" width="375" height="54"/>
+                                <frame key="frameInset" minY="132" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1561,7 +1685,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmv-W3-GBN">
-                                <rect key="frame" x="0.0" y="187" width="375" height="54"/>
+                                <frame key="frameInset" minY="187" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1573,7 +1697,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ov2-qc-oEJ">
-                                <rect key="frame" x="16" y="323" width="343" height="167"/>
+                                <frame key="frameInset" minX="16" minY="323" width="343" height="167"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Go Grrrls is a fun app where all kinds of girls can express themselves, learn new skills, and have fun.  It sometimes goes with the Go Grrrls club which may be offered in your community or school.</string>
@@ -1582,7 +1706,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Go Grrrls!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8t-kz-NIL">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1616,7 +1740,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ak-Wr-4lt">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1628,7 +1752,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Go Grrrls!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hY2-I3-oHE">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1636,7 +1760,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LW7-DR-s3W">
-                                <rect key="frame" x="0.0" y="81" width="375" height="101"/>
+                                <frame key="frameInset" minY="81" width="375" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <attributedString key="attributedText">
@@ -1651,7 +1775,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="odJ-Lf-iBW">
-                                <rect key="frame" x="0.0" y="182" width="375" height="206"/>
+                                <frame key="frameInset" minY="182" width="375" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">The best thing for you to remember as you go through this app is that you are an important part of the Go Grrrls community whether you are attending the club or not.  Oh yeah... and remember to have fun.  Ready to start?  Well, then, you Go Grrrl!</string>
@@ -1659,7 +1783,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0eb8242f-8054-434a-858f-06de074f1d73.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lzv-0P-zYR">
-                                <rect key="frame" x="0.0" y="388" width="375" height="235"/>
+                                <frame key="frameInset" minY="388" width="375" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1683,7 +1807,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Rb-5d-YWv">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1695,7 +1819,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Go Grrrls!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iWD-bG-Xfp">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -1703,7 +1827,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEP-O4-ena">
-                                <rect key="frame" x="0.0" y="115" width="375" height="121"/>
+                                <frame key="frameInset" minY="115" width="375" height="121"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">We’re so glad you asked!  This app has news you can use, inside information from girls just like you,  fun quizzes to take, and all kinds of other activities for you to do.  Here is a list of some of the things you will find in most units:</string>
@@ -1712,7 +1836,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ZJC-u3-1dq">
-                                <rect key="frame" x="0.0" y="236" width="375" height="110"/>
+                                <frame key="frameInset" minY="236" width="375" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Slumber Party: In every unit, four friends have a slumber party. Amanda, Caitlin, Sonya, and Trinecia share their views, their secrets, their problems, and sometimes they just get silly.
@@ -1722,7 +1846,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Dear Suzie: Suzie answers girls’ questions with some good advice." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="tRL-Nl-HRC">
-                                <rect key="frame" x="0.0" y="346" width="375" height="78"/>
+                                <frame key="frameInset" minY="346" width="375" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
@@ -1730,7 +1854,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="What is in this Go Grrrls App?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7SJ-KP-49c">
-                                <rect key="frame" x="0.0" y="81" width="375" height="34"/>
+                                <frame key="frameInset" minY="81" width="375" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
@@ -1738,7 +1862,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AjB-cE-0Me">
-                                <rect key="frame" x="0.0" y="424" width="375" height="199"/>
+                                <frame key="frameInset" minY="424" width="375" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Quiz Time/ Did you know? These aren’t the kinds of quizzes you take in school.  “Quiz Time” is a fun time for you to think about yourself and answer questions to help you understand your actions and thoughts. “Did you know?” offers interesting and important facts for you to learn.</string>
@@ -1767,7 +1891,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" maximumZoomScale="15" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aiw-8e-QC4">
-                                <rect key="frame" x="15" y="278" width="343" height="338"/>
+                                <frame key="frameInset" minX="15" minY="278" width="343" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
@@ -1799,7 +1923,7 @@ Suzie
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XOF-YB-uoU">
-                                <rect key="frame" x="-1" y="20" width="376" height="44"/>
+                                <frame key="frameInset" minX="-1" minY="20" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="barTintColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1808,7 +1932,7 @@ Suzie
                                 </items>
                             </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iUh-i3-rKd">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1826,7 +1950,7 @@ Suzie
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffo-6P-jHP">
-                                <rect key="frame" x="-1" y="64" width="375" height="189"/>
+                                <frame key="frameInset" minX="-1" minY="64" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1855,7 +1979,7 @@ Suzie
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhE-Wo-Fv6">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="barTintColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1863,7 +1987,7 @@ Suzie
                                 </items>
                             </navigationBar>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vsp-fw-oJo">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1875,21 +1999,21 @@ Suzie
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cg2-NY-vkh">
-                                <rect key="frame" x="16" y="73" width="343" height="550"/>
+                                <frame key="frameInset" minX="16" minY="73" width="343" height="550"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Dg-ON-dgj">
-                                <rect key="frame" x="16" y="64" width="343" height="147"/>
+                                <frame key="frameInset" minX="16" minY="64" width="343" height="147"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYB-Qo-m1T">
-                                <rect key="frame" x="16" y="259" width="343" height="73"/>
+                                <frame key="frameInset" minX="16" minY="259" width="343" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1901,7 +2025,7 @@ Suzie
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBC-rF-NvU">
-                                <rect key="frame" x="16" y="340" width="343" height="73"/>
+                                <frame key="frameInset" minX="16" minY="340" width="343" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1939,7 +2063,7 @@ Suzie
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i7P-F3-qz7">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -1951,14 +2075,14 @@ Suzie
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Hr-h7-iOX">
-                                <rect key="frame" x="16" y="64" width="343" height="131"/>
+                                <frame key="frameInset" minX="16" minY="64" width="343" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8a8-g7-7Y7">
-                                <rect key="frame" x="16" y="203" width="343" height="30"/>
+                                <frame key="frameInset" minX="16" minY="203" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1969,7 +2093,7 @@ Suzie
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3k-Lk-993">
-                                <rect key="frame" x="16" y="241" width="343" height="30"/>
+                                <frame key="frameInset" minX="16" minY="241" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1980,7 +2104,7 @@ Suzie
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UY8-ff-WXJ">
-                                <rect key="frame" x="16" y="279" width="343" height="30"/>
+                                <frame key="frameInset" minX="16" minY="279" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -1991,7 +2115,7 @@ Suzie
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LM8-Ye-Bsk">
-                                <rect key="frame" x="16" y="317" width="343" height="30"/>
+                                <frame key="frameInset" minX="16" minY="317" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
@@ -2002,7 +2126,7 @@ Suzie
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trf-K0-5sq">
-                                <rect key="frame" x="16" y="355" width="343" height="268"/>
+                                <frame key="frameInset" minX="16" minY="355" width="343" height="268"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
@@ -2010,14 +2134,14 @@ Suzie
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeJ-H8-qHy">
-                                <rect key="frame" x="16" y="582" width="343" height="41"/>
+                                <frame key="frameInset" minX="16" minY="582" width="343" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to be Happy, Healthy &amp; Safe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwU-cw-oOW">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -2054,7 +2178,7 @@ Suzie
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to be Happy, Healthy &amp; Safe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xsp-dR-Tk5">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -2062,7 +2186,7 @@ Suzie
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bgd-Kb-hz2">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -2080,12 +2204,12 @@ Suzie
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsX-O1-b35">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <frame key="frameInset" minY="72" width="375" height="189"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Jm-OG-43G">
-                                <rect key="frame" x="16" y="269" width="343" height="354"/>
+                                <frame key="frameInset" minX="16" minY="269" width="343" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Dear Suzie,
@@ -2134,7 +2258,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to be Happy, Healthy &amp; Safe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HO5-xh-xdd">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <frame key="frameInset" minY="20" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -2142,7 +2266,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7uT-Pn-gfD">
-                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <frame key="frameInset" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
@@ -2160,7 +2284,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Check it Out!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="OMB-sC-qPf">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="551"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
@@ -2168,14 +2292,14 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Unsafe, Safer, and Safest Methods" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="NX6-pv-pJH">
-                                <rect key="frame" x="16" y="107" width="343" height="141"/>
+                                <frame key="frameInset" minX="16" minY="107" width="343" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Hfn-hz-LVp">
-                                <rect key="frame" x="16" y="144" width="343" height="479"/>
+                                <frame key="frameInset" minX="16" minY="144" width="343" height="479"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Abstinence is the only 100% effective method for prevention of pregnancy and STDs. There are lots of methods people can use to prevent pregnancy or getting an STD if choosing to have sex, but some are better than others. Have a look at the table below                                                                                                                                                                                                                                                                                               </string>
@@ -2183,11 +2307,11 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-11-03 at 9.59.55 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="aXZ-E9-S9i">
-                                <rect key="frame" x="16" y="301" width="343" height="165"/>
+                                <frame key="frameInset" minX="16" minY="301" width="343" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sAX-nf-dIj">
-                                <rect key="frame" x="16" y="467" width="343" height="156"/>
+                                <frame key="frameInset" minX="16" minY="467" width="343" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Everything in Column A is UNSAFE.  These methods do NOT offer protection from pregnancy or STDs.
@@ -2220,21 +2344,22 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dmd-2g-HdI"/>
-        <segue reference="dOK-7a-kYB"/>
         <segue reference="12a-tU-TM9"/>
         <segue reference="ncN-x4-2ur"/>
-        <segue reference="bXA-9Q-3UM"/>
+        <segue reference="Tz3-EL-01E"/>
         <segue reference="qfT-by-FdN"/>
         <segue reference="kIZ-ex-l5H"/>
-        <segue reference="Tz3-EL-01E"/>
+        <segue reference="dOK-7a-kYB"/>
+        <segue reference="ZcU-cD-Sen"/>
+        <segue reference="vlN-pv-GPB"/>
+        <segue reference="M7C-pl-sVl"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="LGb-BU-I4P"/>
         <segue reference="hw6-7c-qw5"/>
         <segue reference="fir-y8-AqH"/>
         <segue reference="bhc-bY-utL"/>
-        <segue reference="tTr-qJ-JOD"/>
-        <segue reference="LGb-BU-I4P"/>
-        <segue reference="4Ew-RP-ZwH"/>
+        <segue reference="ofz-Ae-YcW"/>
         <segue reference="Lo8-pq-55s"/>
-        <segue reference="fAh-AA-D2s"/>
+        <segue reference="bXA-9Q-3UM"/>
     </inferredMetricsTieBreakers>
 </document>

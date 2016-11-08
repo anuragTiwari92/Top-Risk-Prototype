@@ -24,7 +24,7 @@
 		A7A26D091DBC3C5F00071C45 /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A26D081DBC3C5F00071C45 /* ExperienceController.swift */; };
 		A7A26D0B1DBC414000071C45 /* Chapter3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A26D0A1DBC414000071C45 /* Chapter3Controller.swift */; };
 		A7BD9C2A1D9C43BF00C7E449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */; };
-		A7BD9C2C1D9C43BF00C7E449 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C2B1D9C43BF00C7E449 /* ViewController.swift */; };
+		A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */; };
 		A7BD9C2F1D9C43BF00C7E449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */; };
 		A7BD9C311D9C43BF00C7E449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */; };
 		A7BD9C341D9C43BF00C7E449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C321D9C43BF00C7E449 /* LaunchScreen.storyboard */; };
@@ -39,6 +39,7 @@
 		A7F045211DC18A1F00176BAC /* 0eb8242f-8054-434a-858f-06de074f1d73.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7F045201DC18A1F00176BAC /* 0eb8242f-8054-434a-858f-06de074f1d73.jpg */; };
 		A7FF17BB1D9C601E0072A78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */; };
 		A7FF17BC1D9C601F0072A78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */; };
+		CBA653921DD1FDAB00A380B7 /* Quiz6Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA653911DD1FDAB00A380B7 /* Quiz6Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +79,7 @@
 		A7A26D0A1DBC414000071C45 /* Chapter3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter3Controller.swift; sourceTree = "<group>"; };
 		A7BD9C261D9C43BF00C7E449 /* Top Risk Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Risk Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7BD9C2B1D9C43BF00C7E449 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "/Users/user122182/Desktop/Top Risk Prototype/Top Risk Prototype/ViewController.swift"; sourceTree = "<absolute>"; };
+		A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Top Risk Prototype"; path = "/Users/sudhishnasendhilvelan/Documents/Top-Risk-Prototype/Top Risk Prototype"; sourceTree = "<absolute>"; };
 		A7BD9C2E1D9C43BF00C7E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BD9C331D9C43BF00C7E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		A7CA81441DBE649200B12F70 /* c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg"; sourceTree = "<group>"; };
 		A7CA81461DBE696B00B12F70 /* f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg"; sourceTree = "<group>"; };
 		A7F045201DC18A1F00176BAC /* 0eb8242f-8054-434a-858f-06de074f1d73.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "0eb8242f-8054-434a-858f-06de074f1d73.jpg"; sourceTree = "<group>"; };
+		CBA653911DD1FDAB00A380B7 /* Quiz6Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz6Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,9 +151,10 @@
 				A72731D91DC1542100DCD8D8 /* Chapter1ControllerP1.swift */,
 				A785C9681DCC127600430317 /* Chapter8VideoController.swift */,
 				A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */,
-				A7BD9C2B1D9C43BF00C7E449 /* ViewController.swift */,
+				A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */,
 				A785C96C1DCC4D6F00430317 /* Screen Shot 2016-11-03 at 9.59.55 PM.png */,
 				A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */,
+				CBA653911DD1FDAB00A380B7 /* Quiz6Controller.swift */,
 				A73AFE361DD1642E004CB7A6 /* Quiz2Controller.swift */,
 				A73AFE341DD15CAC004CB7A6 /* Quiz4Controller.swift */,
 				A74F89C91DD147A90047C1EE /* Chapter6VideoController.swift */,
@@ -347,7 +350,7 @@
 				A785C96F1DCC523100430317 /* Chapter5VideoController.swift in Sources */,
 				A73AFE331DD1529D004CB7A6 /* Quiz3Controller.swift in Sources */,
 				A744A31C1DBEBD6500A9CF02 /* WelcomeController.swift in Sources */,
-				A7BD9C2C1D9C43BF00C7E449 /* ViewController.swift in Sources */,
+				A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype in Sources */,
 				A73AFE351DD15CAC004CB7A6 /* Quiz4Controller.swift in Sources */,
 				A7BDB4B21D9D6AD300C332B9 /* SlumberController.swift in Sources */,
 				A72731DA1DC1542100DCD8D8 /* Chapter1ControllerP1.swift in Sources */,
@@ -357,6 +360,7 @@
 				A785C9691DCC127600430317 /* Chapter8VideoController.swift in Sources */,
 				A7A26D0B1DBC414000071C45 /* Chapter3Controller.swift in Sources */,
 				A73AFE371DD1642E004CB7A6 /* Quiz2Controller.swift in Sources */,
+				CBA653921DD1FDAB00A380B7 /* Quiz6Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
