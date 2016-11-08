@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A72731DA1DC1542100DCD8D8 /* Chapter1ControllerP1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72731D91DC1542100DCD8D8 /* Chapter1ControllerP1.swift */; };
 		A72B04341DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png in Resources */ = {isa = PBXBuildFile; fileRef = A72B04331DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png */; };
+		A73AFE331DD1529D004CB7A6 /* Quiz3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73AFE321DD1529D004CB7A6 /* Quiz3Controller.swift */; };
 		A744A31A1DBEB2DB00A9CF02 /* Unit1.png in Resources */ = {isa = PBXBuildFile; fileRef = A744A3191DBEB2DB00A9CF02 /* Unit1.png */; };
 		A744A31C1DBEBD6500A9CF02 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A744A31B1DBEBD6500A9CF02 /* WelcomeController.swift */; };
 		A74F89CA1DD147A90047C1EE /* Chapter6VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F89C91DD147A90047C1EE /* Chapter6VideoController.swift */; };
@@ -58,6 +59,7 @@
 /* Begin PBXFileReference section */
 		A72731D91DC1542100DCD8D8 /* Chapter1ControllerP1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter1ControllerP1.swift; sourceTree = "<group>"; };
 		A72B04331DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "f1c9a300-5a12-431c-8c59-e9ddd7191eea.png"; sourceTree = "<group>"; };
+		A73AFE321DD1529D004CB7A6 /* Quiz3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz3Controller.swift; sourceTree = "<group>"; };
 		A744A3191DBEB2DB00A9CF02 /* Unit1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Unit1.png; sourceTree = "<group>"; };
 		A744A31B1DBEBD6500A9CF02 /* WelcomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
 		A74BFFA31D9C695D007D9FEA /* Top Risk Prototype-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Top Risk Prototype-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		A7BD9C281D9C43BF00C7E449 /* Top Risk Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				A73AFE321DD1529D004CB7A6 /* Quiz3Controller.swift */,
 				A72731D91DC1542100DCD8D8 /* Chapter1ControllerP1.swift */,
 				A785C9681DCC127600430317 /* Chapter8VideoController.swift */,
 				A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */,
@@ -336,6 +339,7 @@
 				A7C0222B1DBE84FC002A0503 /* MenuController.swift in Sources */,
 				A785C96B1DCC1CB100430317 /* Chapter7VideoController.swift in Sources */,
 				A785C96F1DCC523100430317 /* Chapter5VideoController.swift in Sources */,
+				A73AFE331DD1529D004CB7A6 /* Quiz3Controller.swift in Sources */,
 				A744A31C1DBEBD6500A9CF02 /* WelcomeController.swift in Sources */,
 				A7BD9C2C1D9C43BF00C7E449 /* ViewController.swift in Sources */,
 				A7BDB4B21D9D6AD300C332B9 /* SlumberController.swift in Sources */,

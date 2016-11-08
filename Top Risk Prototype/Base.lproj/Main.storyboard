@@ -1209,6 +1209,12 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                             <segue destination="2tE-dC-rrT" kind="show" id="fir-y8-AqH"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="cKc-9g-0cE"/>
+                                    <barButtonItem title="Quiz" id="ymc-eg-P9r">
+                                        <connections>
+                                            <segue destination="N3m-Pz-avs" kind="show" id="qDx-ox-66q"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpB-4S-l0I">
@@ -1274,6 +1280,103 @@ All that happened about a year ago and since then I’ve gotten better about pla
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5yG-Nb-3KH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2148" y="-412.44377811094455"/>
+        </scene>
+        <!--Quiz3 Controller-->
+        <scene sceneID="ROP-8C-2RR">
+            <objects>
+                <viewController id="N3m-Pz-avs" customClass="Quiz3Controller" customModule="Top_Risk_Prototype" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dSm-wt-uin"/>
+                        <viewControllerLayoutGuide type="bottom" id="n7s-Bj-844"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Bi-jE-cUW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Our Experiences &amp; Our Bodies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32Q-yr-7e4">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="23" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z4h-V1-xGb">
+                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4X3-RV-pex">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Back" id="rHw-c9-lb1">
+                                        <connections>
+                                            <segue destination="vzt-Vg-cyd" kind="show" id="hw6-7c-qw5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Kqw-wh-x75"/>
+                                    <barButtonItem title="Next Question" id="3zr-7a-vay">
+                                        <connections>
+                                            <action selector="NextQuestion:" destination="N3m-Pz-avs" id="Fgo-dm-9Dc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta9-hq-8TL">
+                                <rect key="frame" x="16" y="227" width="343" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn1:" destination="N3m-Pz-avs" eventType="touchUpInside" id="LET-WC-wwN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EHY-8Q-Bgn">
+                                <rect key="frame" x="16" y="310" width="343" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.76470588240000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Btn2:" destination="N3m-Pz-avs" eventType="touchUpInside" id="rr7-ie-vT7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gz0-MP-Iao">
+                                <rect key="frame" x="16" y="72" width="343" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6PK-Kc-Sk0">
+                                <rect key="frame" x="16" y="391" width="343" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="EndofQuizMsg" destination="Z4h-V1-xGb" id="IP1-9J-ZWu"/>
+                        <outlet property="LabelEnd" destination="6PK-Kc-Sk0" id="TdD-1l-lTf"/>
+                        <outlet property="NextBtn" destination="3zr-7a-vay" id="jlH-99-kGJ"/>
+                        <outlet property="QLabel" destination="gz0-MP-Iao" id="7aZ-1w-OKY"/>
+                        <outletCollection property="Buttons" destination="Ta9-hq-8TL" collectionClass="NSMutableArray" id="clH-QM-aRn"/>
+                        <outletCollection property="Buttons" destination="EHY-8Q-Bgn" collectionClass="NSMutableArray" id="xMe-yw-2Jd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EkW-O4-L8X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2829.5999999999999" y="-411.544227886057"/>
         </scene>
         <!--Chapter1 ControllerP1-->
         <scene sceneID="wjz-wd-FDN">
@@ -1900,18 +2003,19 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Lo8-pq-55s"/>
-        <segue reference="LGb-BU-I4P"/>
-        <segue reference="dOK-7a-kYB"/>
-        <segue reference="9wS-YO-HzP"/>
+        <segue reference="fir-y8-AqH"/>
+        <segue reference="hw6-7c-qw5"/>
+        <segue reference="bhc-bY-utL"/>
         <segue reference="qfT-by-FdN"/>
+        <segue reference="kIZ-ex-l5H"/>
         <segue reference="Tz3-EL-01E"/>
+        <segue reference="IUj-w5-AH5"/>
+        <segue reference="dOK-7a-kYB"/>
+        <segue reference="Lo8-pq-55s"/>
+        <segue reference="tTr-qJ-JOD"/>
         <segue reference="ncN-x4-2ur"/>
         <segue reference="12a-tU-TM9"/>
-        <segue reference="fir-y8-AqH"/>
-        <segue reference="bhc-bY-utL"/>
+        <segue reference="LGb-BU-I4P"/>
         <segue reference="dmd-2g-HdI"/>
-        <segue reference="IUj-w5-AH5"/>
-        <segue reference="tTr-qJ-JOD"/>
     </inferredMetricsTieBreakers>
 </document>
