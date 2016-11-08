@@ -642,11 +642,11 @@ You already know that there is no magic solution, because you have tried talking
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQX-a9-OzQ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="sQX-a9-OzQ">
                                 <frame key="frameInset" minX="16" minY="80" width="343" height="543"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Being independent means making more choices for yourself, which takes some practice.  If we want more freedom to make choices, we have to accept more responsibility for ourselves and our actions, too.  One way to begin to be more independent is to learn how to solve simple problems in a responsible way.  Once we practice solving not-so-big problems, we can tackle some bigger problems, too, like deciding when to have sex.  Everyone has problems- and once you learn how to go about solving them, they can get a little easier.  And if they don’t get easier, it’s important to know that you can ask for help.  We’ll talk about who you can ask for help from, and how it is a sign of strength and maturity to ask for help.  Just stick with it, and you go girl! </string>
+                                <mutableString key="text">Being independent means making more choices for yourself, which takes some practice. If we want more freedom to make choices, we have to accept more responsibility for ourselves and our actions, too. One way to begin to be more independent is to learn how to solve simple problems in a responsible way. Once we practice solving not-so-big problems, we can tackle some bigger problems, too, like deciding when to have sex. Everyone has problems- and once you learn how to go about solving them, they can get a little easier. And if they don’t get easier, it’s important to know that you can ask for help. We’ll talk about who you can ask for help from, and how it is a sign of strength and maturity to ask for help. Just stick with it, and you go girl! </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -686,27 +686,27 @@ You already know that there is no magic solution, because you have tried talking
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-YN-GBa">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-YN-GBa">
                                 <frame key="frameInset" minX="16" minY="299" width="343" height="324"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Dear Suzie,
-There’s this guy at school who keeps making me uncomfortable.  At first, he’d whistle when I walked by.  It was really annoying, but I just ignored him.  Then he started following me to my locker after class.  It bothered me, so I told him to “stop”.  He stopped for a while, but last week he was waiting for me at my locker after class got out.  I told him to go away, and then he said he liked me and wanted me to be his girlfriend.  I said I didn’t like him, and that he needs to stop following me around.  The next day when I was walking home from school, he followed me and tried to ask me out.  He put his arm around my waist and leaned in for a kiss.  I walked faster and got away, and then I took a different route home.  He’s starting to scare me.  What should I do?
-                                                                           -Scared in Sahuarita
+                                <mutableString key="text">Dear Suzie,
+I’m really having a hard time these days.  First, I’m still upset about my parents’ divorce.  I miss my Dad and don’t get to see him much.  But also, there are some girls at school that have been making fun of me.  I feel like I don’t have any friends.  My mom is busy and coming home very late so she is not around to talk with.  So after school I’ve started to invite this older boy home and we have been drinking.  He is starting to make some moves on me and I’m feeling scared.  I just don’t know what to do!
+						      Lonely in Lakeside 
 
+Dear Lonely,
 
+You do sound like you are facing some difficult times.  The important thing is that you realize things are getting out of control for you.  You recognize your scared feelings because they are telling you “I need help.”  
 
+You sound like you are really down because of the divorce and problems at school.   This may lead you to do things you really do not want to do, like getting involved with an older boy and drinking after school.  
 
-Dear Scared,
-It sounds like you’ve tried a few really great ideas: saying no, repeating your refusal, and walking away.  You may have to keep trying different ways to refuse him.  You can also use body language to convey your message:
-Hands off: Throw your hands up in the air in a “get off me” gesture.
-Fierce body: Sit up or stand stiffly like you are strong and alert, and then walk away if you need to.
-Firm voice: A strong and businesslike voice.
-Serious expression: Your best “I mean it” face.
-Gestures: Hand and arm movements that emphasize your point.
-Fight back: At times, if everything else fails, you might have to use your strength to push away and protect yourself.
-You’ve told him “no” several times, and using this body language might help.  You can also say that you’re going to report him to the principle if he doesn’t stop.  If it doesn’t work, then you need to tell someone. Talk to a school counselor, teacher, or even the vice principle.  This guy’s actions are becoming intimidating, like showing up at your locker and following you home.  These behaviors are similar to stalking, and can become very serious.  If he doesn’t listen to you the next time you say “no”, talk to someone in charge at school to make him stop.  You have a right to be heard and to feel safe!  Exercise your rights and talk to a trusted adult at school.
-          -Suzie</string>
+Remember– when you: 
+
+• spend a lot of time worrying about a problem, 
+• or feel like no matter what you do you can’t solve the problem, 
+• or feel scared when you think about it... 
+
+then you need to find someone to help you.  A good place to start is with your parents, your school counselor, a social worker, a local social service agency, a church, or your doctor.  Finding the right help can make all the difference in the world!  Reaching out to someone doesn’t mean that you are weak... it means that you are smart.  Take the first step today!</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2344,22 +2344,22 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="12a-tU-TM9"/>
-        <segue reference="ncN-x4-2ur"/>
         <segue reference="Tz3-EL-01E"/>
         <segue reference="qfT-by-FdN"/>
         <segue reference="kIZ-ex-l5H"/>
-        <segue reference="dOK-7a-kYB"/>
-        <segue reference="ZcU-cD-Sen"/>
-        <segue reference="vlN-pv-GPB"/>
-        <segue reference="M7C-pl-sVl"/>
         <segue reference="tTr-qJ-JOD"/>
-        <segue reference="LGb-BU-I4P"/>
-        <segue reference="hw6-7c-qw5"/>
-        <segue reference="fir-y8-AqH"/>
-        <segue reference="bhc-bY-utL"/>
+        <segue reference="bXA-9Q-3UM"/>
         <segue reference="ofz-Ae-YcW"/>
         <segue reference="Lo8-pq-55s"/>
-        <segue reference="bXA-9Q-3UM"/>
+        <segue reference="B1P-eo-2Au"/>
+        <segue reference="vlN-pv-GPB"/>
+        <segue reference="ZcU-cD-Sen"/>
+        <segue reference="LGb-BU-I4P"/>
+        <segue reference="fir-y8-AqH"/>
+        <segue reference="hw6-7c-qw5"/>
+        <segue reference="bhc-bY-utL"/>
+        <segue reference="dOK-7a-kYB"/>
+        <segue reference="ncN-x4-2ur"/>
+        <segue reference="12a-tU-TM9"/>
     </inferredMetricsTieBreakers>
 </document>
