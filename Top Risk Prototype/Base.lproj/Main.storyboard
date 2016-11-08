@@ -1352,7 +1352,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <rect key="frame" x="16" y="213" width="343" height="403"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Have a color bullet here In 9th Grade, about 68% of all young people have NOT had sex.
+                                <string key="text">Have a color bullet here In 9th Grade, about 68% of all young people have NOT had sex.
 
 
 &gt;&gt; More than half (50%) of teens 9th-12th grade report NEVER having had sex.
@@ -1377,7 +1377,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
 
 
 &gt;&gt; One third of sexually active teens 15-17 reported “being in a relationship where they felt things were moving too fast sexually.”
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1480,10 +1480,17 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6PK-Kc-Sk0">
-                                <rect key="frame" x="16" y="391" width="343" height="186"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6PK-Kc-Sk0">
+                                <rect key="frame" x="16" y="421" width="343" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXi-MN-7Al">
+                                <rect key="frame" x="16" y="471" width="343" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1493,6 +1500,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                     <connections>
                         <outlet property="EndofQuizMsg" destination="Z4h-V1-xGb" id="IP1-9J-ZWu"/>
                         <outlet property="LabelEnd" destination="6PK-Kc-Sk0" id="TdD-1l-lTf"/>
+                        <outlet property="MoreInfoLbl" destination="IXi-MN-7Al" id="26U-SZ-dj5"/>
                         <outlet property="NextBtn" destination="3zr-7a-vay" id="jlH-99-kGJ"/>
                         <outlet property="QLabel" destination="gz0-MP-Iao" id="7aZ-1w-OKY"/>
                         <outletCollection property="Buttons" destination="Ta9-hq-8TL" collectionClass="NSMutableArray" id="clH-QM-aRn"/>
@@ -1784,7 +1792,7 @@ Good Luck
 Suzie
 </string>
                                         <attributes>
-                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -2212,21 +2220,21 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="LGb-BU-I4P"/>
         <segue reference="dmd-2g-HdI"/>
-        <segue reference="bhc-bY-utL"/>
-        <segue reference="fir-y8-AqH"/>
-        <segue reference="vL7-is-UdI"/>
-        <segue reference="Tz3-EL-01E"/>
-        <segue reference="qfT-by-FdN"/>
-        <segue reference="kIZ-ex-l5H"/>
+        <segue reference="dOK-7a-kYB"/>
         <segue reference="12a-tU-TM9"/>
         <segue reference="ncN-x4-2ur"/>
-        <segue reference="dOK-7a-kYB"/>
+        <segue reference="bXA-9Q-3UM"/>
+        <segue reference="qfT-by-FdN"/>
+        <segue reference="kIZ-ex-l5H"/>
+        <segue reference="Tz3-EL-01E"/>
+        <segue reference="hw6-7c-qw5"/>
+        <segue reference="fir-y8-AqH"/>
+        <segue reference="bhc-bY-utL"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="LGb-BU-I4P"/>
         <segue reference="4Ew-RP-ZwH"/>
         <segue reference="Lo8-pq-55s"/>
         <segue reference="fAh-AA-D2s"/>
-        <segue reference="bXA-9Q-3UM"/>
-        <segue reference="tTr-qJ-JOD"/>
     </inferredMetricsTieBreakers>
 </document>
