@@ -849,7 +849,7 @@ You already know that there is no magic solution, because you have tried talking
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-YN-GBa">
                                 <rect key="frame" x="16" y="299" width="343" height="324"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Dear Suzie,
+                                <mutableString key="text">Dear Suzie,                                     
 There’s this guy at school who keeps making me uncomfortable.  At first, he’d whistle when I walked by.  It was really annoying, but I just ignored him.  Then he started following me to my locker after class.  It bothered me, so I told him to “stop”.  He stopped for a while, but last week he was waiting for me at my locker after class got out.  I told him to go away, and then he said he liked me and wanted me to be his girlfriend.  I said I didn’t like him, and that he needs to stop following me around.  The next day when I was walking home from school, he followed me and tried to ask me out.  He put his arm around my waist and leaned in for a kiss.  I walked faster and got away, and then I took a different route home.  He’s starting to scare me.  What should I do?
                                                                            -Scared in Sahuarita
 
@@ -865,8 +865,8 @@ Serious expression: Your best “I mean it” face.
 Gestures: Hand and arm movements that emphasize your point.
 Fight back: At times, if everything else fails, you might have to use your strength to push away and protect yourself.
 You’ve told him “no” several times, and using this body language might help.  You can also say that you’re going to report him to the principle if he doesn’t stop.  If it doesn’t work, then you need to tell someone. Talk to a school counselor, teacher, or even the vice principle.  This guy’s actions are becoming intimidating, like showing up at your locker and following you home.  These behaviors are similar to stalking, and can become very serious.  If he doesn’t listen to you the next time you say “no”, talk to someone in charge at school to make him stop.  You have a right to be heard and to feel safe!  Exercise your rights and talk to a trusted adult at school.
-          -Suzie</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+          -Suzie</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V40-bZ-fXI">
@@ -2698,11 +2698,14 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2016-11-03 at 9.59.55 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="aXZ-E9-S9i">
-                                <rect key="frame" x="16" y="301" width="343" height="165"/>
+                                <rect key="frame" x="16" y="301" width="343" height="193"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sAX-nf-dIj">
-                                <rect key="frame" x="16" y="467" width="343" height="156"/>
+                                <rect key="frame" x="16" y="502" width="343" height="121"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="121" id="NNX-Px-ZNv"/>
+                                </constraints>
                                 <string key="text">Everything in Column A is UNSAFE.  These methods do NOT offer protection from pregnancy or STDs.
 
 
@@ -2719,37 +2722,36 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Hfn-hz-LVp" firstAttribute="trailing" secondItem="sAX-nf-dIj" secondAttribute="trailing" id="05O-Hp-iE9"/>
+                            <constraint firstItem="sAX-nf-dIj" firstAttribute="top" secondItem="aXZ-E9-S9i" secondAttribute="bottom" constant="8" symbolic="YES" id="00N-bh-vSK"/>
                             <constraint firstItem="OMB-sC-qPf" firstAttribute="top" secondItem="HO5-xh-xdd" secondAttribute="bottom" constant="8" symbolic="YES" id="2Eu-FK-gCS"/>
+                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="top" secondItem="NX6-pv-pJH" secondAttribute="bottom" constant="53" id="31C-cp-am4"/>
                             <constraint firstItem="NX6-pv-pJH" firstAttribute="top" secondItem="HO5-xh-xdd" secondAttribute="bottom" constant="43" id="3Az-Mo-sRl"/>
                             <constraint firstAttribute="trailing" secondItem="HO5-xh-xdd" secondAttribute="trailing" id="3na-Rv-9sb"/>
-                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="trailing" secondItem="sAX-nf-dIj" secondAttribute="trailing" id="84h-ja-b2U"/>
+                            <constraint firstItem="sAX-nf-dIj" firstAttribute="bottom" secondItem="7uT-Pn-gfD" secondAttribute="top" id="5CT-YD-How"/>
                             <constraint firstItem="HO5-xh-xdd" firstAttribute="top" secondItem="xay-Ur-VcS" secondAttribute="bottom" id="8Mh-vt-gvd"/>
                             <constraint firstItem="Hfn-hz-LVp" firstAttribute="top" secondItem="HO5-xh-xdd" secondAttribute="bottom" constant="80" id="AIZ-RE-XFw"/>
-                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="top" secondItem="NX6-pv-pJH" secondAttribute="bottom" constant="53" id="Dtd-Wl-s4s"/>
+                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="leading" secondItem="Hfn-hz-LVp" secondAttribute="leading" id="Ajt-2n-Zab"/>
+                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="leading" secondItem="NX6-pv-pJH" secondAttribute="leading" id="CFR-5n-tAf"/>
                             <constraint firstItem="HO5-xh-xdd" firstAttribute="leading" secondItem="7uT-Pn-gfD" secondAttribute="leading" id="I7r-FW-3jd"/>
                             <constraint firstItem="HO5-xh-xdd" firstAttribute="leading" secondItem="dpH-TU-hzb" secondAttribute="leading" id="IyG-jq-9Is"/>
                             <constraint firstItem="OMB-sC-qPf" firstAttribute="trailing" secondItem="Hfn-hz-LVp" secondAttribute="trailing" id="U3w-x3-srv"/>
-                            <constraint firstItem="Hfn-hz-LVp" firstAttribute="centerY" secondItem="aXZ-E9-S9i" secondAttribute="centerY" id="USb-su-FzW"/>
                             <constraint firstItem="OMB-sC-qPf" firstAttribute="leading" secondItem="NX6-pv-pJH" secondAttribute="leading" id="UeP-4V-wxe"/>
                             <constraint firstItem="HO5-xh-xdd" firstAttribute="trailing" secondItem="7uT-Pn-gfD" secondAttribute="trailing" id="VlP-T7-aWJ"/>
-                            <constraint firstItem="Hfn-hz-LVp" firstAttribute="leading" secondItem="sAX-nf-dIj" secondAttribute="leading" id="a08-1R-IBa"/>
                             <constraint firstItem="7uT-Pn-gfD" firstAttribute="top" secondItem="OMB-sC-qPf" secondAttribute="bottom" id="bJN-Ns-jWh"/>
-                            <constraint firstItem="sAX-nf-dIj" firstAttribute="centerX" secondItem="7uT-Pn-gfD" secondAttribute="centerX" id="bkQ-iH-Sey"/>
                             <constraint firstItem="7uT-Pn-gfD" firstAttribute="bottom" secondItem="cwC-mi-vAN" secondAttribute="top" id="e8B-XX-FHA"/>
-                            <constraint firstItem="7uT-Pn-gfD" firstAttribute="top" secondItem="sAX-nf-dIj" secondAttribute="bottom" id="e8l-Po-Sjy"/>
-                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="leading" secondItem="sAX-nf-dIj" secondAttribute="leading" id="egB-NF-ZjO"/>
-                            <constraint firstItem="NX6-pv-pJH" firstAttribute="leading" secondItem="aXZ-E9-S9i" secondAttribute="leading" id="eh4-UW-glb"/>
+                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="trailing" secondItem="Hfn-hz-LVp" secondAttribute="trailing" id="fCx-yZ-rfm"/>
                             <constraint firstItem="7uT-Pn-gfD" firstAttribute="top" secondItem="Hfn-hz-LVp" secondAttribute="bottom" id="jOK-yj-bUW"/>
                             <constraint firstItem="OMB-sC-qPf" firstAttribute="leading" secondItem="dpH-TU-hzb" secondAttribute="leadingMargin" id="jhD-al-HXb"/>
-                            <constraint firstItem="sAX-nf-dIj" firstAttribute="top" secondItem="aXZ-E9-S9i" secondAttribute="bottom" constant="1" id="otq-dE-CO9"/>
-                            <constraint firstItem="NX6-pv-pJH" firstAttribute="trailing" secondItem="aXZ-E9-S9i" secondAttribute="trailing" id="rqC-Fs-UyN"/>
+                            <constraint firstItem="sAX-nf-dIj" firstAttribute="centerX" secondItem="7uT-Pn-gfD" secondAttribute="centerX" id="neL-1Y-ySq"/>
+                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="trailing" secondItem="sAX-nf-dIj" secondAttribute="trailing" id="vRB-e8-U44"/>
+                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="trailing" secondItem="NX6-pv-pJH" secondAttribute="trailing" id="xYK-yw-oTP"/>
+                            <constraint firstItem="aXZ-E9-S9i" firstAttribute="leading" secondItem="sAX-nf-dIj" secondAttribute="leading" id="yJp-lA-rNH"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Nf-c6-1mY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3154" y="-186"/>
+            <point key="canvasLocation" x="-3154.4000000000001" y="-186.65667166416793"/>
         </scene>
     </scenes>
     <resources>
@@ -2764,13 +2766,13 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <segue reference="fir-y8-AqH"/>
         <segue reference="12a-tU-TM9"/>
         <segue reference="ncN-x4-2ur"/>
-        <segue reference="SLb-d9-rug"/>
+        <segue reference="ofz-Ae-YcW"/>
+        <segue reference="LGb-BU-I4P"/>
+        <segue reference="AdP-43-8w6"/>
+        <segue reference="wyv-vw-3XC"/>
         <segue reference="yox-dl-jLe"/>
         <segue reference="SkQ-IQ-dZz"/>
         <segue reference="olk-od-CMn"/>
-        <segue reference="XF5-Ar-9fp"/>
-        <segue reference="ofz-Ae-YcW"/>
-        <segue reference="LGb-BU-I4P"/>
         <segue reference="kIZ-ex-l5H"/>
         <segue reference="qfT-by-FdN"/>
         <segue reference="Tz3-EL-01E"/>
