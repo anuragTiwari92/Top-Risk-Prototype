@@ -849,7 +849,7 @@ You already know that there is no magic solution, because you have tried talking
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pFH-YN-GBa">
                                 <rect key="frame" x="16" y="299" width="343" height="324"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Dear Suzie,                                     
+                                <string key="text">Dear Suzie,                                     
 There’s this guy at school who keeps making me uncomfortable.  At first, he’d whistle when I walked by.  It was really annoying, but I just ignored him.  Then he started following me to my locker after class.  It bothered me, so I told him to “stop”.  He stopped for a while, but last week he was waiting for me at my locker after class got out.  I told him to go away, and then he said he liked me and wanted me to be his girlfriend.  I said I didn’t like him, and that he needs to stop following me around.  The next day when I was walking home from school, he followed me and tried to ask me out.  He put his arm around my waist and leaned in for a kiss.  I walked faster and got away, and then I took a different route home.  He’s starting to scare me.  What should I do?
                                                                            -Scared in Sahuarita
 
@@ -865,7 +865,7 @@ Serious expression: Your best “I mean it” face.
 Gestures: Hand and arm movements that emphasize your point.
 Fight back: At times, if everything else fails, you might have to use your strength to push away and protect yourself.
 You’ve told him “no” several times, and using this body language might help.  You can also say that you’re going to report him to the principle if he doesn’t stop.  If it doesn’t work, then you need to tell someone. Talk to a school counselor, teacher, or even the vice principle.  This guy’s actions are becoming intimidating, like showing up at your locker and following you home.  These behaviors are similar to stalking, and can become very serious.  If he doesn’t listen to you the next time you say “no”, talk to someone in charge at school to make him stop.  You have a right to be heard and to feel safe!  Exercise your rights and talk to a trusted adult at school.
-          -Suzie</mutableString>
+          -Suzie</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2762,21 +2762,21 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hw6-7c-qw5"/>
-        <segue reference="fir-y8-AqH"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="ofz-Ae-YcW"/>
+        <segue reference="Tz3-EL-01E"/>
+        <segue reference="qfT-by-FdN"/>
+        <segue reference="kIZ-ex-l5H"/>
         <segue reference="12a-tU-TM9"/>
         <segue reference="ncN-x4-2ur"/>
-        <segue reference="ofz-Ae-YcW"/>
-        <segue reference="LGb-BU-I4P"/>
-        <segue reference="AdP-43-8w6"/>
-        <segue reference="wyv-vw-3XC"/>
-        <segue reference="yox-dl-jLe"/>
-        <segue reference="SkQ-IQ-dZz"/>
-        <segue reference="olk-od-CMn"/>
-        <segue reference="kIZ-ex-l5H"/>
-        <segue reference="qfT-by-FdN"/>
-        <segue reference="Tz3-EL-01E"/>
+        <segue reference="hw6-7c-qw5"/>
+        <segue reference="fir-y8-AqH"/>
         <segue reference="dmd-2g-HdI"/>
-        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="LGb-BU-I4P"/>
+        <segue reference="olk-od-CMn"/>
+        <segue reference="IUj-w5-AH5"/>
+        <segue reference="SkQ-IQ-dZz"/>
+        <segue reference="yox-dl-jLe"/>
+        <segue reference="wyv-vw-3XC"/>
     </inferredMetricsTieBreakers>
 </document>
