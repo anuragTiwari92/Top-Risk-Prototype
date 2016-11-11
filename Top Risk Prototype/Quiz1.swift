@@ -21,6 +21,7 @@ class Quiz1: UIViewController {
     @IBOutlet var QLabel: UILabel!
     @IBOutlet var LabelEnd: UILabel!
     
+    @IBOutlet var NextQ: UIBarButtonItem!
     @IBOutlet var QuizEndLabel: UILabel!
     
     
@@ -36,6 +37,7 @@ class Quiz1: UIViewController {
         Hide()
         QuizEndLabel.isHidden = true
         PickQuestion()
+        NextQ.isEnabled = false
     }
     
     override func didReceiveMemoryWarning() {
@@ -58,6 +60,7 @@ class Quiz1: UIViewController {
             QuizEndLabel.isHidden = false
             QuizEndLabel.text?.append("Quiz done! head back to the chapter!") 
         }
+        NextQ.isEnabled = false
     }
     
     func Hide(){
@@ -71,7 +74,8 @@ class Quiz1: UIViewController {
         UnHide()
         if AnswerNumber == 0{
             LabelEnd.text = "Correct! Using drugs or alcohol increases the chances of having sex.  They make it more difficult to make good decisions, so it’s easier to be pressured into having sex.  And if you’re pressured into having sex, you might be pressured into other things, like not using a condom.  You might think you’re ok, but chances are that you’re not completely in control.  That gives you a lot to think about.  If the time comes when someone offers you a drink or drugs, ask yourself if you’re ready to risk making bad decisions."
-            PickQuestion()
+           // PickQuestion()
+            NextQ.isEnabled = true
         }
         else{
             NSLog("Wrong!")
@@ -82,7 +86,7 @@ class Quiz1: UIViewController {
         UnHide()
         if AnswerNumber == 1{
             LabelEnd.text = "Correct! GoodJob!"
-            PickQuestion()
+           // PickQuestion()
         }
         else{
             NSLog("Wrong!")
@@ -93,7 +97,8 @@ class Quiz1: UIViewController {
         UnHide()
         if AnswerNumber == 2{
             LabelEnd.text = "Correct! one in four new STD infections occur among youth each year.  This is really something to think about.  You probably know someone who thinks nothing bad will happen to them if they have sex.  Just because they are confident, doesn’t mean they are protected.  Most of the millions young people probably didn’t think they would get an STD either.  It’s better to know about STDs, and be safe, then get infected and have to live with the consequences."
-            PickQuestion()
+           // PickQuestion()
+            NextQ.isEnabled = true
         }
         else{
             NSLog("Wrong!")
@@ -105,7 +110,8 @@ class Quiz1: UIViewController {
         UnHide()
         if AnswerNumber == 3{
             LabelEnd.text = "Correct! Approximately 61% of sexually active high school students use a condom the last time they had sexual intercourse. This still leaves a lot of kids not protected! This means 37% or one third of students do NOT use a condom.  These students could be your friends or people you’re interested in dating.  Try to convince them to use a condom, and even if they don’t listen, make sure you always use one.  Keep your body healthy, and always use protection!"
-            PickQuestion()
+            //PickQuestion()
+            NextQ.isEnabled = true
         }
         else{
             NSLog("Wrong!")
@@ -113,7 +119,8 @@ class Quiz1: UIViewController {
         }
     }
     
-    @IBAction func NextQuestion(_ sender: AnyObject) {
+    
+    @IBAction func NextQuestion(_ sender: Any) {
         PickQuestion()
     }
 }
