@@ -15,12 +15,12 @@ class WelcomeController: UIViewController {
     @IBOutlet var BORButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        MenuButton.layer.cornerRadius = 5
-        MenuButton.layer.borderWidth = 2
+        MenuButton.layer.cornerRadius = 0
+        MenuButton.layer.borderWidth = 0.5
         MenuButton.layer.borderColor = UIColor.black.cgColor
         
-        BORButton.layer.cornerRadius = 5
-        BORButton.layer.borderWidth = 2
+        BORButton.layer.cornerRadius = 0
+        BORButton.layer.borderWidth = 0.5
         BORButton.layer.borderColor = UIColor.black.cgColor
     }
     override func didReceiveMemoryWarning() {

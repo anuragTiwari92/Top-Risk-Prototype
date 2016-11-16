@@ -23,6 +23,7 @@
 		A785C96F1DCC523100430317 /* Chapter5VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A785C96E1DCC523100430317 /* Chapter5VideoController.swift */; };
 		A7A26D091DBC3C5F00071C45 /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A26D081DBC3C5F00071C45 /* ExperienceController.swift */; };
 		A7A26D0B1DBC414000071C45 /* Chapter3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A26D0A1DBC414000071C45 /* Chapter3Controller.swift */; };
+		A7B14DD61DDCE994007E2388 /* Quiz5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B14DD51DDCE994007E2388 /* Quiz5Controller.swift */; };
 		A7BD9C2A1D9C43BF00C7E449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */; };
 		A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */; };
 		A7BD9C2F1D9C43BF00C7E449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */; };
@@ -98,6 +99,7 @@
 		A785C96E1DCC523100430317 /* Chapter5VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter5VideoController.swift; sourceTree = "<group>"; };
 		A7A26D081DBC3C5F00071C45 /* ExperienceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExperienceController.swift; sourceTree = "<group>"; };
 		A7A26D0A1DBC414000071C45 /* Chapter3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter3Controller.swift; sourceTree = "<group>"; };
+		A7B14DD51DDCE994007E2388 /* Quiz5Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz5Controller.swift; sourceTree = "<group>"; };
 		A7BD9C261D9C43BF00C7E449 /* Top Risk Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Risk Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Top Risk Prototype.xcodeproj"; path = "/Users/anuragtiwari/Desktop/usc/SE/Top-Risk-Prototype-MainDev/Top Risk Prototype.xcodeproj"; sourceTree = "<absolute>"; };
@@ -185,6 +187,7 @@
 				A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */,
 				A785C96C1DCC4D6F00430317 /* Screen Shot 2016-11-03 at 9.59.55 PM.png */,
 				A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */,
+				A7B14DD51DDCE994007E2388 /* Quiz5Controller.swift */,
 				CBA653911DD1FDAB00A380B7 /* Quiz6Controller.swift */,
 				A73AFE361DD1642E004CB7A6 /* Quiz2Controller.swift */,
 				A73AFE341DD15CAC004CB7A6 /* Quiz4Controller.swift */,
@@ -417,6 +420,7 @@
 				A72731DA1DC1542100DCD8D8 /* Chapter1ControllerP1.swift in Sources */,
 				A74F89CA1DD147A90047C1EE /* Chapter6VideoController.swift in Sources */,
 				A7BD9C2A1D9C43BF00C7E449 /* AppDelegate.swift in Sources */,
+				A7B14DD61DDCE994007E2388 /* Quiz5Controller.swift in Sources */,
 				A7A26D091DBC3C5F00071C45 /* ExperienceController.swift in Sources */,
 				A785C9691DCC127600430317 /* Chapter8VideoController.swift in Sources */,
 				A7A26D0B1DBC414000071C45 /* Chapter3Controller.swift in Sources */,
