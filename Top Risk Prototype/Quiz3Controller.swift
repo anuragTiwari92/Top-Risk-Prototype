@@ -104,9 +104,12 @@ class Quiz3Controller: UIViewController {
     
     @IBAction func Btn1(_ sender: Any) {
         UnHide()
+        
+        MoreInfoLbl.text = MoreInfo
+        
         if AnswerNumber == 0{
             LabelEnd.text = "That's Correct. Good job!"
-            MoreInfoLbl.text = MoreInfo
+            
             //PickQuestion()
             NextBtn.isEnabled=true
         }
@@ -118,9 +121,12 @@ class Quiz3Controller: UIViewController {
     
     @IBAction func Btn2(_ sender: Any) {
         UnHide()
+        
+        MoreInfoLbl.text = MoreInfo
+        
         if AnswerNumber == 1{
             LabelEnd.text = "That's Correct. Good job!\n\n\(MoreInfo)"
-            MoreInfoLbl.text = MoreInfo
+            
             //PickQuestion()
             NextBtn.isEnabled=true
         }
