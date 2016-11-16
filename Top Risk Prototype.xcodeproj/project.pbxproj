@@ -24,7 +24,7 @@
 		A7A26D091DBC3C5F00071C45 /* ExperienceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A26D081DBC3C5F00071C45 /* ExperienceController.swift */; };
 		A7A26D0B1DBC414000071C45 /* Chapter3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A26D0A1DBC414000071C45 /* Chapter3Controller.swift */; };
 		A7BD9C2A1D9C43BF00C7E449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */; };
-		A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */; };
+		A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */; };
 		A7BD9C2F1D9C43BF00C7E449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */; };
 		A7BD9C311D9C43BF00C7E449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */; };
 		A7BD9C341D9C43BF00C7E449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C321D9C43BF00C7E449 /* LaunchScreen.storyboard */; };
@@ -43,6 +43,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A7B14DCF1DDC4E38007E2388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7BD9C261D9C43BF00C7E449;
+			remoteInfo = "Top Risk Prototype";
+		};
+		A7B14DD11DDC4E38007E2388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7BD9C3A1D9C43BF00C7E449;
+			remoteInfo = "Top Risk PrototypeTests";
+		};
+		A7B14DD31DDC4E38007E2388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7BD9C451D9C43BF00C7E449;
+			remoteInfo = "Top Risk PrototypeUITests";
+		};
 		A7BD9C3B1D9C43BF00C7E449 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7BD9C1E1D9C43BF00C7E449 /* Project object */;
@@ -79,7 +100,7 @@
 		A7A26D0A1DBC414000071C45 /* Chapter3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter3Controller.swift; sourceTree = "<group>"; };
 		A7BD9C261D9C43BF00C7E449 /* Top Risk Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Risk Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Top Risk Prototype"; path = "/Users/user122182/Desktop/Top Risk Prototype/Top Risk Prototype"; sourceTree = "<absolute>"; };
+		A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Top Risk Prototype.xcodeproj"; path = "/Users/anuragtiwari/Desktop/usc/SE/Top-Risk-Prototype-MainDev/Top Risk Prototype.xcodeproj"; sourceTree = "<absolute>"; };
 		A7BD9C2E1D9C43BF00C7E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BD9C331D9C43BF00C7E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -123,6 +144,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7B14DCA1DDC4E38007E2388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B14DD01DDC4E38007E2388 /* Top Risk Prototype.app */,
+				A7B14DD21DDC4E38007E2388 /* Top Risk PrototypeTests.xctest */,
+				A7B14DD41DDC4E38007E2388 /* Top Risk PrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A7BD9C1D1D9C43BF00C7E449 = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +182,7 @@
 				A72731D91DC1542100DCD8D8 /* Chapter1ControllerP1.swift */,
 				A785C9681DCC127600430317 /* Chapter8VideoController.swift */,
 				A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */,
-				A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */,
+				A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */,
 				A785C96C1DCC4D6F00430317 /* Screen Shot 2016-11-03 at 9.59.55 PM.png */,
 				A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */,
 				CBA653911DD1FDAB00A380B7 /* Quiz6Controller.swift */,
@@ -294,6 +325,12 @@
 			mainGroup = A7BD9C1D1D9C43BF00C7E449;
 			productRefGroup = A7BD9C271D9C43BF00C7E449 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7B14DCA1DDC4E38007E2388 /* Products */;
+					ProjectRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A7BD9C251D9C43BF00C7E449 /* Top Risk Prototype */,
@@ -302,6 +339,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A7B14DD01DDC4E38007E2388 /* Top Risk Prototype.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Top Risk Prototype.app";
+			remoteRef = A7B14DCF1DDC4E38007E2388 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B14DD21DDC4E38007E2388 /* Top Risk PrototypeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Top Risk PrototypeTests.xctest";
+			remoteRef = A7B14DD11DDC4E38007E2388 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B14DD41DDC4E38007E2388 /* Top Risk PrototypeUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Top Risk PrototypeUITests.xctest";
+			remoteRef = A7B14DD31DDC4E38007E2388 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A7BD9C241D9C43BF00C7E449 /* Resources */ = {
@@ -350,7 +411,7 @@
 				A785C96F1DCC523100430317 /* Chapter5VideoController.swift in Sources */,
 				A73AFE331DD1529D004CB7A6 /* Quiz3Controller.swift in Sources */,
 				A744A31C1DBEBD6500A9CF02 /* WelcomeController.swift in Sources */,
-				A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype in Sources */,
+				A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj in Sources */,
 				A73AFE351DD15CAC004CB7A6 /* Quiz4Controller.swift in Sources */,
 				A7BDB4B21D9D6AD300C332B9 /* SlumberController.swift in Sources */,
 				A72731DA1DC1542100DCD8D8 /* Chapter1ControllerP1.swift in Sources */,

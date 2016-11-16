@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -567,7 +567,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iRA-Tn-LRS">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -714,7 +714,7 @@ then you need to find someone to help you.  A good place to start is with your 
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V40-bZ-fXI">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -1014,12 +1014,12 @@ Remember, even though this is serious information, it’s not meant to be scary.
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IyY-xK-4bn">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="53L-3P-Vcm">
-                                <rect key="frame" x="16" y="269" width="339" height="354"/>
+                                <rect key="frame" x="16" y="284" width="339" height="339"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Dear Suzie,
@@ -1229,7 +1229,7 @@ We all have times when we feel kind of blue.  It’s important to remind ourselv
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0lY-gr-za3">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -1420,7 +1420,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <nil key="highlightedColor"/>
                             </label>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NSh-1m-M9s">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -1479,10 +1479,25 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <rect key="frame" x="16" y="213" width="343" height="403"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">• In 9th Grade, about 68% of all young people have NOT had sex.• More than half (50%) of teens 9th-12th grade report NEVER having had sex.• Kids who drink alcohol are more likely to have sex.• At least two American teenagers or young adults (ages 13-29) become infected with HIV every hour of every day.• Nationwide, 7.4% of students had ever been physically forced to have sexual intercourse when they did not want to• Each year about 750,000 girls (15-19) become pregnant.• Nearly two-thirds of births to women younger than age 18 and more than half of those among 18-19 year olds are unintended. 
+                                <string key="text">• In 9th Grade, about 68% of all young people have NOT had sex.
 
-• Only about 50% of teen mothers receive a high school diploma by age 22, versus 90% of women who had not given birth during adolescence. • One third of sexually active teens 15-17 reported “being in a relationship where they felt things were moving too fast sexually.”
-</mutableString>
+• More than half (50%) of teens 9th-12th grade report NEVER having had sex.
+
+• Kids who drink alcohol are more likely to have sex.
+
+• At least two American teenagers or young adults (ages 13-29) become infected with HIV every hour of every day.
+
+• Nationwide, 7.4% of students had ever been physically forced to have sexual intercourse when they did not want to
+
+• Each year about 750,000 girls (15-19) become pregnant.
+
+• Nearly two-thirds of births to women younger than age 18 and more than half of those among 18-19 year olds are unintended. 
+
+• Only about 50% of teen mothers receive a high school diploma by age 22, versus 90% of women who had not given birth during adolescence. 
+
+• One third of sexually active teens 15-17 reported “being in a relationship where they felt things were moving too fast sexually.”
+
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1931,7 +1946,7 @@ Suzie
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ffo-6P-jHP">
-                                <rect key="frame" x="-1" y="64" width="375" height="189"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.058823529409999999" green="0.63529411759999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -2192,12 +2207,12 @@ Suzie
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qsX-O1-b35">
-                                <rect key="frame" x="0.0" y="72" width="375" height="189"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="212"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Jm-OG-43G">
-                                <rect key="frame" x="16" y="269" width="343" height="354"/>
+                                <rect key="frame" x="16" y="284" width="343" height="339"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Dear Suzie,
@@ -2334,20 +2349,20 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
     <inferredMetricsTieBreakers>
         <segue reference="Tz3-EL-01E"/>
         <segue reference="qfT-by-FdN"/>
-        <segue reference="kIZ-ex-l5H"/>
-        <segue reference="tTr-qJ-JOD"/>
-        <segue reference="bXA-9Q-3UM"/>
+        <segue reference="9wS-YO-HzP"/>
+        <segue reference="LGb-BU-I4P"/>
         <segue reference="ofz-Ae-YcW"/>
         <segue reference="Lo8-pq-55s"/>
+        <segue reference="fir-y8-AqH"/>
+        <segue reference="vL7-is-UdI"/>
+        <segue reference="bhc-bY-utL"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="IUj-w5-AH5"/>
+        <segue reference="bXA-9Q-3UM"/>
+        <segue reference="dOK-7a-kYB"/>
+        <segue reference="12a-tU-TM9"/>
+        <segue reference="ncN-x4-2ur"/>
         <segue reference="B1P-eo-2Au"/>
         <segue reference="vlN-pv-GPB"/>
-        <segue reference="ZcU-cD-Sen"/>
-        <segue reference="LGb-BU-I4P"/>
-        <segue reference="fir-y8-AqH"/>
-        <segue reference="hw6-7c-qw5"/>
-        <segue reference="bhc-bY-utL"/>
-        <segue reference="dOK-7a-kYB"/>
-        <segue reference="ncN-x4-2ur"/>
-        <segue reference="12a-tU-TM9"/>
     </inferredMetricsTieBreakers>
 </document>
