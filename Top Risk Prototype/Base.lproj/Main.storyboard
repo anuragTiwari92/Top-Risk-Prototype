@@ -106,15 +106,8 @@
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q0w-pT-Mp2">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Go Grrrls Bill of rights" id="NJe-Ud-lE2"/>
-                                </items>
-                            </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1L2-k4-nuC">
-                                <rect key="frame" x="0.0" y="64" width="375" height="409"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" maximumZoomScale="3" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1L2-k4-nuC">
+                                <rect key="frame" x="0.0" y="120" width="375" height="503"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Girls have a right to 
@@ -139,16 +132,23 @@ prepare for interesting work and economic independence.
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="f1c9a300-5a12-431c-8c59-e9ddd7191eea.png" translatesAutoresizingMaskIntoConstraints="NO" id="p8I-TK-neC">
-                                <rect key="frame" x="210" y="493" width="164" height="128"/>
+                                <rect key="frame" x="0.0" y="28" width="179" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q0w-pT-Mp2">
+                                <rect key="frame" x="0.0" y="76" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Go Grrrls Bill of rights" id="NJe-Ud-lE2"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bAr-QF-Kbv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-838" y="-1440"/>
+            <point key="canvasLocation" x="-839.20000000000005" y="-1440.6296851574214"/>
         </scene>
         <!--Menu Controller-->
         <scene sceneID="MRL-Uh-YrK">
@@ -1781,12 +1781,13 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsO-z9-uJG">
-                                <rect key="frame" x="0.0" y="77" width="375" height="54"/>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="DsO-z9-uJG">
+                                <rect key="frame" x="0.0" y="72" width="375" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="What is Go Grrrls?">
+                                <state key="normal">
+                                    <string key="title">Go Grrrls is a fun app where all kinds of girls can express themselves, learn new skills, and have fun.  It sometimes goes with the Go Grrrls club which may be offered in your community or school.</string>
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1794,8 +1795,16 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                     <action selector="touchupLabel:" destination="Y6b-Hk-GG7" eventType="touchUpInside" id="FGe-8c-8ZE"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Go Grrrls!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8t-kz-NIL">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AsC-CL-aeT">
-                                <rect key="frame" x="0.0" y="132" width="375" height="54"/>
+                                <rect key="frame" x="0.0" y="245" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1807,7 +1816,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </connections>
                             </button>
                             <button opaque="NO" alpha="0.89999997615814209" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmv-W3-GBN">
-                                <rect key="frame" x="0.0" y="187" width="375" height="54"/>
+                                <rect key="frame" x="0.0" y="199" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1818,28 +1827,10 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                     <segue destination="7Rm-wr-7z5" kind="show" id="5EL-uC-DzK"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ov2-qc-oEJ">
-                                <rect key="frame" x="16" y="323" width="343" height="167"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <string key="text">Go Grrrls is a fun app where all kinds of girls can express themselves, learn new skills, and have fun.  It sometimes goes with the Go Grrrls club which may be offered in your community or school.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Go Grrrls!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U8t-kz-NIL">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.95686274510000002" green="0.0" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="WhatISLabel" destination="ov2-qc-oEJ" id="nw4-hk-Nl1"/>
                         <outlet property="puzzleButton" destination="AsC-CL-aeT" id="Egz-5a-0TF"/>
                         <outlet property="whatIS" destination="DsO-z9-uJG" id="b1P-K3-ubo"/>
                         <outlet property="whatsInApp" destination="Qmv-W3-GBN" id="v4M-DR-LMm"/>
@@ -1897,7 +1888,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="odJ-Lf-iBW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="odJ-Lf-iBW">
                                 <rect key="frame" x="0.0" y="182" width="375" height="206"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2477,27 +2468,27 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="0eb8242f-8054-434a-858f-06de074f1d73.jpg" width="1223" height="715"/>
         <image name="Screen Shot 2016-11-03 at 9.59.55 PM.png" width="1286" height="630"/>
         <image name="c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg" width="2298" height="4742"/>
-        <image name="f1c9a300-5a12-431c-8c59-e9ddd7191eea.png" width="1725" height="1575"/>
+        <image name="f1c9a300-5a12-431c-8c59-e9ddd7191eea.png" width="3312" height="958"/>
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XF5-Ar-9fp"/>
-        <segue reference="aSu-UF-Q9v"/>
-        <segue reference="LGb-BU-I4P"/>
-        <segue reference="hFw-u0-Smf"/>
-        <segue reference="9Su-3F-PUn"/>
-        <segue reference="VcC-25-Lph"/>
-        <segue reference="yox-dl-jLe"/>
-        <segue reference="heT-WG-zQi"/>
-        <segue reference="olk-od-CMn"/>
+        <segue reference="AdP-43-8w6"/>
+        <segue reference="wyv-vw-3XC"/>
         <segue reference="SkQ-IQ-dZz"/>
+        <segue reference="heT-WG-zQi"/>
+        <segue reference="yox-dl-jLe"/>
+        <segue reference="VcC-25-Lph"/>
+        <segue reference="olk-od-CMn"/>
         <segue reference="tvG-Gq-k3p"/>
         <segue reference="q2u-CF-Fe4"/>
         <segue reference="B1P-eo-2Au"/>
-        <segue reference="ofz-Ae-YcW"/>
-        <segue reference="kIZ-ex-l5H"/>
-        <segue reference="qfT-by-FdN"/>
-        <segue reference="hw6-7c-qw5"/>
         <segue reference="fir-y8-AqH"/>
+        <segue reference="hw6-7c-qw5"/>
+        <segue reference="hFw-u0-Smf"/>
+        <segue reference="LGb-BU-I4P"/>
+        <segue reference="ofz-Ae-YcW"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="qfT-by-FdN"/>
+        <segue reference="kIZ-ex-l5H"/>
     </inferredMetricsTieBreakers>
 </document>
