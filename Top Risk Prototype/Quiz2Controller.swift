@@ -14,6 +14,8 @@ class Quiz2Controller: UIViewController {
     @IBOutlet var Buttons: [UIButton]!
     @IBOutlet var QLabel: UILabel!
     
+    @IBOutlet var Count: UILabel!
+    @IBOutlet var YourResultsTitle: UILabel!
     @IBOutlet var EndofQuizMsg: UITextView!
     
     var Questions = [Question]()
@@ -33,8 +35,9 @@ class Quiz2Controller: UIViewController {
         ]
         
         PickQuestion()
-        
+        Count.isHidden = true
         EndofQuizMsg.isHidden=true
+        YourResultsTitle.isHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -58,10 +61,12 @@ class Quiz2Controller: UIViewController {
         }
         else{
             NSLog("Done with quiz!")
-            
+            Count.isHidden = false
+            Count.text = "The number of Males:     \(Male)\nThe number of Females: \(Female)"
+            YourResultsTitle.isHidden = false
             EndofQuizMsg.isHidden=false
             
-            EndofQuizMsg.text="The number of Males: \(Male)\nThe number of Females: \(Female)\n\n\n These are the number of Male and Female individuals you selected. \n Most girls will have only one or two circles around \"female\".  We have never had a female president or vice president in the United States.  Can you believe it?!!  Other countries have had women presidents and some states have women as governors, but most people who hold important political office are still men. \n\n What does this tell you about women’s roles in society today?  It tells us that progress is slow and we need to support more women who run for political office.\n\nAre there more women in office today than there were 100 years ago?  Absolutely. Things are changing for the better.  Maybe in another 100 years there will be about the same number of women and men in powerful leadership roles.  You can be a part of that movement.  Be a strong and intelligent woman, and support other women too!  "
+            EndofQuizMsg.text="These are the number of Male and Female individuals you selected. \n Most girls will have only one or two circles around \"female\".  We have never had a female president or vice president in the United States.  Can you believe it?!!  Other countries have had women presidents and some states have women as governors, but most people who hold important political office are still men. \n\n What does this tell you about women’s roles in society today?  It tells us that progress is slow and we need to support more women who run for political office.\n\nAre there more women in office today than there were 100 years ago?  Absolutely. Things are changing for the better.  Maybe in another 100 years there will be about the same number of women and men in powerful leadership roles.  You can be a part of that movement.  Be a strong and intelligent woman, and support other women too!  "
             
             for i in 0..<Buttons.count{
                 Buttons[i].isHidden=true
