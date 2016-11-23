@@ -18,7 +18,8 @@ struct QuestionExtd {
 class Quiz3Controller: UIViewController {
     
     @IBOutlet var Buttons: [UIButton]!
-    
+
+    @IBOutlet var MenuB: UIButton!
     @IBOutlet var QLabel: UILabel!
     @IBOutlet var LabelEnd: UILabel!
     @IBOutlet var NextBtn: UIBarButtonItem!
@@ -57,6 +58,7 @@ class Quiz3Controller: UIViewController {
         PickQuestion()
         NextBtn.isEnabled=false
         EndofQuizMsg.isHidden=true
+        MenuB.isHidden = true
     }
     
     override func didReceiveMemoryWarning() {
@@ -85,7 +87,8 @@ class Quiz3Controller: UIViewController {
             NSLog("Done with quiz!")
             //LabelEnd.text?.append("Quiz done! head back to the chapter!")
             EndofQuizMsg.isHidden=false
-            EndofQuizMsg.text="Quiz is done.\n Please head back to the chapter."
+            MenuB.isHidden = false
+            EndofQuizMsg.text="Quiz is done. Good Job!"
             for i in 0..<Buttons.count{
                 Buttons[i].isHidden=true
             }

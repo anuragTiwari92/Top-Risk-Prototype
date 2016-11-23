@@ -18,6 +18,7 @@ class Quiz2Controller: UIViewController {
     @IBOutlet var YourResultsTitle: UILabel!
     @IBOutlet var EndofQuizMsg: UITextView!
     
+    @IBOutlet var MenuB: UIButton!
     var Questions = [Question]()
     var QNumber = Int()
     var AnswerNumber = Int()
@@ -35,6 +36,7 @@ class Quiz2Controller: UIViewController {
         ]
         
         PickQuestion()
+        MenuB.isHidden = true
         Count.isHidden = true
         EndofQuizMsg.isHidden=true
         YourResultsTitle.isHidden = true
@@ -61,6 +63,7 @@ class Quiz2Controller: UIViewController {
         }
         else{
             NSLog("Done with quiz!")
+            MenuB.isHidden = false
             Count.isHidden = false
             Count.text = "The number of Males:     \(Male)\nThe number of Females: \(Female)"
             YourResultsTitle.isHidden = false

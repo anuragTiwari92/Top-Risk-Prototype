@@ -40,7 +40,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-nP-Een">
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZg-nP-Een">
                                 <rect key="frame" x="0.0" y="284" width="375" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.8937674873" green="0.96510225299999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -64,10 +64,23 @@
                                     <segue destination="w00-7s-FrW" kind="presentation" id="089-zB-tIn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vqv-Iv-VEb">
+                                <rect key="frame" x="0.0" y="396" width="375" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8937674873" green="0.96510225299999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Facts">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HIO-b9-v1P" kind="show" id="uPN-ig-TE5"/>
+                                </connections>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="BORButton" destination="SXw-XR-hFl" id="zzO-Cz-vUl"/>
+                        <outlet property="FactsButton" destination="vqv-Iv-VEb" id="bzJ-NT-sgj"/>
                         <outlet property="MenuButton" destination="sZg-nP-Een" id="szc-O1-eSw"/>
                     </connections>
                 </viewController>
@@ -1244,7 +1257,7 @@ Begin by thinking about your interests and talents or by checking out different 
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YIP-DT-lyQ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="YIP-DT-lyQ">
                                 <rect key="frame" x="16" y="106" width="343" height="517"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -1303,6 +1316,279 @@ FOCUS ON BUSINESS
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w7C-ct-1Js" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2436" y="579.76011994002999"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Zb7-5Q-jKJ">
+            <objects>
+                <viewController id="HIO-b9-v1P" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ewc-JB-uJA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Khm-6a-Zdc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bro-Cl-Kfm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FeZ-EM-F7e">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8528309542752246" green="0.59054531972172786" blue="0.87281650641025643" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Sex Facts" id="cKL-fo-5kl"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wYn-Un-o2p">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.8528309542752246" green="0.59054531972172786" blue="0.87281650641025643" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Back" id="IZP-9K-CxG">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="E1J-eD-2NI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qwT-Wo-Xx6"/>
+                                    <barButtonItem title="Next" id="c2X-fO-7x8">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="pKV-R7-4R7" kind="show" id="KwP-G4-xQh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLP-oi-u2b">
+                                <rect key="frame" x="16" y="90" width="343" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">There’s a lot of information out there about sex and sexual intercourse.  Learning about sex is an important part of becoming an informed and strong woman.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="n1d-FS-RVc">
+                                <rect key="frame" x="16" y="220" width="343" height="403"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">• In 9th Grade, about 68% of all young people have NOT had sex.
+
+• More than half (50%) of teens 9th-12th grade report NEVER having had sex.
+
+• Kids who drink alcohol are more likely to have sex.
+
+• At least two American teenagers or young adults (ages 13-29) become infected with HIV every hour of every day.
+
+• Nationwide, 7.4% of students had ever been physically forced to have sexual intercourse when they did not want to
+
+• Each year about 750,000 girls (15-19) become pregnant.
+
+• Nearly two-thirds of births to women younger than age 18 and more than half of those among 18-19 year olds are unintended. 
+
+• Only about 50% of teen mothers receive a high school diploma by age 22, versus 90% of women who had not given birth during adolescence. 
+
+• One third of sexually active teens 15-17 reported “being in a relationship where they felt things were moving too fast sexually.”
+
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you know?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qex-6c-UM5">
+                                <rect key="frame" x="0.0" y="191" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LO8-sy-Ftf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1591" y="1345"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TAg-NY-Dxx">
+            <objects>
+                <viewController id="pKV-R7-4R7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xI7-FJ-FQC"/>
+                        <viewControllerLayoutGuide type="bottom" id="0eI-Z3-fTv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zjm-Gl-hJi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ND1-2y-rQ5">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8528309543" green="0.59054531970000002" blue="0.87281650639999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Safe Sex Facts" id="PYv-ox-xpL"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Yf-9r-hkD">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.8528309542752246" green="0.59054531972172786" blue="0.87281650641025643" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Back" id="h6w-Ch-mss">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="HIO-b9-v1P" kind="show" id="Ntb-BI-FrN"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="zid-KC-9kN"/>
+                                    <barButtonItem title="Next" id="Y3v-pb-dxx">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="1b6-hF-L4z" kind="show" id="xMY-F5-svw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Unsafe, Safer, and Safest Methods" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="B3X-Sd-eIR">
+                                <rect key="frame" x="16" y="82" width="343" height="141"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="i6L-rp-JSg">
+                                <rect key="frame" x="16" y="105" width="343" height="518"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Abstinence is the only 100% effective method for prevention of pregnancy and STDs. There are lots of methods people can use to prevent pregnancy or getting an STD if choosing to have sex, but some are better than others. Have a look at the table below                                                                                                                                                                                                                                                                                               </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SAI-95-gUu">
+                                <rect key="frame" x="16" y="429" width="343" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">Everything in Column A is UNSAFE.  These methods do NOT offer protection from pregnancy or STDs.
+
+Everything in Column B is SAFER.  These methods offer protection from pregnancy, but do not protect against STDs.
+
+The option in Column C is SAFEST.  This method offers best protection from pregnancy and STDs, if choosing to have sex.
+
+Treat your body with respect.  If choosing to have sex, use the safest method in Column C.   If you have ever engaged in sexual activity, you should be tested for STDs because some do not have obvious signs or symptoms. Make sure you ask if your partner has been tested since their last partner, too. You can talk to your parent or trusted adult about getting tested.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-11-03 at 9.59.55 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="Mhr-DS-m7X">
+                                <rect key="frame" x="16" y="258" width="343" height="174"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5C-Q1-aXH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-722.39999999999998" y="1345.2773613193403"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v31-5s-69Y">
+            <objects>
+                <viewController id="1b6-hF-L4z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rqO-JO-LMV"/>
+                        <viewControllerLayoutGuide type="bottom" id="zAL-gZ-f0Z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XVv-iF-P6g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iSc-E3-Crk">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.8528309543" green="0.59054531970000002" blue="0.87281650639999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Career Facts" id="hnZ-vH-X6U"/>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5iT-yg-bKY">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.8528309543" green="0.59054531970000002" blue="0.87281650639999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Back" id="SzC-D5-HNY">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="pKV-R7-4R7" kind="show" id="kk3-S7-iPf"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Cg7-fQ-fb3"/>
+                                </items>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Check it Out!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gIb-to-yg5">
+                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ldo-03-VKb">
+                                <rect key="frame" x="16" y="106" width="343" height="517"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <string key="text">CAREER FOCUS
+Which type of career do you think best fits you?  
+Check the careers you think you might like best.  
+
+
+FOCUS ON SCIENCE
+
+
+-architect                        -engineer
+-biologist                         -geologist
+-chemist                          -veterinarian
+-programmer                  -surgeon
+
+
+FOCUS ON PEOPLE
+
+
+-advertising            -physical therapist
+-counselor              -public relations
+-librarian                 -psychologist
+-lobbyist                 -social worker
+-manager                -teacher
+-minister                 -travel agent
+-nurse
+
+
+FOCUS ON CREATIVITY
+
+
+-actress
+-artist                      -musician
+-chef                       -photographer
+-director                 -radio host
+-designer                -singer
+-editor                    -writer
+-interior designer
+
+
+FOCUS ON BUSINESS
+
+
+-administrator            -lawyer
+-advertiser                 -manager
+-banker                      -sales person
+-economist                -stock broker</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ri0-ws-CFj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="266" y="1341"/>
         </scene>
         <!--Chapter3 Controller-->
         <scene sceneID="861-hZ-2RD">
@@ -1738,6 +2024,17 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Kqw-wh-x75"/>
+                                    <barButtonItem style="plain" id="HqM-L8-up6">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZWV-Qe-ilj">
+                                            <rect key="frame" x="152" y="7" width="46" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" backgroundImage="button-home-house-icon-63650.png"/>
+                                            <connections>
+                                                <segue destination="yFD-uo-W9m" kind="show" id="Rut-h1-Wx5"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="f7N-uV-dnw"/>
                                     <barButtonItem title="Next Question" id="3zr-7a-vay">
                                         <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <connections>
@@ -1795,6 +2092,7 @@ All that happened about a year ago and since then I’ve gotten better about pla
                     <connections>
                         <outlet property="EndofQuizMsg" destination="Z4h-V1-xGb" id="IP1-9J-ZWu"/>
                         <outlet property="LabelEnd" destination="6PK-Kc-Sk0" id="TdD-1l-lTf"/>
+                        <outlet property="MenuB" destination="ZWV-Qe-ilj" id="bad-qH-zSJ"/>
                         <outlet property="MoreInfoLbl" destination="IXi-MN-7Al" id="26U-SZ-dj5"/>
                         <outlet property="NextBtn" destination="3zr-7a-vay" id="jlH-99-kGJ"/>
                         <outlet property="QLabel" destination="gz0-MP-Iao" id="7aZ-1w-OKY"/>
@@ -2060,11 +2358,24 @@ All that happened about a year ago and since then I’ve gotten better about pla
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Dear Suzie,
+                                        <mutableString key="content">Dear Suzie,
 
 I just started middle school this year and I am having kind of a hard time.  In my grade school I knew all the kids and the teachers, too.  I’m excited about being in middle school, but sometimes I get really nervous cuz I don’t know anybody in my classes and we change from one teacher to another every hour.  I run from one class to the next and look down at my feet so I don’t have to worry about who to say hello to, or about how many kids there are who I don’t know at all.  It just feels like nobody knows me here!  It makes me feel really self-conscious about what I say and what I look like.  Do you have any suggestions for me?
--Nervous in Nogales
-
+</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">                                            -Nervous in Nogales
+</string>
+                                        <attributes>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">
 Scroll to read Suzie's Response
 
 
@@ -2079,7 +2390,7 @@ So hook up with some friends, think about your interests, and remind yourself th
 Good Luck
 
 Suzie
-</string>
+</mutableString>
                                         <attributes>
                                             <font key="NSFont" metaFont="menu" size="14"/>
                                         </attributes>
@@ -2163,6 +2474,17 @@ Suzie
                                             <segue destination="6pg-Bp-UB3" kind="show" id="bXA-9Q-3UM"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="MKs-j6-ava"/>
+                                    <barButtonItem style="plain" id="LTD-F6-PNA">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WmD-rC-Rg0">
+                                            <rect key="frame" x="313" y="7" width="46" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" backgroundImage="button-home-house-icon-63650.png"/>
+                                            <connections>
+                                                <segue destination="yFD-uo-W9m" kind="show" id="gGx-g7-KGX"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="cg2-NY-vkh">
@@ -2223,6 +2545,7 @@ Suzie
                     <connections>
                         <outlet property="Count" destination="sRL-ty-54W" id="bjY-Cd-8pA"/>
                         <outlet property="EndofQuizMsg" destination="cg2-NY-vkh" id="KYb-eH-B29"/>
+                        <outlet property="MenuB" destination="WmD-rC-Rg0" id="Scy-dt-LM0"/>
                         <outlet property="QLabel" destination="4Dg-ON-dgj" id="ois-E4-IKG"/>
                         <outlet property="YourResultsTitle" destination="vIf-kT-cvN" id="oAh-gO-5sI"/>
                         <outletCollection property="Buttons" destination="WYB-Qo-m1T" collectionClass="NSMutableArray" id="Y8T-3O-LO4"/>
@@ -2320,7 +2643,7 @@ Suzie
                                 <rect key="frame" x="16" y="414" width="343" height="209"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -2498,7 +2821,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sAX-nf-dIj">
-                                <rect key="frame" x="16" y="440" width="343" height="183"/>
+                                <rect key="frame" x="16" y="429" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <string key="text">Everything in Column A is UNSAFE.  These methods do NOT offer protection from pregnancy or STDs.
@@ -2512,7 +2835,7 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2016-11-03 at 9.59.55 PM.png" translatesAutoresizingMaskIntoConstraints="NO" id="aXZ-E9-S9i">
-                                <rect key="frame" x="0.0" y="258" width="375" height="187"/>
+                                <rect key="frame" x="16" y="258" width="335" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -2526,29 +2849,32 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
     </scenes>
     <resources>
         <image name="0eb8242f-8054-434a-858f-06de074f1d73.jpg" width="1223" height="715"/>
-        <image name="Screen Shot 2016-11-03 at 9.59.55 PM.png" width="1286" height="630"/>
+        <image name="Screen Shot 2016-11-03 at 9.59.55 PM.png" width="1017" height="496"/>
+        <image name="button-home-house-icon-63650.png" width="512" height="512"/>
         <image name="c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg" width="2298" height="4742"/>
         <image name="f1c9a300-5a12-431c-8c59-e9ddd7191eea.png" width="3312" height="958"/>
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="q2u-CF-Fe4"/>
-        <segue reference="ncN-x4-2ur"/>
-        <segue reference="aSu-UF-Q9v"/>
-        <segue reference="LGb-BU-I4P"/>
-        <segue reference="8xg-wB-wqD"/>
-        <segue reference="Lo8-pq-55s"/>
+        <segue reference="Ntb-BI-FrN"/>
+        <segue reference="kk3-S7-iPf"/>
+        <segue reference="E1J-eD-2NI"/>
+        <segue reference="arR-fY-8Ed"/>
         <segue reference="4Ew-RP-ZwH"/>
-        <segue reference="fir-y8-AqH"/>
-        <segue reference="hw6-7c-qw5"/>
-        <segue reference="bhc-bY-utL"/>
-        <segue reference="dOK-7a-kYB"/>
-        <segue reference="bXA-9Q-3UM"/>
-        <segue reference="9wS-YO-HzP"/>
-        <segue reference="qfT-by-FdN"/>
+        <segue reference="Lo8-pq-55s"/>
         <segue reference="Tz3-EL-01E"/>
-        <segue reference="tTr-qJ-JOD"/>
-        <segue reference="M7C-pl-sVl"/>
+        <segue reference="qfT-by-FdN"/>
+        <segue reference="kIZ-ex-l5H"/>
+        <segue reference="dOK-7a-kYB"/>
+        <segue reference="8xg-wB-wqD"/>
+        <segue reference="LGb-BU-I4P"/>
+        <segue reference="ncN-x4-2ur"/>
+        <segue reference="12a-tU-TM9"/>
+        <segue reference="bXA-9Q-3UM"/>
         <segue reference="vlN-pv-GPB"/>
+        <segue reference="M7C-pl-sVl"/>
+        <segue reference="hw6-7c-qw5"/>
+        <segue reference="fir-y8-AqH"/>
+        <segue reference="bhc-bY-utL"/>
     </inferredMetricsTieBreakers>
 </document>
