@@ -10,6 +10,8 @@ import UIKit
 
 class Quiz5Controller: UIViewController{
     
+    @IBOutlet var Count: UILabel!
+    @IBOutlet var YourResults: UILabel!
     @IBOutlet var Buttons: [UIButton]!
     @IBOutlet var QLabel: UILabel!
     @IBOutlet var EndofQuizMsg1: UITextView!
@@ -31,7 +33,8 @@ class Quiz5Controller: UIViewController{
         ]
         
         PickQuestion()
-        
+        YourResults.isHidden = true
+        Count.isHidden = true
         EndofQuizMsg1.isHidden=true
     }
     
@@ -47,7 +50,7 @@ class Quiz5Controller: UIViewController{
         if Questions.count > 0{
             QNumber = 0
             QLabel.text = Questions[QNumber].Question
-            AnswerNumber = Questions[QNumber].Answer
+            //AnswerNumber = Questions[QNumber].Answer
             for i in 0..<Buttons.count{
                 Buttons[i].setTitle(Questions[QNumber].Answers[i], for: UIControlState.normal)
             }
@@ -57,8 +60,10 @@ class Quiz5Controller: UIViewController{
             NSLog("Done with quiz!")
             
             EndofQuizMsg1.isHidden=false
-            
-            EndofQuizMsg1.text="The number of A'sthat you selected: \(totalAs)\nThe number of B's that you selected: \(totalBs)\nThe number of C that you selected: \(totalCs)\n\n\nIf you answered mostly A’s:\nThese are aggressive styles of communication.  In these situations, you may get what you want, but you hurt other people along the way.  Since trust and respect are the foundation of a strong friendship, people who use this style of communication have a difficult time making and keeping friends.  People who communicate aggressively should try to remember the “Golden Rule” and treat others as you would like to be treated.\n\n If you answered mostly B’s:\nThese are passive styles of communication.  In these situations, you don’t speak up, either because you don’t know how to or you’re afraid of what might happen if you do.  Going with the flow may help in the short term, but if you feel ignored or taken advantage of, you’ll be more hurt in the long run.  People who communicate passively should remember that their needs and opinions matter just as much as everyone else’s.  Show yourself some love and respect, and speak up!\n\nIf you answered mostly C’s:\nThese are assertive styles of communication.  In these situations, you speak your mind while remaining respectful of the other person.  This is the healthiest style of communication because everyone is heard and respected.  Give yourself a pat on the back if you’ve used assertive communication at least once!\n\nAnd if you can’t remember a time when you’ve used it, remember that you can always try it from now on.  It can be difficult to try, especially if you’re used to aggressive or passive styles of communication.  Maybe you could try it once a day, or with one person at a time.  Way to go for making a positive change Good work!"
+            YourResults.isHidden = false
+            Count.isHidden = false
+            Count.text = "The number of A'sthat you selected:  \(totalAs)\nThe number of B's that you selected: \(totalBs)\nThe number of C's that you selected: \(totalCs)"
+            EndofQuizMsg1.text="If you answered mostly A’s:\nThese are aggressive styles of communication.  In these situations, you may get what you want, but you hurt other people along the way.  Since trust and respect are the foundation of a strong friendship, people who use this style of communication have a difficult time making and keeping friends.  People who communicate aggressively should try to remember the “Golden Rule” and treat others as you would like to be treated.\n\n If you answered mostly B’s:\nThese are passive styles of communication.  In these situations, you don’t speak up, either because you don’t know how to or you’re afraid of what might happen if you do.  Going with the flow may help in the short term, but if you feel ignored or taken advantage of, you’ll be more hurt in the long run.  People who communicate passively should remember that their needs and opinions matter just as much as everyone else’s.  Show yourself some love and respect, and speak up!\n\nIf you answered mostly C’s:\nThese are assertive styles of communication.  In these situations, you speak your mind while remaining respectful of the other person.  This is the healthiest style of communication because everyone is heard and respected.  Give yourself a pat on the back if you’ve used assertive communication at least once!\n\nAnd if you can’t remember a time when you’ve used it, remember that you can always try it from now on.  It can be difficult to try, especially if you’re used to aggressive or passive styles of communication.  Maybe you could try it once a day, or with one person at a time.  Way to go for making a positive change Good work!"
             
             for i in 0..<Buttons.count{
                 Buttons[i].isHidden=true

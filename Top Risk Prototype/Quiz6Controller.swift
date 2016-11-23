@@ -14,6 +14,8 @@ class Quiz6Controller: UIViewController {
     @IBOutlet var QLabel: UILabel!
     
     
+    @IBOutlet var Count: UILabel!
+    @IBOutlet var YourResults: UILabel!
     @IBOutlet var FinalResLabel: UITextView!
     
     var Questions = [Question]()
@@ -32,7 +34,8 @@ class Quiz6Controller: UIViewController {
         ]
         
         PickQuestion()
-        
+        YourResults.isHidden = true
+        Count.isHidden = true
         FinalResLabel.isHidden=true
     }
     func PickQuestion(){
@@ -50,10 +53,11 @@ class Quiz6Controller: UIViewController {
         }
         else{
             NSLog("Done with quiz!")
-            
+            YourResults.isHidden = false
+            Count.isHidden = false
             FinalResLabel.isHidden=false
-            
-            FinalResLabel.text="The number of A's/ B's/ C's that you selected: \(totalABCs)\nThe number of D's that you selected: \(totalDs)\n\n\nIf you answered A, B, or C to any of the questions you have some skills to learn to be a good problem solver!\n\nThe answers in choice D to the questions reflect some of the important aspects of problem solving. \n\nFirst of all problem-solving is a skill – something anyone can get better at if they practice. Yes, that includes your parents!\n\nThe most critical part of the skill is recognizing you have a problem and thinking of as many solutions as you can.\n\nJust for practice take a day and try to think of lots of solutions to the problems you experience for that day."
+            Count.text = "The number of A's B's C's selected: \(totalABCs)\nThe number of D's selected:               \(totalDs)"
+            FinalResLabel.text="If you answered A, B, or C to any of the questions you have some skills to learn to be a good problem solver!\n\nThe answers in choice D to the questions reflect some of the important aspects of problem solving. \n\nFirst of all problem-solving is a skill – something anyone can get better at if they practice. Yes, that includes your parents!\n\nThe most critical part of the skill is recognizing you have a problem and thinking of as many solutions as you can.\n\nJust for practice take a day and try to think of lots of solutions to the problems you experience for that day."
             
             for i in 0..<Buttons.count{
                 Buttons[i].isHidden=true

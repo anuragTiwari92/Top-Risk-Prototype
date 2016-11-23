@@ -528,7 +528,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="of7-Xp-zap">
@@ -564,7 +564,7 @@ The very first thing to remember is that everybody’s body changes at its own p
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5vF-Ha-vxZ">
@@ -652,11 +652,11 @@ You already know that there is no magic solution, because you have tried talking
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9K1-f4-29I">
-                                <rect key="frame" x="16" y="72" width="343" height="551"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9K1-f4-29I">
+                                <rect key="frame" x="16" y="202" width="343" height="421"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -681,7 +681,9 @@ You already know that there is no magic solution, because you have tried talking
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="Btn1:" destination="k6G-SR-qgP" eventType="touchUpInside" id="VNR-Uq-RUk"/>
                                     <action selector="Btn2:" destination="k6G-SR-qgP" eventType="touchUpInside" id="qCA-lZ-0r3"/>
@@ -692,7 +694,9 @@ You already know that there is no magic solution, because you have tried talking
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="Btn1:" destination="k6G-SR-qgP" eventType="touchUpInside" id="UGN-fq-m6D"/>
                                     <action selector="Btn3:" destination="k6G-SR-qgP" eventType="touchUpInside" id="dUq-e4-Squ"/>
@@ -710,17 +714,35 @@ You already know that there is no magic solution, because you have tried talking
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="Btn1:" destination="k6G-SR-qgP" eventType="touchUpInside" id="UPy-Vz-BwP"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fEf-PG-16x">
+                                <rect key="frame" x="0.0" y="72" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MkH-R2-WKa">
+                                <rect key="frame" x="0.0" y="101" width="375" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="Count" destination="MkH-R2-WKa" id="rY8-oY-G2E"/>
                         <outlet property="EndofQuizMsg1" destination="9K1-f4-29I" id="kgJ-oh-Y27"/>
                         <outlet property="QLabel" destination="Ne4-7v-2df" id="TZz-eq-yL3"/>
+                        <outlet property="YourResults" destination="fEf-PG-16x" id="kBJ-hC-qLI"/>
                         <outletCollection property="Buttons" destination="KlZ-sN-tWw" collectionClass="NSMutableArray" id="AVE-z6-is0"/>
                         <outletCollection property="Buttons" destination="QQ3-t9-SbO" collectionClass="NSMutableArray" id="Ep5-cE-iCf"/>
                         <outletCollection property="Buttons" destination="5YV-Wr-gKL" collectionClass="NSMutableArray" id="Rx3-Df-EcF"/>
@@ -887,7 +909,7 @@ then you need to find someone to help you.  A good place to start is with your 
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="9rT-Yq-7Yw">
-                                <rect key="frame" x="16" y="71" width="343" height="535"/>
+                                <rect key="frame" x="16" y="200" width="343" height="406"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -970,12 +992,28 @@ then you need to find someone to help you.  A good place to start is with your 
                                     <action selector="Btn4:" destination="uvZ-Tq-P9x" eventType="touchUpInside" id="rrY-0E-yPb"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSR-Zc-xUr">
+                                <rect key="frame" x="0.0" y="71" width="375" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Gm-5G-Xv0">
+                                <rect key="frame" x="0.0" y="100" width="375" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="Count" destination="9Gm-5G-Xv0" id="UP8-XS-7lA"/>
                         <outlet property="FinalResLabel" destination="9rT-Yq-7Yw" id="xqx-uU-vjf"/>
                         <outlet property="QLabel" destination="4GX-20-6t0" id="nJc-ZF-vQA"/>
+                        <outlet property="YourResults" destination="BSR-Zc-xUr" id="YjF-3o-pZY"/>
                         <outletCollection property="Buttons" destination="gxw-Qy-FaF" collectionClass="NSMutableArray" id="QTq-Mb-fX6"/>
                         <outletCollection property="Buttons" destination="hWZ-wf-xgP" collectionClass="NSMutableArray" id="SSc-g8-voP"/>
                         <outletCollection property="Buttons" destination="GxF-Wj-Qme" collectionClass="NSMutableArray" id="Eqv-Wd-NNq"/>
@@ -1021,7 +1059,7 @@ then you need to find someone to help you.  A good place to start is with your 
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sY6-Ac-XVV">
@@ -2336,7 +2374,7 @@ Suzie
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bgd-Kb-hz2">
@@ -2414,7 +2452,7 @@ One last thing.  Take your time deciding whether it is right for you to become s
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.53333333329999999" green="0.0" blue="0.65098039220000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7uT-Pn-gfD">
@@ -2494,23 +2532,23 @@ Treat your body with respect.  If choosing to have sex, use the safest method in
         <image name="f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg" width="473" height="975"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vlN-pv-GPB"/>
-        <segue reference="B1P-eo-2Au"/>
         <segue reference="q2u-CF-Fe4"/>
         <segue reference="ncN-x4-2ur"/>
-        <segue reference="SLb-d9-rug"/>
-        <segue reference="tTr-qJ-JOD"/>
-        <segue reference="bhc-bY-utL"/>
+        <segue reference="aSu-UF-Q9v"/>
+        <segue reference="LGb-BU-I4P"/>
+        <segue reference="8xg-wB-wqD"/>
+        <segue reference="Lo8-pq-55s"/>
+        <segue reference="4Ew-RP-ZwH"/>
         <segue reference="fir-y8-AqH"/>
         <segue reference="hw6-7c-qw5"/>
-        <segue reference="ofz-Ae-YcW"/>
-        <segue reference="Lo8-pq-55s"/>
-        <segue reference="Tz3-EL-01E"/>
-        <segue reference="qfT-by-FdN"/>
-        <segue reference="9wS-YO-HzP"/>
-        <segue reference="bXA-9Q-3UM"/>
-        <segue reference="8xg-wB-wqD"/>
-        <segue reference="LGb-BU-I4P"/>
+        <segue reference="bhc-bY-utL"/>
         <segue reference="dOK-7a-kYB"/>
+        <segue reference="bXA-9Q-3UM"/>
+        <segue reference="9wS-YO-HzP"/>
+        <segue reference="qfT-by-FdN"/>
+        <segue reference="Tz3-EL-01E"/>
+        <segue reference="tTr-qJ-JOD"/>
+        <segue reference="M7C-pl-sVl"/>
+        <segue reference="vlN-pv-GPB"/>
     </inferredMetricsTieBreakers>
 </document>
