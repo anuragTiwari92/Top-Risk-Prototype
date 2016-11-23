@@ -15,6 +15,8 @@ class Quiz4Controller: UIViewController {
     @IBOutlet var QLabel: UILabel!
 
     
+    @IBOutlet var YourResults: UILabel!
+    @IBOutlet var Count: UILabel!
     @IBOutlet var EndofQuizMsg1: UITextView!
     var Questions = [Question]()
     var QNumber = Int()
@@ -33,7 +35,8 @@ class Quiz4Controller: UIViewController {
         ]
         
         PickQuestion()
-        
+        Count.isHidden = true
+        YourResults.isHidden = true
         EndofQuizMsg1.isHidden=true
     }
     
@@ -57,10 +60,12 @@ class Quiz4Controller: UIViewController {
         }
         else{
             NSLog("Done with quiz!")
-            
+            YourResults.isHidden = false
+            Count.isHidden = false
+            Count.text = "The number of A's/ B's that you selected:  \(totalABs)\nThe number of C's/ D's that you selected: \(totalCDs)"
             EndofQuizMsg1.isHidden=false
             
-            EndofQuizMsg1.text="The number of A's/ B's that you selected: \(totalABs)\nThe number of C's/ D's that you selected: \(totalCDs)\n\n\nIf you answered mostly A’s and B’s:\n\nIt’s time to learn some new skills to pump yourself up! You’ve probably been spending a lot of energy taking yourself on a downward spiral. You might even think that it’s conceited – or “stuck up” – to say nice things about yourself, but it’s not. Practice saying one nice thing to yourself right now! Start by reading #5, answer “C” from the quiz you just took. Read it out loud, and say it 3 times. Good job!\n\nYou can do this! And remember, if you’re feeling really down, it’s smart to ask for some help from a teacher, counselor, or other adult you trust. Keep reading this unit, too, and you can learn some other ways to turn a downward spiral into an upward spiral. Good luck!\n\nIf you answered mostly C’s and D’s:\n\nYou already practice some good ways to take yourself on an upward spiral. Saying positive, encouraging things to yourself helps you to try new things and succeed at many tasks. Your self confidence grows when you think positively. You probably know that nobody can do everything “perfectly”, so you remember to do your best and congratulate yourself for trying hard. You know that it’s normal to feel down sometimes, but you don’t stay down very long.\n\nKeep reading this unit to get some other good ways to take yourself on an upward spiral. Good work!"
+            EndofQuizMsg1.text="If you answered mostly A’s and B’s:\n\nIt’s time to learn some new skills to pump yourself up! You’ve probably been spending a lot of energy taking yourself on a downward spiral. You might even think that it’s conceited – or “stuck up” – to say nice things about yourself, but it’s not. Practice saying one nice thing to yourself right now! Start by reading #5, answer “C” from the quiz you just took. Read it out loud, and say it 3 times. Good job!\n\nYou can do this! And remember, if you’re feeling really down, it’s smart to ask for some help from a teacher, counselor, or other adult you trust. Keep reading this unit, too, and you can learn some other ways to turn a downward spiral into an upward spiral. Good luck!\n\nIf you answered mostly C’s and D’s:\n\nYou already practice some good ways to take yourself on an upward spiral. Saying positive, encouraging things to yourself helps you to try new things and succeed at many tasks. Your self confidence grows when you think positively. You probably know that nobody can do everything “perfectly”, so you remember to do your best and congratulate yourself for trying hard. You know that it’s normal to feel down sometimes, but you don’t stay down very long.\n\nKeep reading this unit to get some other good ways to take yourself on an upward spiral. Good work!"
             
             for i in 0..<Buttons.count{
                 Buttons[i].isHidden=true
