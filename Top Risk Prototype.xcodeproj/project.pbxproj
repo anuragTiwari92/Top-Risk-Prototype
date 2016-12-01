@@ -17,6 +17,7 @@
 		A74F89CA1DD147A90047C1EE /* Chapter6VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F89C91DD147A90047C1EE /* Chapter6VideoController.swift */; };
 		A76F50FB1DA5750D00438111 /* Quiz1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76F50FA1DA5750D00438111 /* Quiz1.swift */; };
 		A776A64B1DC15CD400B929E9 /* 120ab900-a725-423d-b1e2-170275f1e7d6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A776A64A1DC15CD400B929E9 /* 120ab900-a725-423d-b1e2-170275f1e7d6.jpg */; };
+		A77DCCB71DF0D23A00ABE5E4 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = A77DCCB61DF0D23A00ABE5E4 /* AppIcon.appiconset */; };
 		A785C9691DCC127600430317 /* Chapter8VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A785C9681DCC127600430317 /* Chapter8VideoController.swift */; };
 		A785C96B1DCC1CB100430317 /* Chapter7VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A785C96A1DCC1CB100430317 /* Chapter7VideoController.swift */; };
 		A785C96D1DCC4D6F00430317 /* Screen Shot 2016-11-03 at 9.59.55 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = A785C96C1DCC4D6F00430317 /* Screen Shot 2016-11-03 at 9.59.55 PM.png */; };
@@ -25,7 +26,7 @@
 		A7A26D0B1DBC414000071C45 /* Chapter3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A26D0A1DBC414000071C45 /* Chapter3Controller.swift */; };
 		A7B14DD61DDCE994007E2388 /* Quiz5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B14DD51DDCE994007E2388 /* Quiz5Controller.swift */; };
 		A7BD9C2A1D9C43BF00C7E449 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */; };
-		A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */; };
+		A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj in Sources */ = {isa = PBXBuildFile; fileRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */; };
 		A7BD9C2F1D9C43BF00C7E449 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */; };
 		A7BD9C311D9C43BF00C7E449 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */; };
 		A7BD9C341D9C43BF00C7E449 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD9C321D9C43BF00C7E449 /* LaunchScreen.storyboard */; };
@@ -73,6 +74,7 @@
 		A74F89C91DD147A90047C1EE /* Chapter6VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter6VideoController.swift; sourceTree = "<group>"; };
 		A76F50FA1DA5750D00438111 /* Quiz1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz1.swift; sourceTree = "<group>"; };
 		A776A64A1DC15CD400B929E9 /* 120ab900-a725-423d-b1e2-170275f1e7d6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "120ab900-a725-423d-b1e2-170275f1e7d6.jpg"; sourceTree = "<group>"; };
+		A77DCCB61DF0D23A00ABE5E4 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		A785C9681DCC127600430317 /* Chapter8VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter8VideoController.swift; sourceTree = "<group>"; };
 		A785C96A1DCC1CB100430317 /* Chapter7VideoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chapter7VideoController.swift; sourceTree = "<group>"; };
 		A785C96C1DCC4D6F00430317 /* Screen Shot 2016-11-03 at 9.59.55 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2016-11-03 at 9.59.55 PM.png"; sourceTree = "<group>"; };
@@ -82,7 +84,7 @@
 		A7B14DD51DDCE994007E2388 /* Quiz5Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quiz5Controller.swift; sourceTree = "<group>"; };
 		A7BD9C261D9C43BF00C7E449 /* Top Risk Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Risk Prototype.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Top Risk Prototype"; path = "/Users/user122182/Desktop/Top Risk Prototype/Top Risk Prototype"; sourceTree = "<absolute>"; };
+		A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Top Risk Prototype.xcodeproj"; path = "/Users/anuragtiwari/Documents/Top Risk Prototype/Top Risk Prototype.xcodeproj"; sourceTree = "<absolute>"; };
 		A7BD9C2E1D9C43BF00C7E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BD9C331D9C43BF00C7E449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -155,7 +157,7 @@
 				A72731D91DC1542100DCD8D8 /* Chapter1ControllerP1.swift */,
 				A785C9681DCC127600430317 /* Chapter8VideoController.swift */,
 				A7BD9C291D9C43BF00C7E449 /* AppDelegate.swift */,
-				A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype */,
+				A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */,
 				A785C96C1DCC4D6F00430317 /* Screen Shot 2016-11-03 at 9.59.55 PM.png */,
 				A7CACAEE1DE525400004FCFB /* button-home-house-icon-63650.png */,
 				A7BD9C2D1D9C43BF00C7E449 /* Main.storyboard */,
@@ -179,6 +181,7 @@
 				A7BDB4B11D9D6AD300C332B9 /* SlumberController.swift */,
 				A76F50FA1DA5750D00438111 /* Quiz1.swift */,
 				A7BD9C301D9C43BF00C7E449 /* Assets.xcassets */,
+				A77DCCB61DF0D23A00ABE5E4 /* AppIcon.appiconset */,
 				A7BD9C321D9C43BF00C7E449 /* LaunchScreen.storyboard */,
 				A7BD9C351D9C43BF00C7E449 /* Info.plist */,
 			);
@@ -318,6 +321,7 @@
 				A776A64B1DC15CD400B929E9 /* 120ab900-a725-423d-b1e2-170275f1e7d6.jpg in Resources */,
 				A72B04341DC29384001BCB15 /* f1c9a300-5a12-431c-8c59-e9ddd7191eea.png in Resources */,
 				A7CA81451DBE649200B12F70 /* c155ff80-a30d-478c-ae8f-069c22ec01bd.jpg in Resources */,
+				A77DCCB71DF0D23A00ABE5E4 /* AppIcon.appiconset in Resources */,
 				A744A31A1DBEB2DB00A9CF02 /* Unit1.png in Resources */,
 				A7CA81471DBE696B00B12F70 /* f4322862-ce4c-41cf-8453-17d5dcb29b71.jpg in Resources */,
 				A7BD9C341D9C43BF00C7E449 /* LaunchScreen.storyboard in Resources */,
@@ -357,7 +361,7 @@
 				A785C96F1DCC523100430317 /* Chapter5VideoController.swift in Sources */,
 				A73AFE331DD1529D004CB7A6 /* Quiz3Controller.swift in Sources */,
 				A744A31C1DBEBD6500A9CF02 /* WelcomeController.swift in Sources */,
-				A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype in Sources */,
+				A7BD9C2C1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj in Sources */,
 				A73AFE351DD15CAC004CB7A6 /* Quiz4Controller.swift in Sources */,
 				A7BDB4B21D9D6AD300C332B9 /* SlumberController.swift in Sources */,
 				A72731DA1DC1542100DCD8D8 /* Chapter1ControllerP1.swift in Sources */,
@@ -522,6 +526,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = AT5U454285;
 				INFOPLIST_FILE = "Top Risk Prototype/Info.plist";
@@ -532,6 +537,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "Top Risk Prototype-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -539,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = AT5U454285;
 				INFOPLIST_FILE = "Top Risk Prototype/Info.plist";
@@ -548,6 +555,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Top Risk Prototype-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
