@@ -60,6 +60,27 @@
 			remoteGlobalIDString = A7BD9C251D9C43BF00C7E449;
 			remoteInfo = "Top Risk Prototype";
 		};
+		A7F66D251DF1D41900C03871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7BD9C261D9C43BF00C7E449;
+			remoteInfo = "Top Risk Prototype";
+		};
+		A7F66D271DF1D41900C03871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7BD9C3A1D9C43BF00C7E449;
+			remoteInfo = "Top Risk PrototypeTests";
+		};
+		A7F66D291DF1D41900C03871 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7BD9C451D9C43BF00C7E449;
+			remoteInfo = "Top Risk PrototypeUITests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -206,6 +227,16 @@
 			path = "Top Risk PrototypeUITests";
 			sourceTree = "<group>";
 		};
+		A7F66D201DF1D41900C03871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F66D261DF1D41900C03871 /* Top Risk Prototype.app */,
+				A7F66D281DF1D41900C03871 /* Top Risk PrototypeTests.xctest */,
+				A7F66D2A1DF1D41900C03871 /* Top Risk PrototypeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,6 +334,12 @@
 			mainGroup = A7BD9C1D1D9C43BF00C7E449;
 			productRefGroup = A7BD9C271D9C43BF00C7E449 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7F66D201DF1D41900C03871 /* Products */;
+					ProjectRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A7BD9C251D9C43BF00C7E449 /* Top Risk Prototype */,
@@ -311,6 +348,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A7F66D261DF1D41900C03871 /* Top Risk Prototype.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Top Risk Prototype.app";
+			remoteRef = A7F66D251DF1D41900C03871 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7F66D281DF1D41900C03871 /* Top Risk PrototypeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Top Risk PrototypeTests.xctest";
+			remoteRef = A7F66D271DF1D41900C03871 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7F66D2A1DF1D41900C03871 /* Top Risk PrototypeUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Top Risk PrototypeUITests.xctest";
+			remoteRef = A7F66D291DF1D41900C03871 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A7BD9C241D9C43BF00C7E449 /* Resources */ = {
