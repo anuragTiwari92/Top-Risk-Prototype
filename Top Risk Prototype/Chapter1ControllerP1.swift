@@ -10,14 +10,16 @@ import UIKit
 
 class Chapter1ControllerP1: UIViewController{
     
-    @IBOutlet var whatIS: UIButton!
     
+    @IBOutlet var whatIS: UIButton!
     @IBOutlet var puzzleButton: UIButton!
     
     @IBOutlet var whatsInApp: UIButton!
     
 
     
+    @IBAction func donothing(_ sender: Any) {
+    }
    
     
     
