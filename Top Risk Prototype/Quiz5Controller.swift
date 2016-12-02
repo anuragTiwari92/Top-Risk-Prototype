@@ -10,6 +10,7 @@ import UIKit
 
 class Quiz5Controller: UIViewController{
     
+    
     @IBOutlet var Count: UILabel!
     @IBOutlet var YourResults: UILabel!
     @IBOutlet var Buttons: [UIButton]!
@@ -85,6 +86,21 @@ class Quiz5Controller: UIViewController{
         totalCs += 1
         PickQuestion()
     }
+    
+    
+    
+//    @IBAction func Btn1(_ sender: Any) {
+//        totalAs += 1
+//        PickQuestion()
+//    }
+//    @IBAction func Btn2(_ sender: Any) {
+//        totalBs += 1
+//        PickQuestion()
+//    }
+//    @IBAction func Btn3(_ sender: Any) {
+//        totalCs += 1
+//        PickQuestion()
+//    }
 
 
 }
