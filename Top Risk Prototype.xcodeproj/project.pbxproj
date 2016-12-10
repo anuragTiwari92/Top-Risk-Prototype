@@ -206,6 +206,11 @@
 			path = "Top Risk PrototypeUITests";
 			sourceTree = "<group>";
 		};
+		A7CF4A871DFC844500424559 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,6 +308,12 @@
 			mainGroup = A7BD9C1D1D9C43BF00C7E449;
 			productRefGroup = A7BD9C271D9C43BF00C7E449 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7CF4A871DFC844500424559 /* Products */;
+					ProjectRef = A7BD9C2B1D9C43BF00C7E449 /* Top Risk Prototype.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A7BD9C251D9C43BF00C7E449 /* Top Risk Prototype */,
