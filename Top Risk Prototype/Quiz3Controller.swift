@@ -84,7 +84,7 @@ class Quiz3Controller: UIViewController {
             Questions.remove(at:QNumber)
         }
         else{
-            NSLog("Done with quiz!")
+            //NSLog("Done with quiz!")
             //LabelEnd.text?.append("Quiz done! head back to the chapter!")
             EndofQuizMsg.isHidden=false
             MenuB.isHidden = false
@@ -95,6 +95,7 @@ class Quiz3Controller: UIViewController {
             QLabel.isHidden=true
             LabelEnd.isHidden=true
             NextBtn.isEnabled=false
+            NextBtn.title = ""
         }
     }
     
